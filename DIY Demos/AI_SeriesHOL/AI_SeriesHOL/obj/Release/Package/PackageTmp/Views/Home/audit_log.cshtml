@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+        .edit_btn {
+            background: #036;
+            margin-bottom: 5%;
+            border-color: #036;
+            float: left;
+        }
+
+            .edit_btn:hover {
+                background: #036;
+                margin-bottom: 5%;
+                border-color: #036;
+                float: left;
+            }
+
+        .enabled_btn {
+            background: #6F9B63;
+            border-color: #6F9B63;
+            float: right;
+        }
+
+            .enabled_btn:hover {
+                background: #6F9B63;
+                border-color: #6F9B63;
+                float: right;
+            }
+
+        .disabled_btn {
+            float: right;
+        }
+
+            .disabled_btn:hover {
+                float: right;
+            }
+
+        .switch {
+            position: relative;
+            display: block;
+            vertical-align: top;
+            width: 100px;
+            height: 30px;
+            padding: 3px;
+            margin: 0 10px 10px 0;
+            background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+            background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+            border-radius: 18px;
+            box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+            float: right;
+        }
+
+        .switch-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
+
+        .switch-label {
+            position: relative;
+            display: block;
+            height: inherit;
+            font-size: 10px;
+            text-transform: uppercase;
+            background: red;
+            border-radius: inherit;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+        }
+
+            .switch-label:before, .switch-label:after {
+                position: absolute;
+                top: 50%;
+                margin-top: -.5em;
+                line-height: 1;
+                -webkit-transition: inherit;
+                -moz-transition: inherit;
+                -o-transition: inherit;
+                transition: inherit;
+            }
+
+            .switch-label:before {
+                content: attr(data-off);
+                right: 11px;
+                color: white;
+                text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+            }
+
+            .switch-label:after {
+                content: attr(data-on);
+                left: 11px;
+                color: white;
+                text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+                opacity: 0;
+            }
+
+        .switch-input:checked ~ .switch-label {
+            background: #036;
+            border-color: #0088cc;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+            .switch-input:checked ~ .switch-label:before {
+                opacity: 0;
+            }
+
+            .switch-input:checked ~ .switch-label:after {
+                opacity: 1;
+            }
+
+        .switch-handle {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+            background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+            border-radius: 100%;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+            .switch-handle:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -6px 0 0 -6px;
+                width: 12px;
+                height: 12px;
+                background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+                background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+                border-radius: 6px;
+                box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+            }
+
+        .switch-input:checked ~ .switch-handle {
+            left: 74px;
+            box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+        /* Transition
+         ========================== */
+        .switch-label, .switch-handle {
+            transition: All 0.3s ease;
+            -webkit-transition: All 0.3s ease;
+            -moz-transition: All 0.3s ease;
+            -o-transition: All 0.3s ease;
+        }
+
+        .lbl1 {
+            position: relative;
+            display: block;
+            height: 20px;
+            width: 44px;
+            background: #898989;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            float: right;
+        }
+    </style>
+</head>
+<body class="default-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/microsoft.png" alt="" style="width: auto;margin-top: 11%;margin-left: -25%;"></a>
+                    </div>
+                    <div class="col-md-8 header-right">
+                        <h2 style="text-align: left;margin-left:12%;color: #0477d3;margin-bottom: 10px;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Hero Solutions</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br><br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="admin_index">Admin</a>
+            <a href="#">Audit Log</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN PROPERTIES  -->
+    <section class="properties-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-8">
+                    <div class="sorting-bar clearfix">
+                        <div class="col-md-3 col-sm-3 form-sort-control">
+                        </div>
+                    </div>
+                    <div id="property-listing" class="flex-row row grid-style edit-marginBottom10">
+                        <!-- Checking the model file is empty  -->
+                        @if (Model.Count == 0)
+                        {
+                            <p style="text-align: center;font-size: 50px;">No data found</p>
+                        }
+                        else
+                        {
+                            @model List<HeroSolutions.AI.HOL.FaceAPI.audit_log>
+                            foreach (var i in Model)
+                            {
+
+                                <div class="item col-md-3">
+                                    <!-- On item  -->
+                                    <div class="item-box">
+                                        <div class="main-content">
+                                            <div class="image-box">
+                                                <div class="overlay-box">
+                                                    <div class="overlay"></div>
+                                                    <i class="fa fa-search"></i>
+                                                </div>
+                                            </div>
+                                            <div class="main-info">
+                                                <div class="col-sm-12 cs-padding" style="text-align: center;">
+                                                    <img src="~/Images/@i.userimage" alt="smile_api_image" class="img-responsive" style="width:100%;height:200px;">
+                                                </div>
+                                                <div class="col-sm-12 cs-padding">
+                                                    <br>
+                                                    <img src="/assets/images/lat.png" alt="" style="float: right;width:18% "><br>
+                                                    <p style="text-align: left;">@i.layer</p>
+                                                    <p style="text-align: left;font-size: 20px;">Device Details</p>
+                                                    <p style="text-align: left;">@i.device_type</p>
+                                                    @if (i.result_type == "Pass")
+                                                    {
+                                                        <p style="text-align: left;font-size: 20px;color:green;font-weight: bolder;">@i.result_type</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p style="text-align: left;font-size: 20px;color:red;font-weight: bolder;">@i.result_type</p>
+                                                    }
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    <!-- OFF item  -->
+                </div>
+                <!-- OFF col-md-9 -->
+                <div class="col-md-3 col-sm-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROPERTIES  -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:360px;">
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright" style="margin-top: 40px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+</body>
+</html>

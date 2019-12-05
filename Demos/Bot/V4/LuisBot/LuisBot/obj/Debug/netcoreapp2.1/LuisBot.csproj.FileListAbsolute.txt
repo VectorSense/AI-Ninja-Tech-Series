@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\LuisBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\LuisBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\LuisBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\LuisBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\bin\Debug\netcoreapp2.1\LuisBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\LuisBot\LuisBot\obj\Debug\netcoreapp2.1\LuisBot.pdb

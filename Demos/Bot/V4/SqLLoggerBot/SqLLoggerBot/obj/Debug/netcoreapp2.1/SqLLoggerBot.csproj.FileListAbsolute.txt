@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\SqLLoggerBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\SqLLoggerBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\SqLLoggerBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\SqLLoggerBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\bin\Debug\netcoreapp2.1\SqLLoggerBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\SqLLoggerBot\SqLLoggerBot\obj\Debug\netcoreapp2.1\SqLLoggerBot.pdb

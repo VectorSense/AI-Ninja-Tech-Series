@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBasedAssistant", "TextBasedAssistant\TextBasedAssistant.csproj", "{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Debug|x64.ActiveCfg = Debug|x64
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Debug|x64.Build.0 = Debug|x64
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Release|x64.ActiveCfg = Release|x64
+		{31A615F9-2F1F-4EBC-98EC-FB04276D7BEE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D24B213-F2C2-4171-8BD3-2D983E1E8A64}
+	EndGlobalSection
+EndGlobal

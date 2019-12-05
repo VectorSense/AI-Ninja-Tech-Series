@@ -1,0 +1,24 @@
+F:\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csprojAssemblyReference.cache
+F:\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csproj.CoreCompileInputs.cache
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.exe.config
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.exe
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.pdb
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csproj.CopyComplete
+F:\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.exe
+F:\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.pdb
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.exe.config
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.exe
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\CustomSpeech.pdb
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csprojAssemblyReference.cache
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.csproj.CopyComplete
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.exe
+F:\Ms WorkShop\CustomSpeech\CustomSpeech\obj\x64\Debug\CustomSpeech.pdb

@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Video Indexer</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    
+    <link href="~/assets/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/style.min.css" rel="stylesheet" />
+   
+    <link href="~/assets/assets/css/style-responsive.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/theme/default.css" rel="stylesheet" id="theme" />
+   
+    <style type="text/css">
+        .checkboxItems {
+            margin-top: 50px;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            /*font-size: .812rem;*/
+            font-weight: 400;
+            line-height: 1.5;
+            /*color: #888da8;*/
+            background-color: #ffffff;
+        }
+
+        .img-wrap p {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: -12px !important;
+            color: rgb(8, 160, 235,0.95);
+        }
+
+        .img-wrap span {
+            letter-spacing: 12px;
+            font-weight: 400;
+            font-size: 14px;
+            /* margin-top: -11px; */
+            color: rgb(8, 160, 235,0.95);
+        }
+
+        .centered-text-with-hr {
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        }
+
+            .centered-text-with-hr span {
+                background-color: #fff;
+                padding: 0 12px;
+            }
+
+        .customheader {
+            border-bottom: 0.3px solid #f9f3f3;
+            padding: 5px 10px 10px;
+        }
+
+        .centered-text-with-hr:after {
+            -ms-transform: translate(0,-50%);
+            -o-transform: translate(0,-50%);
+            -webkit-transform: translate(0,-50%);
+            transform: translate(0,-50%);
+            border-left: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            border-top: 1px solid #dedede;
+            content: '';
+            display: block;
+            height: 24px;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .text-heading6 {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.3;
+            margin: 0 0 9px;
+        }
+
+        .marginLine {
+            margin: 50px 0px;
+        }
+
+        .main-content {
+            background: #fff;
+        }
+
+        @@media only screen and (min-width: 768px) {
+
+            .tabs.tabs-border {
+                /*border-bottom: 5px solid #00abec;*/
+            }
+        }
+
+        @@media only screen and (min-width: 768px) {
+
+            .tabs {
+                display: block;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+                .tabs li {
+                    float: left;
+                    margin: 0 2px 0 0;
+                }
+
+                    .tabs li a {
+                        display: inline-block;
+                        background-color: #dedede;
+                        color: #505055;
+                        text-align: center;
+                        padding: 24px 36px;
+                    }
+
+                    .tabs li a {
+                        font-size: 18px;
+                    }
+
+                        .tabs li a.active, .tabs li a.active:hover {
+                            background-color: #0078d4;
+                            color: #fff;
+                        }
+
+                        .tabs li a.active {
+                            background-color: #0078d4;
+                        }
+
+                .tabs.tabs-size1 li a {
+                    padding: 12px 24px;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+            .tabs-content > div.active {
+                display: block;
+            }
+        }
+
+        .image-preview-input input[type=file] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+
+        .image-preview-input-title {
+            margin-left: 2px;
+        }
+
+        .screenImage {
+            width: 100%;
+            min-height: 125px;
+            margin-bottom: 10px;
+        }
+
+        .borderred {
+            border: 4px solid red;
+        }
+
+        .bordernone {
+            /*border: none;*/
+            border: 4px solid #17a5ec;
+        }
+
+        #selectedImage a {
+            margin-top: 35px;
+        }
+
+        #output {
+            /*display: inline-block;*/
+            overflow-y: auto;
+            top: 4px;
+            position: relative;
+            padding: 20px 0px;
+            margin-bottom: 50px;
+            height: 420px;
+        }
+
+        .prere p {
+            font-size: 18px;
+            margin-top: 25%;
+        }
+
+        .URLvideo {
+            cursor: pointer;
+            color: #17a5ec;
+            font-size: 22px;
+        }
+
+        .demo-img-results {
+            height: 430px;
+            overflow: auto;
+            width: 100%;
+            background-color: #f4f4f4;
+            border: 1px #969696 solid;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- begin #page-loader -->
+    <div id="page-loader" class="fade in"><span class="spinner"></span></div>
+    <!-- end #page-loader -->
+
+    <div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
+        <!-- begin #header -->
+        <div id="header" class="header customheader navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="" class="img-wrap navbar-brand" style="border-right:none;">
+                        <p>AMS Video Indexer</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- begin #content -->
+        <div id="content" class="content dash-content" style="margin-left: 0px;">
+
+            <div class="container row" style="margin-left:3%;">
+                <div class="col-md-7">
+                    <h3>Video</h3>
+
+                    <img id="sample_image" src="https://cdn-images-1.medium.com/max/1600/1*ofbHXhNMJb8C8At2Ofqr8Q.png" width="700" height="420">
+
+                    <iframe width="700" height="420" id="video_indexer_player1" src=@System.Configuration.ConfigurationManager.AppSettings["VideoPlayer1"] frameborder="0" allowfullscreen></iframe>
+
+                    <iframe width="700" height="420" id="video_indexer_player2" src=@System.Configuration.ConfigurationManager.AppSettings["VideoPlayer2"] frameborder="0" allowfullscreen></iframe>
+
+                    <br />
+                    <div class="marginLine">
+                        <h3 class="centered-text-with-hr text-heading6" style="width:108%;"><span>Pick from our gallery</span></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-3 col-sm-4 col-xs-3">
+                            <span class="URLvideo" bit="1" id="vdo1">Video 1</span>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-3">
+                            <span class="URLvideo" bit="2" id="vdo2">Video 2</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <h3>Transcripts</h3>
+                    <iframe width="600" height="680" id="video_indexer_insights1" src=@System.Configuration.ConfigurationManager.AppSettings["VideoInsights1"] frameborder="0" allowfullscreen></iframe>
+
+                    <iframe width="600" height="680" id="video_indexer_insights2" src=@System.Configuration.ConfigurationManager.AppSettings["VideoInsights2"] frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+    <script src="~/assets/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/assets/js/dashboard-v2.min.js"></script>
+    <script src="~/assets/assets/js/apps.min.js"></script>
+    <!-- ================== END PAGE LEVEL JS ================== -->
+
+    <script>
+        $(document).ready(function () {
+            $("#video_indexer_player1").hide();
+            $("#video_indexer_insights1").hide();
+            $("#video_indexer_player2").hide();
+            $("#video_indexer_insights2").hide();
+            App.init();
+            DashboardV2.init();
+        });
+
+        // $(".tab").click(function(){
+        $(document).on("click", "#vdo1", function () {
+            $("#sample_image").hide();
+            $("#video_indexer_player2").hide();
+            $("#video_indexer_insights2").hide();
+            $("#video_indexer_player1").show();
+            $("#video_indexer_insights1").show();
+            //$('#video_indexer_player2').attr('src', $('#video_indexer_player2').attr('src'));
+        });
+
+        $(document).on("click", "#vdo2", function () {
+            $("#sample_image").hide();
+            $("#video_indexer_player1").hide();
+            $("#video_indexer_insights1").hide();
+            $("#video_indexer_player2").show();
+            $("#video_indexer_insights2").show();
+            //$('#video_indexer_player1').attr('src', $('#video_indexer_player1').attr('src'));
+        });
+
+    </script>
+
+    <script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script>
+
+    <!--Paste the Script code here...-->
+    <script>
+        (function () {
+            var baseInsightsUrl = "https://www.videoindexer.ai/embed/insights/";
+            var basePlayerInsightsUrl = "https://www.videoindexer.ai/embed/player/";
+            var videoIdInput = $("#videoId");
+            var accountIdInput = $("#accountId");
+            var insightsInputs = $(".insights");
+            var titleEl = $('input[name="title"]');
+            var generatedInsightsUrlEl = $("#generatedInsightsUrl");
+            var generatedPlayerInsightsUrlEl = $("#generatedPlayerUrl");
+            var insightsWidgetUrlParams = {};
+            var playerInsightsWidgetUrlParams = { autoplay: false };
+            var widgetsToRender = [];
+            var allWidgets = $('input[name="all"]');
+            var captionsCheckbox = $("#captions");
+            var autoplayCheckbox = $("#autoplay");
+            var langSelect = $("#lang");
+
+            // Register listeners
+            titleEl.on("keyup", modifyInsightsUrl);
+            insightsInputs.on("change", modifyInsightsUrl);
+            allWidgets.on("change", toggleUncheckAll);
+            captionsCheckbox.on("change", modifyPlayerUrl);
+            autoplayCheckbox.on("change", modifyPlayerUrl);
+            langSelect.on("change", modifyPlayerUrl);
+            videoIdInput.on("keyup", function () {
+                var id = videoIdInput.val();
+                var accountId = accountIdInput.val();
+                generateUrlFromParams(insightsWidgetUrlParams, baseInsightsUrl, generatedInsightsUrlEl, accountId, id);
+                generateUrlFromParams(playerInsightsWidgetUrlParams, basePlayerInsightsUrl, generatedPlayerInsightsUrlEl, accountId, id);
+            });
+
+            accountIdInput.on("keyup", function () {
+                var id = videoIdInput.val();
+                var accountId = accountIdInput.val();
+                generateUrlFromParams(insightsWidgetUrlParams, baseInsightsUrl, generatedInsightsUrlEl, accountId, id);
+                generateUrlFromParams(playerInsightsWidgetUrlParams, basePlayerInsightsUrl, generatedPlayerInsightsUrlEl, accountId, id);
+            });
+            // Init
+            toggleUncheckAll();
+
+            Utils Functions
+            function modifyPlayerUrl() {
+                var $this = $(this);
+                var value = $this.val();
+
+                if ($this.attr("type") === "checkbox") {
+                    if ($this.is(":checked")) {
+                        playerInsightsWidgetUrlParams[$this.val()] = true;
+                    } else {
+                        playerInsightsWidgetUrlParams[$this.val()] = false;
+                    }
+                }
+                if ($this.prop("id") === "lang") {
+                    if (value !== "English") {
+                        playerInsightsWidgetUrlParams.captions = value;
+                    } else {
+                        delete playerInsightsWidgetUrlParams.captions;
+                    }
+                }
+                console.log(playerInsightsWidgetUrlParams);
+                generateUrlFromParams(playerInsightsWidgetUrlParams, basePlayerInsightsUrl, generatedPlayerInsightsUrlEl, accountIdInput.val(), videoIdInput.val());
+            }
+
+            function modifyInsightsUrl() {
+                var $this = $(this);
+                var value = $this.val();
+                var title = titleEl.val();
+                insightsWidgetUrlParams = {};
+
+                if (title) {
+                    insightsWidgetUrlParams["title"] = title;
+                }
+
+                if ($this.attr("type") === "checkbox") {
+                    if ($this.is(":checked")) {
+
+                        widgetsToRender.push(value);
+                    } else {
+                        remove(widgetsToRender, value);
+                    }
+                }
+
+                if (widgetsToRender.length) {
+                    insightsWidgetUrlParams.widgets = widgetsToRender.join(",");
+                }
+
+                generateUrlFromParams(insightsWidgetUrlParams, baseInsightsUrl, generatedInsightsUrlEl, accountIdInput.val(), videoIdInput.val());
+                console.log(insightsWidgetUrlParams);
+            }
+
+            function toggleUncheckAll() {
+
+                insightsInputs.each(function () {
+                    if (allWidgets.is(':checked')) {
+                        delete insightsWidgetUrlParams.widgets;
+                        widgetsToRender.length = 0;
+                        if ($(this).attr("type") === "checkbox") {
+                            $(this).prop({ "checked": false, "disabled": true });
+                        }
+                    } else {
+                        if ($(this).attr("type") === "checkbox") {
+
+                            $(this).prop({ "checked": false, "disabled": false });
+                        }
+                    }
+                });
+
+                generateUrlFromParams(insightsWidgetUrlParams, baseInsightsUrl, generatedInsightsUrlEl, accountIdInput.val(), videoIdInput.val());
+            }
+
+            function remove(array, element) {
+                const index = array.indexOf(element);
+
+                if (index !== -1) {
+                    array.splice(index, 1);
+                }
+            }
+
+            function generateUrlFromParams(obj, baseUrl, el, accountId, id) {
+                var objKeys = Object.keys(obj);
+                var urlParams = objKeys.length ? "?" : "";
+                for (key in obj) {
+                    if (obj.hasOwnProperty(key)) {
+                        urlParams += key + "=" + obj[key];
+                        if (key !== objKeys[objKeys.length - 1]) {
+                            urlParams += "&";
+                        }
+                    }
+                }
+                el.val(baseUrl + accountId + "/" + id + "/" + urlParams);
+            }
+
+        }())
+    </script>
+
+</body>
+</html>

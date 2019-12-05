@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\HelloWorldBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\HelloWorldBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\HelloWorldBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\HelloWorldBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\bin\Debug\netcoreapp2.1\HelloWorldBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\HelloWorldBot\HelloWorldBot\obj\Debug\netcoreapp2.1\HelloWorldBot.pdb

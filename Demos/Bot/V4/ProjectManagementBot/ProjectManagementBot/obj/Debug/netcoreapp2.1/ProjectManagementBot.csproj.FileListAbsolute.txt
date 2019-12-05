@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\ProjectManagementBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\ProjectManagementBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\ProjectManagementBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\ProjectManagementBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\bin\Debug\netcoreapp2.1\ProjectManagementBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ProjectManagementBot\ProjectManagementBot\obj\Debug\netcoreapp2.1\ProjectManagementBot.pdb

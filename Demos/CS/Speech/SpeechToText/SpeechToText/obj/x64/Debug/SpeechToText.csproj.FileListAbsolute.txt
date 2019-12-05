@@ -1,0 +1,12 @@
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\SpeechToText.exe.config
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\SpeechToText.exe
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\SpeechToText.pdb
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\SpeechToText\SpeechToText\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\SpeechToText\SpeechToText\obj\x64\Debug\SpeechToText.csprojAssemblyReference.cache
+F:\Ms WorkShop\SpeechToText\SpeechToText\obj\x64\Debug\SpeechToText.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\SpeechToText\SpeechToText\obj\x64\Debug\SpeechToText.csproj.CopyComplete
+F:\Ms WorkShop\SpeechToText\SpeechToText\obj\x64\Debug\SpeechToText.exe
+F:\Ms WorkShop\SpeechToText\SpeechToText\obj\x64\Debug\SpeechToText.pdb

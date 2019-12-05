@@ -1,0 +1,14 @@
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe.config
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.pdb
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.xml
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csprojAssemblyReference.cache
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CopyComplete
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.exe
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.pdb

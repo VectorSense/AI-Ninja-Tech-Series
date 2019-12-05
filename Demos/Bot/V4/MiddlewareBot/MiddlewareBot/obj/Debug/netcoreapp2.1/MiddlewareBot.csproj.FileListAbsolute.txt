@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\MiddlewareBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\MiddlewareBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\MiddlewareBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\MiddlewareBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\bin\Debug\netcoreapp2.1\MiddlewareBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\MiddlewareBot\MiddlewareBot\obj\Debug\netcoreapp2.1\MiddlewareBot.pdb

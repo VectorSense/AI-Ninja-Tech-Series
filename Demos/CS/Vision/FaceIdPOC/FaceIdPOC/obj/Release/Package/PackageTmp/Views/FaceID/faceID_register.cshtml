@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/FaceId_assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/style.css" />
+    <style>
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        input[type=text], input[type=password] {
+            height: 40px !important;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+        }
+
+        .rounded-circle {
+            width:150px;
+            height:150px;
+            border-radius: 50% !important;
+        }
+    </style>
+</head>
+<body class="home-page">
+
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="faceID_index" class="logo"><img src="/FaceId_assets/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="/FaceID/faceID_index">Home</a>
+            <a href="#">Register</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <br>
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-5 col-sm-12">
+            <center>
+                <video id="video" class="response take-pic" autoplay=""></video>
+            </center>
+            <br>
+            <center>
+                <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Take Snapshot</button>
+            </center>
+        </div>
+        <div class="col-md-1 col-sm-1"></div>
+
+        <div class="col-md-3 col-sm-12">
+            <br>
+            <form action="#" class="form-action form-default ct-formLogin">
+                <br>
+                <center>
+                    <canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;display:none;"></canvas>
+                    <img id="result_img" src="data:image/png;base64,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" style="width:150px;height:150px;border: 1px solid #ccc;border-radius:50%;">
+                </center>
+                <br>
+                <div class="form-group">
+                    <div class="row box-action-one">
+                        <div class="col-sm-12 cs-padding">
+                            <input type="text" name="name" class="form-control" onkeypress="return onlyAlphabets(event,this)" id="name" placeholder="Name">
+                        </div>
+                        <div class="col-sm-12 cs-padding">
+                            <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="form_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- END MAIN CONTENT -->
+    <div class="modal fade" id="alert_popup" role="dialog">
+    <div class="modal-dialog"><div class="modal-content"> 
+        <div class="modal-body">          
+        <center><h4 id="error_msg"></h4>
+            <br><button class="btn btn-primary" id="refresh_btn">Okay</button>          
+            </center>        </div>      </div>    </div>  </div>
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:117px;">
+
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <!-- 	<a href="#" class="scrollTopButton">
+               <span class="button-square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+            </a> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+
+    <script type="text/javascript" src="~/FaceId_assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/common.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/FaceId_assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/FaceId_assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/style-switcher/js/jQuery.style.switcher.js"></script>
+    <script type="text/javascript">
+    function onlyAlphabets(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123) || (charCode > 31 && charCode < 33))
+                    return true;
+                else
+                    return false;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+
+
+        navigator.getUserMedia = (navigator.getUserMedia ||
+            navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia ||
+            navigator.msGetUserMedia
+        );
+
+        var video;
+        var webcamStream;
+
+        if (navigator.getUserMedia) {
+            navigator.getUserMedia(
+                // constraints
+                {
+                    video: true,
+                    audio: false
+                },
+                // successCallback
+                function (localMediaStream) {
+                    video = document.querySelector('video');
+                    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                        // Not adding `{ audio: true }` since we only want video now
+                        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                            video.srcObject = stream;
+                            video.play();
+                        });
+
+
+
+
+                    }
+                    //video.src = window.URL.createObjectURL(localMediaStream);
+                    //webcamStream = localMediaStream;
+                },
+                // errorCallback
+                function (err) {
+                    console.log("The following error occured: " + err);
+                }
+            );
+        } else {
+            console.log("getUserMedia not supported");
+        }
+
+        var canvas, ctx;
+
+
+        var videoId = 'video';
+        var scaleFactor = 1;
+        var snapshots = [];
+
+
+        // function checkTextField(field) {
+        //   document.getElementById("error").innerText =
+        //     (field.value === "")  "Field is empty." ;
+        // }
+
+
+
+        function capture(video, scaleFactor) {
+            if (scaleFactor == null) {
+                scaleFactor = 1;
+            }
+            var w = video.videoWidth * scaleFactor;
+            var h = video.videoHeight * scaleFactor;
+            var canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            var ctx = canvas.getContext('2d');
+
+            ctx.drawImage(video, 0, 0, w, h);
+            return canvas;
+        }
+
+
+
+
+        $(document).ready(function () {
+            document.getElementById("form_submit").disabled = true;
+        });
+
+        $("#snap_btn").click(function (e) {
+
+            e.preventDefault();
+            $('#snap_btn').button('loading');
+            var canvas = capture(video, scaleFactor);
+            var image = canvas.toDataURL("image/png");
+            $("#result_img").attr('src', image);
+            document.getElementById("form_submit").disabled = false;
+            $('#snap_btn').button('reset');
+        });
+        $("#refresh_btn").click(function () {
+            window.location.href = '/FaceID/faceID_register';
+        });
+
+        $("#form_submit").click(function (e) {
+
+            e.preventDefault();
+            $('#form_submit').button('loading');
+
+            //image = image.replace('data:image/png;base64,', '');
+            var name = $("#name").val();
+            var image = $("#result_img").attr('src');
+            //console.log(name);
+            //console.log(image);
+            var img_64_array = image.split(',');
+            var img_extension = img_64_array[0];
+            var ImageBase64 = image.replace(img_extension + ",", "");
+            console.log(ImageBase64);
+            var JsonImage = JSON.stringify({ data: ImageBase64, name: name });
+            //console.log(JsonImage);
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: JsonImage,
+                url: "/FaceID/FaceRegistration",
+                success: function (response) {
+                    console.log(response)
+                    if (response.Result == "") {
+                        $("#error_msg").html(response.Error);
+                        $("#alert_popup").modal('show');
+                    }
+                    else {
+                        $("#error_msg").html(response.Result);
+                        $("#alert_popup").modal('show');
+                    }
+                    $('#form_submit').button('reset');
+                    }
+                });
+            snapshots.unshift(canvas);
+        });</script>
+</body>
+</html>

@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        #check_id {
+            margin-left: 30%;
+        }
+        #warn_msg {
+            font-size: 12px;
+            text-align: center;
+            color: red;
+        }
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 5px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        input[type=text], input[type=password], input[type=email] {
+            height: 30px !important;
+        }
+
+        .form-control {
+            height: 30px !important;
+        }
+
+        .form-action.form-default .row > [class*='col-'] {
+            margin-bottom: 10px;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        
+
+        .rounded-circle {
+            width:150px;
+            height:150px;
+            border-radius: 50% !important;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/microsoft.png" alt="" style="width: auto;margin-top: 11%;margin-left: -25%;"></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+                        <h2 style="text-align: left;margin-left:12%;color: #0477d3;margin-bottom: 10px;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Partner Tech Series</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="user_index">User</a>
+            <a href="#">Register</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-1 col-sm-1">
+            <br />
+            <label class="switch pull-left">
+                <input type="checkbox" id="on_off_btn">
+                <span class="slider round"></span>
+
+            </label>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <p style="padding-top:24px;font-size:16px;">Live streaming/URL Image</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-5 col-sm-12">
+                <div class="row col-md-12 col-sm-12">
+                    <center>
+                        <canvas id="local_img" style="width:90%;height:375px;"></canvas>
+                    </center>
+                </div>
+                <center>
+                    <input type="file" name="open_image_file" id="open_image_file" class="open_image_file" style="display: none;">
+                    <button class="btn btn-primary mb-4 shadow-2" style="background: white; color: black;border-color: black;" id="open_image_trigger" onclick="imageopen()">&nbsp;&nbsp;Browse</button>
+                    <p id="warn_msg">Kindly upload (PNG,JPEG) formatted images</p>
+                    <video id="video" class="response take-pic" autoplay=""></video>
+                </center>
+
+                <center>
+                    <h4 style="color: red;" id="instruction">Please Smile and Take a Snap</h4>
+                </center>
+                @*<center class="checkbox">
+                    <label style="color: red;"><input type="checkbox" id="check_id" value="" checked="checked">Detect Fake or Real</label>
+                </center>*@
+
+                <center>
+                    <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Take Snapshot</button>
+                </center>
+            </div>
+            <div class="col-md-1 col-sm-1"></div>
+
+            <div class="col-md-3 col-sm-12">
+                <br>
+                <form action="#" class="form-action form-default ct-formLogin">
+
+                    <center><canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;display:none;"></canvas> </center>
+                    <br>
+                    <center>
+                        <img src="data:image/png;base64,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" id="result_img" style="border: 1px solid #ccc;border-radius:50%;width:150px;height:150px;">
+                    </center>
+                    <br>
+                    <div class="form-group">
+                        <div class="row box-action-one">
+                            <div class="col-sm-12 cs-padding">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <input type="text" name="password" class="cs-select form-control show-tick" maxlength="10" id="phonenumber" placeholder="Mobile Number">
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <select class="form-control" id="gender" style="margin-bottom: 0%;">
+                                    <option value="">Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email ID">
+                            </div>
+
+                            <div class="col-sm-12 cs-padding">
+                                <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="form_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="alert_popup" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <center>
+                            <h4 id="errmsg"></h4>
+                            <br><button id="pagerefresh" class="btn btn-primary">Okay</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MAIN CONTENT -->
+        <!--BEGIN FOOTER -->
+        <footer id="footer" class="footer-background" style="margin-top:99px;">
+
+            <!--BEGIN COPYRIGHT -->
+            <div id="copyright">
+                <!-- 	<a href="#" class="scrollTopButton">
+               <span class="button-square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+            </a> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END COPYRIGHT -->
+        </footer>
+        <!-- END FOOTER -->
+        <!-- END WRAPPER -->
+        <!-- Libs -->
+        <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+        <script type="text/javascript" src="~/assets/js/common.js"></script>
+        <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+        <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+        <!-- Datepiker Script -->
+        <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+        <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+        <!-- Template Scripts -->
+        <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+        <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $('#local_img').hide();
+                $('#open_image_trigger').hide();
+                $('#warn_msg').hide();
+                document.getElementById("form_submit").disabled = true;
+
+
+                navigator.getUserMedia = (navigator.getUserMedia ||
+                    navigator.webkitGetUserMedia ||
+                    navigator.mozGetUserMedia ||
+                    navigator.msGetUserMedia);
+
+                var video;
+                var webcamStream; 1
+
+                if (navigator.getUserMedia) {
+                    navigator.getUserMedia(
+
+                        {
+                            video: true,
+                            audio: false
+                        },
+                        function (localMediaStream) {
+                            video = document.querySelector('video');
+
+                            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                                navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                                    video.srcObject = stream;
+                                    video.play();
+                                });
+
+                            }
+                        },
+                        function (err) {
+                            console.log("The following error occured: " + err);
+                        }
+                    );
+                }
+                else {
+                    console.log("getUserMedia not supported");
+                }
+
+                var canvas, ctx;
+                function init() {
+                    canvas = document.getElementById("myCanvas");
+                    ctx = canvas.getContext('2d');
+                    var imageObj = new Image();
+
+                    imageObj.onload = function () {
+                        ctx.drawImage(imageObj, 0, 0, 150, 150);
+                    };
+                    imageObj.src = 'data:image/png;base64,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';
+
+
+                }
+
+
+                $("#pagerefresh").click(function () {
+                    $('#alert_popup').modal('hide');
+                });
+
+
+                var videoId = 'video';
+                var scaleFactor = 1;
+                var snapshots = [];
+
+                function capture(video, scaleFactor) {
+                    if (scaleFactor == null) {
+                        scaleFactor = 1;
+                    }
+                    var w = video.videoWidth * scaleFactor;
+                    var h = video.videoHeight * scaleFactor;
+                    var canvas = document.createElement('canvas');
+                    canvas.width = w;
+                    canvas.height = h;
+                    var ctx = canvas.getContext('2d');
+
+                    ctx.drawImage(video, 0, 0, w, h);
+                    return canvas;
+                }
+
+
+                $("#snap_btn").click(function (e) {
+                    if ($('#check_id').is(":checked")) {
+                        var check = "Yes";
+                    }
+                    else {
+                        var check = "No";
+                    }
+                    var snap_btn_html = $('#snap_btn').html();
+
+                    if (snap_btn_html == "Submit") {
+                        e.preventDefault();
+                        $('#snap_btn').button('loading');
+                        var resultimg = img_src_64;
+                        var img_64_array = resultimg.split(',');
+                        
+                        var image = JSON.stringify({ data: img_64_array[1], check: check });
+
+                        console.log(check);
+
+                        $.ajax({
+                            type: "POST",
+                            contentType: "application/json",
+                            datatype: "json",
+                            data: image,
+                            url: "/Home/ImageValidationAPI/",
+                            success: function (data) {
+                                console.log(data);
+                                if (data.Result == "Success") {
+                                    $("#result_img").attr('src', resultimg);
+                                    document.getElementById("form_submit").disabled = false;
+                                }
+                                else {
+
+                                    console.log(data.Result);
+                                    $("#errmsg").html(data.Result);
+                                    $('#alert_popup').modal('show');
+                                }
+                                $('#snap_btn').button('reset');
+                            }
+                        });
+
+                        snapshots.unshift(canvas);
+
+                    }
+                    else {
+                        e.preventDefault();
+                        $('#snap_btn').button('loading');
+                        var canvas = capture(video, scaleFactor);
+
+                        var image = canvas.toDataURL('image/png');
+                        var resultimg = image;
+                        var ImageSave = image.replace("data:image/png;base64,", "");
+                        var image = JSON.stringify({ data: ImageSave, check: check });
+
+                        console.log(check);
+
+                        $.ajax({
+                            type: "POST",
+                            contentType: "application/json",
+                            datatype: "json",
+                            data: image,
+                            url: "/Home/ImageValidationAPI/",
+                            success: function (data) {
+                                console.log(data);
+                                if (data.Result == "Success") {
+                                    $("#result_img").attr('src', resultimg);
+                                    document.getElementById("form_submit").disabled = false;
+                                }
+                                else {
+
+                                    console.log(data.Result);
+                                    $("#errmsg").html(data.Result);
+                                    $('#alert_popup').modal('show');
+                                }
+                                $('#snap_btn').button('reset');
+                            }
+                        });
+
+                        snapshots.unshift(canvas);
+                    }
+
+                });
+
+
+                $("#form_submit").click(function (e) {
+                    e.preventDefault();
+                    $('#form_submit').button('loading');
+                    var Name = $("#name").val();
+                    var gender = $("#gender").val();
+                    var phone = $("#phonenumber").val();
+                    var email = $("#email").val();
+                    var image1 = $("#result_img").attr('src');
+
+                    if (Name != "" && image1 != "") {
+                        var img_64_array = image1.split(',');
+                        var img_extension = img_64_array[0];
+                        var ImageBase64 = image1.replace(img_extension + ",", "");
+                        var endres = JSON.stringify({ data: ImageBase64, name: Name, gender: gender, phone: phone, email: email });
+
+                        $.ajax({
+                            type: "POST",
+                            contentType: "application/json",
+                            datatype: "json",
+                            data: endres,
+                            url: "/Home/FaceRegisterAPI/",
+                            success: function (data) {
+                                console.log(data.Result);
+                                $("#errmsg").html(data.Result);
+                                $('#alert_popup').modal('show');
+                                $('#form_submit').button('reset');
+
+                            }
+                        });
+                    }
+                    else {
+                        $("#errmsg").html("Please enter your name");
+                        $('#alert_popup').modal('show');
+                        $('#form_submit').button('reset');
+                    }
+
+                });
+
+                $('#on_off_btn').click(function () {
+                    if ($('#on_off_btn').prop("checked") == true) {
+                        $('#video').hide();
+                        $('#instruction').html("Please upload one of your smiling image");
+                        $('#snap_btn').html("Submit");
+                        $('#local_img').show();
+                        $('#open_image_trigger').show();
+                        $('#snap_btn').prop('disabled', true);
+                    }
+                    else {
+                        $('#video').show();
+                        $('#instruction').html("Please Smile and Take a Snap");
+                        $('#snap_btn').html("Take Snapshot");
+                        $('#local_img').hide();
+                        $('#open_image_trigger').hide();
+                        $('#snap_btn').prop('disabled', false);
+                    }
+                });
+
+
+
+            });
+            function imageopen() {
+                $('#open_image_file').trigger('click');
+            }
+
+            var local_canvas, local_ctx;
+            var img_src_64;
+            local_canvas = document.getElementById("local_img");
+            local_ctx = local_canvas.getContext('2d');
+            var local_imageObj = new Image();
+
+            local_imageObj.onload = function () {
+                local_ctx.drawImage(local_imageObj, 0, 0, 300, 150);
+            };
+            local_imageObj.src = '/assets/images/empty.jpg';
+
+            $(function () {
+                $(":file").change(function () {
+                    $('#snap_btn').prop('disabled', false);
+                    if (this.files && this.files[0]) {
+                        var reader = new FileReader();
+                        reader.onload = imageIsLoaded;
+                        reader.readAsDataURL(this.files[0]);
+                    }
+                });
+            });
+            function imageIsLoaded(e) {
+                img_src_64 = e.target.result;
+                var img_64_array = img_src_64.split(',');
+                var img_extension = img_64_array[0];
+
+                if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                    local_imageObj.src = e.target.result;
+                    $('#warn_msg').hide();
+                }
+                else {
+                    $('#warn_msg').show();
+                }
+            };
+
+
+
+        </script>
+</body>
+</html>

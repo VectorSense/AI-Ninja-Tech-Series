@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Text Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/assets/style.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/colors/default.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/js/fancybox/source/jquery.fancybox.css" type="text/css">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <script src="~/assets/js/modernizr.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .table > tbody > tr > td {
+            width: 45%;
+        }
+
+        .instruction {
+            font-size: 23px;
+            font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+            text-align: center;
+            /*background: black;*/
+            color: black;
+            padding: 13px;
+        }
+
+
+        #warn_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        #image_url_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        .table_left {
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="site-head">
+            <div class="wrap group">
+                <div class="logo">
+                    <h1><a href="index"><img src="/assets/images/microsoft.png" alt="JSN_logo" style="width: 77%;padding-left: 35px;margin-top: -47px;"></a></h1>
+                </div>
+                <div class="center_content">
+
+                    <h2 style="color: #0477d3;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Partner Tech Series</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .wrap < #header -->
+    </header>
+    <br>
+    <div class="container">
+        <p class="instruction" id="main_instruction">
+            Text Analytics
+        </p>
+    </div>
+    <!-- <div id="page"> -->
+    <section class="container" style="margin-bottom: 5%;" id="local_sec">
+        <br><br>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="row col-md-12 col-sm-12">
+                    <textarea style="width: 100%;height: 300px;background: #ffffff;border-right: 1px solid #dfdfdf;border-bottom: 1px solid #dfdfdf;" id="text_input"></textarea>
+                </div>
+                <div class="row col-md-12 col-sm-12">
+                    <div class="col-md-5 col-sm-5">
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <br>
+
+                        <button class="btn btn-primary mb-4 shadow-2" style="background: #00599e;border-color: #00599e;" id="text_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Submit</button>
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                    </div>
+                </div>
+                <div class="row col-md-12 col-sm-12">
+
+                    <p id="text_err_msg" style="color:red;text-align:center;font-size:13px;padding-top:20px;"></p>
+                    </div>
+
+                </div>
+            <div class="col-md-6 col-sm-6">
+                <table class="table" style="border-top: none;border-bottom: 1px solid #ddd;" id="output_table">
+                    <tr>
+                        <td  colspan="2" style="text-align:center;font-weight:bolder;">ANALYSED TEXT</td>
+                    </tr>
+                    <tr>
+                        <td class="table_left">LANGUAGES</td>
+                        <td id="language_content"></td>
+                    </tr>
+                    <tr>
+                        <td class="table_left">KEY PHRASES</td>
+                        <td id="key_phrase_content"></td>
+                    </tr>
+                    <tr>
+                        <td class="table_left">SENTIMENT</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar" id="progress_bar_content" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table_left">ENTITIES</td>
+                        <td id="entity_content"></td>
+                    </tr>
+                     
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" style="position: inherit;">
+        <div class="wrap group">
+            <div class="footer-text">
+                <a href="#"></a> © 2019 All rights reserved
+            </div>
+        </div>
+    </footer>
+    <!--  </div> --><!-- #page -->
+    
+    <script src="~/assets/js/jquery.ias.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $('#text_err_msg').html("");
+        $('#output_table').hide();
+        $('#text_submit').click(function () {
+            $('#output_table').hide();
+              $('#text_err_msg').html("");
+              var text_input=$('#text_input').val();
+              if(text_input=="")
+              {
+               $('#text_err_msg').html("Plase enter the text");
+              }
+              else
+              {
+                 $('#text_submit').button('loading');
+                  var JsonData = JSON.stringify({ data: text_input});
+                  $.ajax({
+                      type: "POST",
+                      contentType: "application/json",
+                      datatype: "json",
+                      data: JsonData,
+                      url: "/Home/AnalyseText",
+                      success: function (response) {
+                          console.log(response);
+                          if ((Object.keys(response)).length > 1) {
+                              var Entity = "";
+                              for (var i = 0; i < response.Entity.length; i++)
+                                  if (i < response.Entity.length - 1)
+                                      Entity += response.Entity[i] + ",  ";
+                                  else
+                                      Entity += response.Entity[i];
+                              $('#entity_content').html(Entity);
+
+                              
+                              var Language ="";
+                              for (var i = 0; i < response.Language.length; i++)
+                                  Language = response.Language[i];
+                              $('#language_content').html(Language);
+
+                              var Phrase ="";
+                              for (var i = 0; i < response.Phrase.length; i++)
+                                  if (i < response.Phrase.length - 1)
+                                      Phrase += response.Phrase[i] + ",  ";
+                                  else
+                                      Phrase += response.Phrase[i];
+                              $('#key_phrase_content').html(Phrase);
+
+                              var Sentiment = 0;
+                              for (var i = 0; i < response.Sentiment.length; i++)
+                                  if ((response.Sentiment[i] * 100) > Sentiment)
+                                      Sentiment = (response.Sentiment[i] * 100);
+                                  
+                              $('#progress_bar_content').css('width', Sentiment + "%");
+                              $('#progress_bar_content').html(Sentiment + "%");
+                              $('#output_table').show();
+                              $('#text_submit').button('reset');
+                                        
+                          }
+                          else {
+                              $('#text_err_msg').html(response.Error);
+                              $('#output_table').hide();
+                              $('#text_submit').button('reset');
+                          }
+                      }
+                  });
+              }
+            });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*
+============================================================================
+pink #fce1e1
+============================================================================
+*/
+
+body {
+  background: #f6f6f3;
+}
+
+#header {
+  border-top: 7px solid #fce1e1;
+}
+
+.page blockquote, .format-standard blockquote {
+  border-left: 3px solid #fce1e1;
+  font-size: 1.24em;
+  color: #9a9a9a;
+}
+
+.format-standard.entry blockquote p {
+  line-height: 1.3em;
+  font-family: Lato;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e59f9f;
+  font-weight: normal;
+}
+
+/* Text links */
+a {
+  text-decoration:none;
+  color: #e59f9f;
+}
+
+a:focus,a:active,a:hover {
+  text-decoration: none;
+  color: #fcc7c2;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Nav */
+#navigation > li > ul {
+  border-top: 4px solid #e59f9f;
+}
+
+#navigation > li > ul li a:hover {
+  background: #fff5f5;
+}
+
+#footer {
+  border-bottom: 7px solid #fce1e1;
+}
+
+#commentform button[type=submit], .gform_wrapper input[type=submit],
+#contactform button[type=submit]{
+  border: 1px solid #a67777; /* inner stroke */
+  background-color: #e59f9f; /* layer fill content */
+
+}

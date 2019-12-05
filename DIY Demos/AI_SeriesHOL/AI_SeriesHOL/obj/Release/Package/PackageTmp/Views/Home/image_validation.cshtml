@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+        <style >
+        .edit_btn {
+            background: #036;
+            margin-bottom: 5%;
+            border-color: #036;
+            float: left;
+        }
+
+        .edit_btn:hover {
+            background: #036;
+            margin-bottom: 5%;
+            border-color: #036;
+            float: left;
+        }
+
+        .enabled_btn {
+            background: #6F9B63;
+            border-color: #6F9B63;
+            float: right;
+        }
+
+            .enabled_btn:hover {
+                background: #6F9B63;
+                border-color: #6F9B63;
+                float: right;
+            }
+
+        .disabled_btn {
+            float: right;
+        }
+
+            .disabled_btn:hover {
+                float: right;
+            }
+
+        .switch {
+            position: relative;
+            display: block;
+            vertical-align: top;
+            width: 100px;
+            height: 30px;
+            padding: 3px;
+            margin: 0 10px 10px 0;
+            background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+            background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+            border-radius: 18px;
+            box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+            float: right;
+        }
+
+        .switch-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
+
+        .switch-label {
+            position: relative;
+            display: block;
+            height: inherit;
+            font-size: 10px;
+            text-transform: uppercase;
+            background: red;
+            border-radius: inherit;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+        }
+
+            .switch-label:before, .switch-label:after {
+                position: absolute;
+                top: 50%;
+                margin-top: -.5em;
+                line-height: 1;
+                -webkit-transition: inherit;
+                -moz-transition: inherit;
+                -o-transition: inherit;
+                transition: inherit;
+            }
+
+            .switch-label:before {
+                content: attr(data-off);
+                right: 11px;
+                color: white;
+                text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+            }
+
+            .switch-label:after {
+                content: attr(data-on);
+                left: 11px;
+                color: white;
+                text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+                opacity: 0;
+            }
+
+        .switch-input:checked ~ .switch-label {
+            background: #6F9B63;
+            border-color: #6F9B63;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+            .switch-input:checked ~ .switch-label:before {
+                opacity: 0;
+            }
+
+            .switch-input:checked ~ .switch-label:after {
+                opacity: 1;
+            }
+
+        .switch-handle {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+            background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+            border-radius: 100%;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+            .switch-handle:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -6px 0 0 -6px;
+                width: 12px;
+                height: 12px;
+                background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+                background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+                border-radius: 6px;
+                box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+            }
+
+        .switch-input:checked ~ .switch-handle {
+            left: 74px;
+            box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+        /* Transition
+         ========================== */
+        .switch-label, .switch-handle {
+            transition: All 0.3s ease;
+            -webkit-transition: All 0.3s ease;
+            -moz-transition: All 0.3s ease;
+            -o-transition: All 0.3s ease;
+        }
+
+        .lbl1 {
+            position: relative;
+            display: block;
+            height: 20px;
+            width: 44px;
+            background: #898989;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            float: right;
+        }
+    </style>
+</head>
+<body class="default-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/microsoft.png" alt="" style="width: auto;margin-top: 11%;margin-left: -25%;"></a>
+                    </div>
+                    <div class="col-md-8 header-right">
+                        <h2 style="text-align: left;margin-left:12%;color: #0477d3;margin-bottom: 10px;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Hero Solutions</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br><br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="admin_index">Admin</a>
+            <a href="#">Image Validation</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN PROPERTIES  -->
+    <section class="properties-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-8">
+                    <div class="sorting-bar clearfix">
+                        <div class="col-md-3 col-sm-3 form-sort-control">
+                        </div>
+                    </div>
+                    <div id="property-listing" class="flex-row row grid-style edit-marginBottom10">
+                        <!-- Checking the model file is empty  -->
+                        @if (Model.Count == 0)
+                        {
+
+                            <p style="text-align: center;font-size: 50px;">No data found</p>
+                        }
+                        else
+                        {
+                            @model List<HeroSolutions.AI.HOL.FaceAPI.image_validation>
+                            foreach (var i in Model)
+                            {
+
+                                <div class="item col-md-3">
+                                    <!-- On item  -->
+                                    <div class="item-box">
+                                        <div class="main-content">
+                                            <div class="image-box">
+                                                <div class="overlay-box">
+                                                    <div class="overlay"></div>
+                                                    <i class="fa fa-search"></i>
+                                                </div>
+                                            </div>
+                                            <div class="main-info">
+                                                <div class="col-sm-12 cs-padding">
+                                                    <label>Validation Type</label>
+                                                    <input type="text" class="form-control" placeholder="@i.validation_type" readonly>
+                                                </div>
+                                                <div class="col-sm-12 cs-padding">
+                                                    <label>Validation Message</label>
+                                                    <input type="text" class="form-control" placeholder="@i.validation_message" readonly>
+                                                </div>
+                                                <div class="col-sm-12 cs-padding">
+                                                    <a data-toggle="modal" data-target="#exampleModal" data-whatever="@@getbootstrap" class="edit_img_validation" id="@i.id">
+                                                        <button class="btn btn-primary edit_btn" style="margin-bottom:5%;">Edit</button>
+                                                    </a>
+                                                    @if (i.isactive == 0)
+                                                    {
+                                                        <button class="btn btn-primary enabled_btn">Enabled</button>
+                                                    }
+                                                    else
+                                                    {
+                                                        <button class="btn btn-danger disabled_btn">Disabled</button>
+                                                    }
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- OFF item  -->
+                            }
+                        }
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- OFF col-md-9 -->
+                <div class="col-md-3 col-sm-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROPERTIES  -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:360px";>
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright" style="margin-top: 40px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    </div>
+
+    <input type="hidden" id="validate_id_get" name="validate_id_get" />
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="float: left;">Image Validation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Validation Type</label>
+                            <input type="text" class="form-control" id="modal_validation_type" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Validation Message</label>
+                            <textarea class="form-control" id="modal_validation_message" readonly></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" id="modal_image_validate_id" value="" />
+                    <button type="button" class="btn btn-primary" id="update_image_validation">Update</button>
+                    <label class="switch" style="float: left;">
+                        <input class="switch-input" name="checkbox" id="checkbox1" type="checkbox" />
+                        <span class="switch-label" data="" data-on="Enabled" data-off="Disabled"></span>
+                        <span class="switch-handle"></span>
+                    </label>
+                    <p style="font-size:12px;color:red;" id="modal_err">Please try again...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script>
+        $('#modal_err').hide();
+
+        $('.edit_img_validation').on("click", function ()
+        {
+            $('#modal_err').hide();
+            var validate_id = $(this).attr('id');
+            $('#validate_id_get').val(validate_id);
+            var ids = JSON.stringify({ data: validate_id});
+            // Calling the Ajax function by passsing validate ID
+            $.ajax({
+
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: ids,
+                url: "@Url.Action("ImageValidation_FetchByID", "Home")",
+
+                success: function (response)
+                {
+                    //console.log(response);
+                    $('#modal_validation_type').val(response.validation_type);
+                    $('#modal_validation_message').val(response.validation_message);
+                    if (response.isactive == 0)
+                    {
+                        $('#checkbox1').prop("checked", true);
+                    }
+                    else
+                    {
+                        $('#checkbox1').prop("checked", false);
+                    }
+                    $('#modal_image_validate_id').val(response.id);
+
+
+                }
+            });
+        });
+
+
+        $('#update_image_validation').on("click", function () {
+            $('#modal_err').hide();
+            var validate_id = $('#modal_image_validate_id').val();
+            if ($('#checkbox1').is(":checked")) {
+                var is_active = "0";
+            }
+            else {
+                var is_active = "1";
+            }
+            var ids = JSON.stringify({ data: validate_id, value: is_active });
+            // Calling the Ajax function by passsing validate ID and Is_active
+            $.ajax({
+
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: ids,
+                url: "@Url.Action("ImageValidation_FetchByIsActive", "Home")",
+
+                success: function (response)
+                {
+                    if (response.Result == true) {
+                        $('#modal_err').hide();
+                        setTimeout(function () {
+                            window.location.href = "image_validation";
+                        }, 100);
+                    }
+                    else {
+                        $('#modal_err').show();
+                    }
+                }
+            });
+
+
+        });
+    </script>
+</body>
+</html>

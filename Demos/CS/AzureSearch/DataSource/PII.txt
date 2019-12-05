@@ -1,0 +1,5 @@
+Personally Identifiable Information (PII)
+
+The PII feature detects the potential presence of this information: Email address, US Mailing address, IP address, US Phone number, UK Phone number, Social Security Number (SSN)
+
+Is this a crap email abcdef@abcd.com, phone: 6657789887, IP: 255.255.255.255, 1 Microsoft Way, Redmond, WA 98052

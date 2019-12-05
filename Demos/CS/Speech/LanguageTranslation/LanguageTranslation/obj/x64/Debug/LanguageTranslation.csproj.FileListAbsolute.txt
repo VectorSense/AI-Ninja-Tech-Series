@@ -1,0 +1,12 @@
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\LanguageTranslation.exe.config
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\LanguageTranslation.exe
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\LanguageTranslation.pdb
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\obj\x64\Debug\LanguageTranslation.csprojAssemblyReference.cache
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\obj\x64\Debug\LanguageTranslation.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\obj\x64\Debug\LanguageTranslation.csproj.CopyComplete
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\obj\x64\Debug\LanguageTranslation.exe
+F:\Ms WorkShop\LanguageTranslation\LanguageTranslation\obj\x64\Debug\LanguageTranslation.pdb

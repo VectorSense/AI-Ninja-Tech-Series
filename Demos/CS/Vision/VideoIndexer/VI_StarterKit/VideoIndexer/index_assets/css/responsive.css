@@ -1,0 +1,182 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : Onepageboss
+Template Name: Lompot - Personal Portfolio/Resume Website Template for Professionals
+Version      : 1.0
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .single-project-done {
+        text-align: center;
+    }
+    .about-image img {
+        margin-top: 30px;
+    }
+    .single-contact-details i {
+        margin-bottom: 20px;
+    }
+    .single-project-complete {
+        margin-bottom: 30px;
+    }
+    .single-service,
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    #map {
+        margin-top: 20px;
+    }
+    .about-text {
+        padding-top: 0px;
+        margin-top: 30px;
+    }
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav li {
+        float: none;
+        display: inline-block;
+    }
+    .menu-bg .logo {
+        text-align: center;
+    }
+    .single-service i {
+        margin-bottom: 140px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    a.preview-link {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    .site-header .navbar-collapse {
+        opacity: 1;
+        visibility: visible;
+    }
+    .navbar-toggle .icon-bar {
+        background: #FFD600;
+    }
+    .navbar-toggle {
+        margin-top: -33px;
+        margin-right: 0;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+        color: #fff;
+    }
+    .menu-bg .mainmenu .navbar-nav li a:hover {
+        color: #ccc;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .menu-bg .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .welcome-image-area,
+    .welcome-video-area {
+        padding-top: 120px;
+    }
+    .welcome-image-area h2,
+    .single-slide-item h2,
+    .welcome-video-area h2 {
+        font-size: 30px;
+    }
+    .header-text h1 {
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .single-project-complete h2 {
+        font-size: 40px;
+    }
+    .single-project-done {
+        text-align: center;
+    }
+    .footer-area p,
+    .actions,
+    .footer-social-link {
+        text-align: center;
+    }
+    .header-text p {
+        font-size: 16px;
+        padding: 0;
+        line-height: 28px;
+    }
+    .header-text .home-arrow-down {
+        bottom: -170px;
+    }
+    .about-text {
+        padding-top: 0px;
+    }
+    .about-text h3 {
+        margin-bottom: 20px;
+    }
+    .single-project-complete {
+        margin-bottom: 50px;
+    }
+    .single-contact-details i {
+        margin-bottom: 20px;
+    }
+    .single-service,
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    #map {
+        margin-top: 20px;
+    }
+    .item .grid figure,
+    .work .grid figure {
+        min-width: 100%;
+    }
+    .about-text ul li {
+        width: 100%;
+    }
+    .about-text ul li i {
+        margin-right: 10px;
+    }
+    .single-service i {
+        margin-bottom: 140px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+Author       : Onepageboss
+Template Name: Lompot - Personal Portfolio/Resume Website Template for Professionals
+Version      : 1.0
+* ----------------------------------------------------------------------------------------
+*/

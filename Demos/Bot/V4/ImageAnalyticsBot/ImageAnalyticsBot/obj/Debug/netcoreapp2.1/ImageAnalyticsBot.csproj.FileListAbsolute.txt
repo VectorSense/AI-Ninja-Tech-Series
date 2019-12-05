@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\ImageAnalyticsBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\ImageAnalyticsBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\ImageAnalyticsBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\ImageAnalyticsBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\bin\Debug\netcoreapp2.1\ImageAnalyticsBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ImageAnalyticsBot\ImageAnalyticsBot\obj\Debug\netcoreapp2.1\ImageAnalyticsBot.pdb

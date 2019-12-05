@@ -1,0 +1,14 @@
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\obj\x64\Debug\TextBasedAssistant.csprojAssemblyReference.cache
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\obj\x64\Debug\TextBasedAssistant.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\TextBasedAssistant.exe.config
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\TextBasedAssistant.exe
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\TextBasedAssistant.pdb
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\bin\x64\Debug\Newtonsoft.Json.xml
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\obj\x64\Debug\TextBasedAssistant.csproj.CopyComplete
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\obj\x64\Debug\TextBasedAssistant.exe
+F:\Ms WorkShop\TextBasedAssistant\TextBasedAssistant\obj\x64\Debug\TextBasedAssistant.pdb

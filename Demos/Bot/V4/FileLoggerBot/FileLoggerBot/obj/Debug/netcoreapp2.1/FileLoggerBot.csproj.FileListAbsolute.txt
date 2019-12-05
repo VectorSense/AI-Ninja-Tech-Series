@@ -1,0 +1,15 @@
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\FileLoggerBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\FileLoggerBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\FileLoggerBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\FileLoggerBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\bin\Debug\netcoreapp2.1\FileLoggerBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\FileLoggerBot\FileLoggerBot\obj\Debug\netcoreapp2.1\FileLoggerBot.pdb

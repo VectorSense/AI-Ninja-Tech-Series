@@ -1,0 +1,63 @@
+/*
+============================================================================
+green #b6dbb6
+============================================================================
+*/
+
+body {
+  background: #f6f6f3;
+}
+
+#header {
+  border-top: 7px solid #b6dbb6;
+}
+
+.page blockquote, .format-standard blockquote {
+  border-left: 3px solid #b6dbb6;
+  font-size: 1.24em;
+  color: #9a9a9a;
+}
+
+.format-standard.entry blockquote p {
+  line-height: 1.3em;
+  font-family: Lato, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9bba9b;
+  font-weight: normal;
+}
+
+/* Text links */
+a {
+  text-decoration:none;
+  color: #9bba9b;
+}
+
+a:focus,a:active,a:hover {
+  text-decoration: none;
+  color: #bddbb1;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Nav */
+#navigation > li > ul {
+  border-top: 4px solid #b6dbb6;
+}
+
+#navigation > li > ul li a:hover {
+  background: #6FFF8C;
+}
+
+#footer {
+  border-bottom: 7px solid #b6dbb6;
+}
+
+#commentform button[type=submit],
+#contactform button[type=submit]{
+  border: 1px solid #92b692; /* inner stroke */
+  background-color: #b6dbb6; /* layer fill content */
+}

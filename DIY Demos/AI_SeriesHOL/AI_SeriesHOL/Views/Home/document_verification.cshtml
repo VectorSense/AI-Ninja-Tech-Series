@@ -1,0 +1,838 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+        .table > tbody > tr > td
+        {
+            border: none;
+        }
+            .table_left
+            {
+                font-weight:bolder;
+            }
+            #warn_msg {
+                font-size: 12px;
+                text-align: left;
+                color: red;
+            }
+
+        #image_url_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        #check_id {
+            margin-left: 25%;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        input[type=text], input[type=password] {
+            height: 40px !important;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/microsoft.png" alt="" style="width: auto;margin-top: 11%;margin-left: -25%;"></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+                        <h2 style="text-align: left;margin-left:12%;color: #0477d3;margin-bottom: 10px;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Partner Tech Series</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="index">Home</a>
+            <a href="#">Legal Document Verification</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <section style="padding-left: 80px;padding-top: 70px;padding-bottom: 0px;">
+        <div class="row">
+            <div class="col-md-1 col-sm-1" style="text-align: right;">
+                <label class="switch pull-right">
+                    <input type="checkbox" checked id="on_off_btn">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="col-md-6 col-sm-6" style="text-align: left;">
+                <p class="pull-left" style="margin-top: 1%;"> Live streaming/URL Image</p>
+            </div>
+            <div class="col-md-5 col-sm-5" style="text-align: left;">
+                <h4 class="pull-left" style="margin-top: 1%;margin-left: 15%;"> Summary</h4>
+            </div>
+        </div>
+    </section>
+    <!-- BEGIN MAIN CONTENT -->
+    <section id="camera_div" style="padding: 0px;">
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-5 col-sm-5">
+                <center>
+                    <video id="video" class="response take-pic" autoplay=""></video>
+                </center>
+                <br>
+                <center>
+                    <button style="margin-top: -2px;color:white;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Take Snapshot</button>
+                </center>
+            </div>
+            
+            <div class="col-md-6 col-sm-6">
+                <br>
+                <form action="#" class="form-action form-default ct-formLogin" style="padding: 5px;border:none;">
+                    <canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;display: none;"></canvas>
+                    <table class="table" style="width:600px;border:none;" id="camera_output">
+                        <tr id="c_contract_date_row">
+                            <td class="table_left">Contract Date</td>
+                            <td id="c_contract_date_content"></td>
+                        </tr>
+                        <tr id="c_vendor_name_row">
+                            <td class="table_left">Vendor Name</td>
+                            <td id="c_vendor_name_content"></td>
+                        </tr>
+                        <tr id="c_client_name_row">
+                            <td class="table_left">Client Name</td>
+                            <td id="c_client_name_content"></td>
+                        </tr>
+                        <tr id="c_service_description_row">
+                            <td class="table_left">Service Description</td>
+                            <td id="c_service_description_content"></td>
+                        </tr>
+                        <tr id="c_contract_value_row">
+                            <td class="table_left">Contract Value</td>
+                            <td id="c_contract_value_content"></td>
+                        </tr>
+                        <tr id="c_end_date_row">
+                            <td class="table_left">End Date</td>
+                            <td id="c_end_date_content"></td>
+                        </tr>
+                        <tr id="c_penalty_value_row">
+                            <td class="table_left">Penalty Value</td>
+                            <td id="c_penalty_value_content"></td>
+                        </tr>
+                        <tr id="c_jurisdiction_place_row">
+                            <td class="table_left">Jurisdiction Place</td>
+                            <td id="c_jurisdiction_place_content"></td>
+                        </tr>
+                        <tr id="c_vendor_email_row">
+                            <td class="table_left">Vendor Email</td>
+                            <td id="c_vendor_email_content"></td>
+                        </tr>
+                        <tr id="c_vendor_phone_row">
+                            <td class="table_left">Vendor Phone</td>
+                            <td id="c_vendor_phone_content"></td>
+                        </tr>
+                        <tr id="c_client_email_row">
+                            <td class="table_left">Client Email</td>
+                            <td id="c_client_email_content"></td>
+                        </tr>
+                        <tr id="c_client_phone_row">
+                            <td class="table_left">Client Phone</td>
+                            <td id="c_client_phone_content"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="local_div" style="padding: 0px;">
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-5 col-sm-5">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <img src="/assets/images/empty.jpg" alt="empty_image" id="local_img" class="img-responsive" style="width: 70%;">
+                    </div>
+                </div>
+                <div class="row col-md-12 col-sm-12">
+                    <div class="col-md-6 col-sm-6">
+                        <br>
+                        <input type="text" name="image_url" id="image_url" class="image_url form-control" placeholder="Image URL">
+                        <br>
+                        <p id="warn_msg">Kindly upload (PNG,JPEG) formatted images</p>
+                        <p id="image_url_msg">Please enter the valid URL</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <br>
+                        <button class="btn btn-primary mb-4 shadow-2" style="background: #00abec;border-color: #00abec;padding: 12px;width: 100%;padding-bottom: 8px;" id="image_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Submit</button>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <br>
+                        <input type="file" name="open_image_file" id="open_image_file" class="open_image_file" style="display: none;">
+                        <button class="btn btn-primary mb-4 shadow-2" style="background: white; color: black;border-color: black;padding: 12px;width: 100%;padding-bottom: 8px;padding-left: 7px;" id="open_image_trigger" onclick="imageopen()" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">&nbsp;&nbsp;Browse</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-sm-6">
+
+                <br>
+                <form action="#" class="form-action form-default ct-formLogin" style="padding: 5px;border:none;">
+                    <canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;display: none;"></canvas>
+                    <table class="table" style="width:600px;border:none;" id="local_output">
+                        <tr id="contract_date_row">
+                            <td class="table_left">Contract Date</td>
+                            <td id="contract_date_content"></td>
+                        </tr>
+                        <tr id="vendor_name_row">
+                            <td class="table_left">Vendor Name</td>
+                            <td id="vendor_name_content"></td>
+                        </tr>
+                        <tr id="client_name_row">
+                            <td class="table_left">Client Name</td>
+                            <td id="client_name_content"></td>
+                        </tr>
+                        <tr id="service_description_row">
+                            <td class="table_left">Service Description</td>
+                            <td id="service_description_content"></td>
+                        </tr>
+                        <tr id="contract_value_row">
+                            <td class="table_left">Contract Value</td>
+                            <td id="contract_value_content"></td>
+                        </tr>
+                        <tr id="end_date_row">
+                            <td class="table_left">End Date</td>
+                            <td id="end_date_content"></td>
+                        </tr>
+                        <tr id="penalty_value_row">
+                            <td class="table_left">Penalty Value</td>
+                            <td id="penalty_value_content"></td>
+                        </tr>
+                        <tr id="jurisdiction_place_row">
+                            <td class="table_left">Jurisdiction Place</td>
+                            <td id="jurisdiction_place_content"></td>
+                        </tr>
+                        <tr id="vendor_email_row">
+                            <td class="table_left">Vendor Email</td>
+                            <td id="vendor_email_content"></td>
+                        </tr>
+                        <tr id="vendor_phone_row">
+                            <td class="table_left">Vendor Phone</td>
+                            <td id="vendor_phone_content"></td>
+                        </tr>
+                        <tr id="client_email_row">
+                            <td class="table_left">Client Email</td>
+                            <td id="client_email_content"></td>
+                        </tr>
+                        <tr id="client_phone_row">
+                            <td class="table_left">Client Phone</td>
+                            <td id="client_phone_content"></td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:120px;">
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+    <script type="text/javascript">
+        $('#local_div').hide();
+        $('#camera_div').show();
+        $('#warn_msg').hide();
+        $('#image_url_msg').hide();
+        $('#local_output').hide();
+        $('#camera_output').hide();
+        var canvas, ctx;
+        canvas = document.getElementById("myCanvas");
+        navigator.getUserMedia = (navigator.getUserMedia ||
+            navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia ||
+            navigator.msGetUserMedia
+        );
+        var video;
+        var webcamStream; 1
+        if (navigator.getUserMedia) {
+            navigator.getUserMedia(
+                // constraints
+                {
+                    video: true,
+                    audio: false
+                },
+                // successCallback
+                function (localMediaStream) {
+                    video = document.querySelector('video');
+                    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                        // Not adding `{ audio: true }` since we only want video now
+                        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+                            video.srcObject = stream;
+                            video.play();
+                        });
+                    }
+                },
+                // errorCallback
+                function (err) {
+                    console.log("The following error occured: " + err);
+                }
+            );
+        } else {
+            console.log("getUserMedia not supported");
+        }
+        $('#on_off_btn').click(function () {
+            if ($('#on_off_btn').prop("checked") == true) {
+                $('#local_div').hide();
+                $('#camera_div').show();
+            }
+            else {
+                $('#local_div').show();
+                $('#camera_div').hide();
+            }
+        });
+
+        // Take SnapShot Function
+        //Live Stream
+        $('#snap_btn').click(function () {
+            $('#camera_output').hide();
+            $('#snap_btn').button('loading');
+            canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, 150, 150);
+            var imagedata = canvas.toDataURL('image/png');
+
+            var img_64_array = imagedata.split(',');
+
+            canvas.setAttribute('src', imagedata);
+
+            var ImageBase64 = img_64_array[1];
+            var JsonImage = JSON.stringify({ data: ImageBase64, flag: false });
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: JsonImage,
+                url: "/Home/DocumentVerification",
+                success: function (data) {
+                    if (data.Error == "") {
+                        if (data.Contract_Date == "") {
+                            $('#c_contract_date_row').hide();
+                        }
+                        else {
+                            $('#c_contract_date_row').show();
+                            $('#c_contract_date_content').html(data.Contract_Date);
+                        }
+                        if (data.Vendor_Name == "") {
+                            $('#c_vendor_name_row').hide();
+                        }
+                        else {
+                            $('#c_vendor_name_row').show();
+                            $('#c_vendor_name_content').html(data.Vendor_Name);
+                        }
+                        if (data.Client_Name == "") {
+                            $('#c_client_name_row').hide();
+                        }
+                        else {
+                            $('#c_client_name_row').show();
+                            $('#c_client_name_content').html(data.Client_Name);
+                        }
+                        if (data.Service_Description == "") {
+                            $('#c_service_description_row').hide();
+                        }
+                        else {
+                            $('#c_service_description_row').show();
+                            $('#c_service_description_content').html(data.Service_Description);
+                        }
+                        if (data.Contract_Value == "") {
+                            $('#c_contract_value_row').hide();
+                        }
+                        else {
+                            $('#c_contract_value_row').show();
+                            $('#c_contract_value_content').html(data.Contract_Value);
+                        }
+                        if (data.End_Date == "") {
+                            $('#c_end_date_row').hide();
+                        }
+                        else {
+                            $('#c_end_date_row').show();
+                            $('#c_end_date_content').html(data.End_Date);
+                        }
+                        if (data.Penalty_Value == "") {
+                            $('#c_penalty_value_row').hide();
+                        }
+                        else {
+                            $('#c_penalty_value_row').show();
+                            $('#c_penalty_value_content').html(data.Penalty_Value);
+                        }
+                        if (data.Jurisdiction_Place == "") {
+                            $('#c_jurisdiction_place_row').hide();
+                        }
+                        else {
+                            $('#c_jurisdiction_place_row').show();
+                            $('#c_jurisdiction_place_content').html(data.Jurisdiction_Place);
+                        }
+                        if (data.Vendor_Email == "") {
+                            $('#c_vendor_email_row').hide();
+                        }
+                        else {
+                            $('#c_vendor_email_row').show();
+                            $('#c_vendor_email_content').html(data.Vendor_Email);
+                        }
+                        if (data.Vendor_Phone == "") {
+                            $('#c_vendor_phone_row').hide();
+                        }
+                        else {
+                            $('#c_vendor_phone_row').show();
+                            $('#c_vendor_phone_content').html(data.Vendor_Phone);
+                        }
+                        if (data.Client_Email == "") {
+                            $('#c_client_email_row').hide();
+                        }
+                        else {
+                            $('#c_client_email_row').show();
+                            $('#c_client_email_content').html(data.Client_Email);
+                        }
+                        if (data.Client_Phone == "") {
+                            $('#c_client_phone_row').hide();
+                        }
+                        else {
+                            $('#c_client_phone_row').show();
+                            $('#c_client_phone_content').html(data.Client_Phone);
+                        }
+
+
+                        $('#camera_output').show();
+                        $('#snap_btn').button('reset');
+                    }
+                    else {
+                        $('#camera_output').html("Result: " + data.Error);
+                        $('#snap_btn').button('reset');
+                    }
+                }
+            });
+        });
+
+        // Browse Image
+        $(function () {
+            $(":file").change(function () {
+                $('#local_output').hide();
+                $('#open_image_trigger').button('loading');
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+
+
+        //Browse
+        function imageIsLoaded(e) {
+            var img_src_64 = e.target.result;
+            var img_64_array = img_src_64.split(',');
+            var img_extension = img_64_array[0];
+            if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                $('#local_img').attr('src', e.target.result);
+                $('#warn_msg').hide();
+                $('#image_url_msg').hide();
+                var ImageBase64 = img_src_64.replace(img_extension + ",", "");
+            }
+            else {
+                $('#image_url_msg').hide();
+                $('#warn_msg').show();
+            }
+
+            if ($('#warn_msg').is(":hidden")) {
+                
+                var JsonImage = JSON.stringify({ data: ImageBase64, flag : false });
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: JsonImage,
+                    url: "/Home/DocumentVerification",
+                    success: function (data) {
+                        if (data.Error == "") {
+                            if (data.Contract_Date == "") {
+                                $('#contract_date_row').hide();
+                            }
+                            else {
+                                $('#contract_date_row').show();
+                                $('#contract_date_content').html(data.Contract_Date);
+                            }
+                            if (data.Vendor_Name == "") {
+                                $('#vendor_name_row').hide();
+                            }
+                            else {
+                                $('#vendor_name_row').show();
+                                $('#vendor_name_content').html(data.Vendor_Name);
+                            }
+                            if (data.Client_Name == "") {
+                                $('#client_name_row').hide();
+                            }
+                            else {
+                                $('#client_name_row').show();
+                                $('#client_name_content').html(data.Client_Name);
+                            }
+                            if (data.Service_Description == "") {
+                                $('#service_description_row').hide();
+                            }
+                            else {
+                                $('#service_description_row').show();
+                                $('#service_description_content').html(data.Service_Description);
+                            }
+                            if (data.Contract_Value == "") {
+                                $('#contract_value_row').hide();
+                            }
+                            else {
+                                $('#contract_value_row').show();
+                                $('#contract_value_content').html(data.Contract_Value);
+                            }
+                            if (data.End_Date == "") {
+                                $('#end_date_row').hide();
+                            }
+                            else {
+                                $('#end_date_row').show();
+                                $('#end_date_content').html(data.End_Date);
+                            }
+                            if (data.Penalty_Value == "") {
+                                $('#penalty_value_row').hide();
+                            }
+                            else {
+                                $('#penalty_value_row').show();
+                                $('#penalty_value_content').html(data.Penalty_Value);
+                            }
+                            if (data.Jurisdiction_Place == "") {
+                                $('#jurisdiction_place_row').hide();
+                            }
+                            else {
+                                $('#jurisdiction_place_row').show();
+                                $('#jurisdiction_place_content').html(data.Jurisdiction_Place);
+                            }
+                            if (data.Vendor_Email == "") {
+                                $('#vendor_email_row').hide();
+                            }
+                            else {
+                                $('#vendor_email_row').show();
+                                $('#vendor_email_content').html(data.Vendor_Email);
+                            }
+                            if (data.Vendor_Phone == "") {
+                                $('#vendor_phone_row').hide();
+                            }
+                            else {
+                                $('#vendor_phone_row').show();
+                                $('#vendor_phone_content').html(data.Vendor_Phone);
+                            }
+                            if (data.Client_Email == "") {
+                                $('#client_email_row').hide();
+                            }
+                            else {
+                                $('#client_email_row').show();
+                                $('#client_email_content').html(data.Client_Email);
+                            }
+                            if (data.Client_Phone == "") {
+                                $('#client_phone_row').hide();
+                            }
+                            else {
+                                $('#client_phone_row').show();
+                                $('#client_phone_content').html(data.Client_Phone);
+                            }
+                           
+                           
+                            $('#local_output').show();
+
+                            $('#open_image_trigger').button('reset');
+                        }
+                        else {
+                            $('#local_output').html("Result: " + data.Error);
+                            $('#open_image_trigger').button('reset');
+                        }
+                    }
+                });
+            }
+            else {
+                $('#image_url_msg').hide();
+            }
+        };
+
+
+        //Image URL
+        $('#image_submit').click(function () {
+
+            $('#local_output').hide("");
+            var image_url = $('#image_url').val();
+            if (image_url == "") {
+                $('#image_url_msg').show();
+                $('#warn_msg').hide();
+            }
+            else {
+                $('#image_submit').button('loading');
+                $('#image_url_msg').hide();
+                $('#local_img').attr('src', image_url);
+
+                var JsonImage = JSON.stringify({ data: image_url, flag: true });
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: JsonImage,
+                    url: "/Home/DocumentVerification",
+                    success: function (data) {
+                        console.log(data);
+                        if (data.Error == "") {
+                            if (data.Contract_Date == "") {
+                                $('#contract_date_row').hide();
+                            }
+                            else {
+                                $('#contract_date_row').show();
+                                $('#contract_date_content').html(data.Contract_Date);
+                            }
+                            if (data.Vendor_Name == "") {
+                                $('#vendor_name_row').hide();
+                            }
+                            else {
+                                $('#vendor_name_row').show();
+                                $('#vendor_name_content').html(data.Vendor_Name);
+                            }
+                            if (data.Client_Name == "") {
+                                $('#client_name_row').hide();
+                            }
+                            else {
+                                $('#client_name_row').show();
+                                $('#client_name_content').html(data.Client_Name);
+                            }
+                            if (data.Service_Description == "") {
+                                $('#service_description_row').hide();
+                            }
+                            else {
+                                $('#service_description_row').show();
+                                $('#service_description_content').html(data.Service_Description);
+                            }
+                            if (data.Contract_Value == "") {
+                                $('#contract_value_row').hide();
+                            }
+                            else {
+                                $('#contract_value_row').show();
+                                $('#contract_value_content').html(data.Contract_Value);
+                            }
+                            if (data.End_Date == "") {
+                                $('#end_date_row').hide();
+                            }
+                            else {
+                                $('#end_date_row').show();
+                                $('#end_date_content').html(data.End_Date);
+                            }
+                            if (data.Penalty_Value == "") {
+                                $('#penalty_value_row').hide();
+                            }
+                            else {
+                                $('#penalty_value_row').show();
+                                $('#penalty_value_content').html(data.Penalty_Value);
+                            }
+                            if (data.Jurisdiction_Place == "") {
+                                $('#jurisdiction_place_row').hide();
+                            }
+                            else {
+                                $('#jurisdiction_place_row').show();
+                                $('#jurisdiction_place_content').html(data.Jurisdiction_Place);
+                            }
+                            if (data.Vendor_Email == "") {
+                                $('#vendor_email_row').hide();
+                            }
+                            else {
+                                $('#vendor_email_row').show();
+                                $('#vendor_email_content').html(data.Vendor_Email);
+                            }
+                            if (data.Vendor_Phone == "") {
+                                $('#vendor_phone_row').hide();
+                            }
+                            else {
+                                $('#vendor_phone_row').show();
+                                $('#vendor_phone_content').html(data.Vendor_Phone);
+                            }
+                            if (data.Client_Email == "") {
+                                $('#client_email_row').hide();
+                            }
+                            else {
+                                $('#client_email_row').show();
+                                $('#client_email_content').html(data.Client_Email);
+                            }
+                            if (data.Client_Phone == "") {
+                                $('#client_phone_row').hide();
+                            }
+                            else {
+                                $('#client_phone_row').show();
+                                $('#client_phone_content').html(data.Client_Phone);
+                            }
+
+
+                            $('#local_output').show();
+                            $('#image_submit').button('reset');
+                        }
+                        else {
+                            $('#local_output').html("Result: " + data.Error);
+                            $('#image_submit').button('reset');
+                        }
+                    }
+                });
+            }
+        });
+
+        function imageopen() {
+            $('#open_image_file').trigger('click');
+        }
+
+    </script>
+</body>
+</html>

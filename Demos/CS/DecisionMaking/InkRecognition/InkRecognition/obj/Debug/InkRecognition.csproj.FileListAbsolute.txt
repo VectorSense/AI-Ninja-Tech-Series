@@ -1,0 +1,10 @@
+F:\Ms WorkShop\InkRecognition\InkRecognition\bin\Debug\InkRecognition.exe.config
+F:\Ms WorkShop\InkRecognition\InkRecognition\bin\Debug\InkRecognition.exe
+F:\Ms WorkShop\InkRecognition\InkRecognition\bin\Debug\InkRecognition.pdb
+F:\Ms WorkShop\InkRecognition\InkRecognition\bin\Debug\Newtonsoft.Json.dll
+F:\Ms WorkShop\InkRecognition\InkRecognition\bin\Debug\Newtonsoft.Json.xml
+F:\Ms WorkShop\InkRecognition\InkRecognition\obj\Debug\InkRecognition.csprojAssemblyReference.cache
+F:\Ms WorkShop\InkRecognition\InkRecognition\obj\Debug\InkRecognition.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\InkRecognition\InkRecognition\obj\Debug\InkRecognition.csproj.CopyComplete
+F:\Ms WorkShop\InkRecognition\InkRecognition\obj\Debug\InkRecognition.exe
+F:\Ms WorkShop\InkRecognition\InkRecognition\obj\Debug\InkRecognition.pdb

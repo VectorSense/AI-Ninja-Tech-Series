@@ -1,0 +1,62 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+
+  
+    {
+      "type": "TextBlock",
+      "text": "Daily Work Status",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please enter your Employee ID",
+      "size": "small",
+      "wrap": true
+
+    },
+    {
+      "type": "Input.Text",
+      "placeholder": "Employee ID",
+      "style": "text",
+      "maxLength": 0,
+      "id": "id_WorkStatus"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please mention briefly about your Work Status.",
+      "size": "small",
+      "wrap": true
+
+    },
+
+    {
+      "type": "Input.Text",
+      "placeholder": "Comments",
+      "style": "text",
+      "isMultiline": true,
+      "maxLength": 0,
+      "id": "data_WorkStatus"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "id": "submit_WorkStatus"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "data": {
+        "id": "cancel_Workstatus"
+      }
+    }
+  ]
+}
+
