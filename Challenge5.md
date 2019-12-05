@@ -324,4 +324,4 @@ public async Task&lt;JsonResult&gt; DocumentVerification(string data)
 <li>Error page if you select a wrong file type</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Model1_output/output_8.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h3>Congratulations! You have successfully completed Challenge 5</h3>
-<h3>The next session is <a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/blob/master/Challenge6.md">Challenge 6</a></h3>
+<h3>The next session is <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenge6.md">Challenge 6</a></h3>

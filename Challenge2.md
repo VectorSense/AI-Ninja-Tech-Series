@@ -618,4 +618,4 @@ public ActionResult gesture_management()
 <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/11.jpg" alt="image" style="max-width: 100%;">&nbsp;
 </strong>
 <h3>Congratulations! You have successfully completed Challenge 2</h3>
-<h3>The next session is<a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/blob/master/Challenge3.md"> Challenge 3</a></h3>
+<h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenge3.md"> Challenge 3</a></h3>

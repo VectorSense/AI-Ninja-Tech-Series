@@ -698,4 +698,4 @@ public static List&lt;audit_log&gt; Admin_AuditLogShow()
 <p>Now you can run and check the Audit Log outputs</p>
     <img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/auditlog.JPG" alt="image" style="max-width: 100%;">
 <h3>Congratulations! You have successfully completed Challenge 3</h3>
-<h3>The next session is<a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/blob/master/Challenge4.md"> Challenge 4</a></h3>
+<h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenge4.md"> Challenge 4</a></h3>

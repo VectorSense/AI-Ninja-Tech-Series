@@ -35,7 +35,7 @@
     <p style="margin: 10px 0 15px 0;">You can sign up either with your Face Image or User Name and Password. Please be assured we will not store your Facial Image in our database and it is only stored in Azure Face API as a template. Azure provides no way to regenerate original images from face templates and its is GDPR Complaint too.</p>
     <p style="margin: 10px 0 15px 0;">Soon after this session, we will delete all the Facial Template data from Azure Accounts.</p>
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Sign Up Process</h2>
-      <p style="margin: 10px 0 15px 0;">Click <a href="https://jumpstartninja.com/PartnerTechSeries/WIPRO/AI/index.php">here</a> to navigate to Infrastructure Provisioning Site, Click on Register here.</p>
+      <p style="margin: 10px 0 15px 0;">Click <a href="#">here</a> to navigate to Infrastructure Provisioning Site, Click on Register here.</p>
     <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge0/challenge0_1.jpg" width="70%">
     <p style="margin: 10px 0 15px 0;">You can Sign-up either using your Face or Credentials.</p>
     <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge0/challenge0_2.jpg" width="70%">
@@ -54,7 +54,7 @@
     <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge0/challenge0_7.jpg" width="70%">
     <h2 style="padding-bottom: 10px;font-size: 26px;font-weight: 700;">Check your Infrastructure Detail</h2>
      <p style="margin: 10px 0 15px 0;">Please verify your Infrastructure components before proceeding to other challenges. Have a great Learning experience.</p>
-     <h3>To start with Challenge 1 <a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/blob/master/Challenge1.md"> Click here</a></h3>
+     <h3>To start with Challenge 1 <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenge1.md"> Click here</a></h3>
 </div>
 </body>
 </html>
