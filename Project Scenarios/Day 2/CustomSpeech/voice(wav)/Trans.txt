@@ -1,0 +1,4 @@
+Line1.wav	We have got a new project from Tung Shin hospital in Malaysia 
+Line2.wav	The code name of the project is MedWurth
+Line3.wav	Ilangovan and Nedunchezhian Identified as onsite team members from JumpStartNinja Chennai
+Line4.wav	Doctor Ivan Shew Yee Siang will be the SPOC from Tung Sign Hospital

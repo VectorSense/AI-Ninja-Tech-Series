@@ -1,0 +1,992 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.CognitiveServices.Personalizer</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.ApiKeyServiceClientCredentials">
+            <summary>
+            Allows authentication to the API using a basic apiKey mechanism
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.ApiKeyServiceClientCredentials.#ctor(System.String)">
+            <summary>
+            Creates a new instance of the ApiKeyServiceClientCredentials class
+            </summary>
+            <param name="subscriptionKey">The subscription key to authenticate and authorize as</param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.ApiKeyServiceClientCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>
+            Add the Basic Authentication Header to each outgoing request
+            </summary>
+            <param name="request">The outgoing request</param>
+            <param name="cancellationToken">A token to cancel the operation</param>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient">
+            <summary>
+            Personalizer Service is an Azure Cognitive Service that makes it easy
+            to target content and experiences without complex pre-analysis or
+            cleanup of past data. Given a context and featurized content, the
+            Personalizer Service returns your content in a ranked list. As rewards
+            are sent in response to the ranked list, the reinforcement learning
+            algorithm will improve the model and improve performance of future rank
+            calls.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.Endpoint">
+            <summary>
+            Supported Cognitive Services endpoint.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.Credentials">
+            <summary>
+            Subscription credentials which uniquely identify client subscription.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.Events">
+            <summary>
+            Gets the IEvents.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(System.Net.Http.HttpClient,System.Boolean)">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='httpClient'>
+            HttpClient to be used
+            </param>
+            <param name='disposeHttpClient'>
+            True: will dispose the provided httpClient on calling PersonalizerClient.Dispose(). False: will not dispose provided httpClient</param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Subscription credentials which uniquely identify client subscription.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClient,System.Boolean)">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Subscription credentials which uniquely identify client subscription.
+            </param>
+            <param name='httpClient'>
+            HttpClient to be used
+            </param>
+            <param name='disposeHttpClient'>
+            True: will dispose the provided httpClient on calling PersonalizerClient.Dispose(). False: will not dispose provided httpClient</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the PersonalizerClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Subscription credentials which uniquely identify client subscription.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient.RankWithHttpMessagesAsync(Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            A Personalizer rank request.
+            </summary>
+            <param name='rankRequest'>
+            A Personalizer request.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions">
+            <summary>
+            Extension methods for Events.
+            </summary>
+            <summary>
+            Extension methods for PersonalizerClient.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.Reward(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='client'>
+            The PersonalizerClient for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.Reward(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,System.String,System.Double)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='client'>
+            The PersonalizerClient for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward to be assigned to an action. Value must be
+            between -1 and 1 inclusive.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.RewardAsync(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest,System.Threading.CancellationToken)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='client'>
+            The PersonalizerClient for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.RewardAsync(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,System.String,System.Double,System.Threading.CancellationToken)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='client'>
+            The PersonalizerClient for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward to be assigned to an action. Value must be
+            between -1 and 1 inclusive.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.Rank(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest)">
+            <summary>
+            A Personalizer rank request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='rankRequest'>
+            A Personalizer request.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.RankAsync(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest,System.Threading.CancellationToken)">
+            <summary>
+            A Personalizer rank request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='rankRequest'>
+            A Personalizer request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClientExtensions.RankWithHttpMessages(Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient,Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})">
+            <summary>
+            A Personalizer rank request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='rankRequest'>
+            A Personalizer request.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Events">
+            <summary>
+            Events operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Events.#ctor(Microsoft.Azure.CognitiveServices.Personalizer.PersonalizerClient)">
+            <summary>
+            Initializes a new instance of the Events class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Events.Client">
+            <summary>
+            Gets a reference to the PersonalizerClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Events.RewardWithHttpMessagesAsync(System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.HttpOperationException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Events.ActivateWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Report that the specified event was actually displayed to the user and a
+            reward should be expected for it.
+            </summary>
+            <param name='eventId'>
+            The event ID this activation applies to.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.HttpOperationException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions">
+            <summary>
+            Extension methods for Events.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.Reward(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.RewardAsync(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest,System.Threading.CancellationToken)">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.RewardWithHttpMessages(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})">
+            <summary>
+            Report reward to allocate to the top ranked action for the specified event.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.Activate(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String)">
+            <summary>
+            Report that the specified event was actually displayed to the user and a
+            reward should be expected for it.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event ID this activation applies to.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.ActivateAsync(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Report that the specified event was actually displayed to the user and a
+            reward should be expected for it.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event ID this activation applies to.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.EventsExtensions.ActivateWithHttpMessages(Microsoft.Azure.CognitiveServices.Personalizer.IEvents,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}})">
+            <summary>
+            Report that the specified event was actually displayed to the user and a
+            reward should be expected for it.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='eventId'>
+            The event ID this activation applies to.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.IEvents">
+            <summary>
+            Events operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.IEvents.RewardWithHttpMessagesAsync(System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Report reward to allocate to the top ranked action for the
+            specified event.
+            </summary>
+            <param name='eventId'>
+            The event id this reward applies to.
+            </param>
+            <param name='reward'>
+            The reward should be a floating point number.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.HttpOperationException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.IEvents.ActivateWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Report that the specified event was actually displayed to the user
+            and a reward should be expected for it.
+            </summary>
+            <param name='eventId'>
+            The event ID this activation applies to.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.HttpOperationException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient">
+            <summary>
+            Personalizer Service is an Azure Cognitive Service that makes it easy
+            to target content and experiences without complex pre-analysis or
+            cleanup of past data. Given a context and featurized content, the
+            Personalizer Service returns your content in a ranked list. As rewards
+            are sent in response to the ranked list, the reinforcement learning
+            algorithm will improve the model and improve performance of future rank
+            calls.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.SerializationSettings">
+            <summary>
+            The base URI of the service.
+            </summary>
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.Endpoint">
+            <summary>
+            Supported Cognitive Services endpoint.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.Credentials">
+            <summary>
+            Subscription credentials which uniquely identify client
+            subscription.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.Events">
+            <summary>
+            Gets the IEvents.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.IPersonalizerClient.RankWithHttpMessagesAsync(Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            A Personalizer rank request.
+            </summary>
+            <param name='rankRequest'>
+            A Personalizer request.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorCode">
+            <summary>
+            Defines values for ErrorCode.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorCode.BadRequest">
+            <summary>
+            Request could not be understood by the server.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorCode.ResourceNotFound">
+            <summary>
+            Requested resource does not exist on the server.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorCode.InternalServerError">
+            <summary>
+            A generic error has occurred on the server.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponse">
+            <summary>
+            Used to return an error to the client
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponse.#ctor">
+            <summary>
+            Initializes a new instance of the ErrorResponse class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponse.#ctor(Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError)">
+            <summary>
+            Initializes a new instance of the ErrorResponse class.
+            </summary>
+            <param name="error">The error object.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponse.Error">
+            <summary>
+            Gets or sets the error object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponse.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException">
+            <summary>
+            Exception thrown for an invalid response with ErrorResponse
+            information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.Request">
+            <summary>
+            Gets information about the associated HTTP request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.Response">
+            <summary>
+            Gets information about the associated HTTP response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.Body">
+            <summary>
+            Gets or sets the body object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.#ctor">
+            <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
+            <param name="message">The exception message.</param>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.ErrorResponseException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
+            <param name="message">The exception message.</param>
+            <param name="innerException">Inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError">
+            <summary>
+            An object containing more specific information than the parent object
+            about the error.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError.#ctor">
+            <summary>
+            Initializes a new instance of the InternalError class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError.#ctor(System.String,Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError)">
+            <summary>
+            Initializes a new instance of the InternalError class.
+            </summary>
+            <param name="code">Detailed error code.</param>
+            <param name="innererror">The error object.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError.Code">
+            <summary>
+            Gets or sets detailed error code.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError.Innererror">
+            <summary>
+            Gets or sets the error object.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError">
+            <summary>
+            The error object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.#ctor">
+            <summary>
+            Initializes a new instance of the PersonalizerError class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError},Microsoft.Azure.CognitiveServices.Personalizer.Models.InternalError)">
+            <summary>
+            Initializes a new instance of the PersonalizerError class.
+            </summary>
+            <param name="code">High level error code. Possible values include:
+            'BadRequest', 'ResourceNotFound', 'InternalServerError'</param>
+            <param name="message">A message explaining the error reported by
+            the service.</param>
+            <param name="target">Error source element.</param>
+            <param name="details">An array of details about specific errors
+            that led to this reported error.</param>
+            <param name="innerError">Finer error details.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.Code">
+            <summary>
+            Gets or sets high level error code. Possible values include:
+            'BadRequest', 'ResourceNotFound', 'InternalServerError'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.Message">
+            <summary>
+            Gets or sets a message explaining the error reported by the
+            service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.Target">
+            <summary>
+            Gets or sets error source element.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.Details">
+            <summary>
+            Gets or sets an array of details about specific errors that led to
+            this reported error.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.InnerError">
+            <summary>
+            Gets or sets finer error details.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.PersonalizerError.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction">
+            <summary>
+            An action with it's associated features used for ranking.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction.#ctor">
+            <summary>
+            Initializes a new instance of the RankableAction class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction.#ctor(System.String,System.Collections.Generic.IList{System.Object})">
+            <summary>
+            Initializes a new instance of the RankableAction class.
+            </summary>
+            <param name="id">Id of the action.</param>
+            <param name="features">List of dictionaries containing
+            features.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction.Id">
+            <summary>
+            Gets or sets id of the action.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction.Features">
+            <summary>
+            Gets or sets list of dictionaries containing features.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction">
+            <summary>
+            A ranked action with its resulting probability.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction.#ctor">
+            <summary>
+            Initializes a new instance of the RankedAction class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction.#ctor(System.String,System.Nullable{System.Double})">
+            <summary>
+            Initializes a new instance of the RankedAction class.
+            </summary>
+            <param name="id">Id of the action</param>
+            <param name="probability">Probability of the action</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction.Id">
+            <summary>
+            Gets id of the action
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction.Probability">
+            <summary>
+            Gets probability of the action
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest">
+            <summary>
+            Request a set of actions to be ranked by the Personalizer service.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.#ctor">
+            <summary>
+            Initializes a new instance of the RankRequest class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.#ctor(System.Collections.Generic.IList{Microsoft.Azure.CognitiveServices.Personalizer.Models.RankableAction},System.Collections.Generic.IList{System.Object},System.Collections.Generic.IList{System.String},System.String,System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of the RankRequest class.
+            </summary>
+            <param name="actions">The set of actions the Personalizer service
+            can pick from.
+            The set should not contain more than 50 actions.
+            The order of the actions does not affect the rank result but the
+            order
+            should match the sequence your application would have used to
+            display them.</param>
+            <param name="contextFeatures">Features of the context used for
+            Personalizer as a
+            dictionary of dictionaries. This depends on the application, and
+            typically includes features about the current user, their
+            device, profile information, data about time and date, etc.</param>
+            <param name="excludedActions">The set of action ids to exclude from
+            ranking.</param>
+            <param name="eventId">Optionally pass an eventId that uniquely
+            identifies this Rank event.
+            If null, the service generates a unique eventId. The eventId will
+            be used for
+            associating this request with its reward, as well as seeding the
+            pseudo-random
+            generator when making a Personalizer call.</param>
+            <param name="deferActivation">Send false if the user will see the
+            rank results, therefore
+            Personalizer will expect a Reward call, otherwise it will assign
+            the default
+            Reward to the event. Send true if it is possible the user will not
+            see the
+            rank results, because the page is rendering later, or the Rank
+            results may be
+            overridden by code further downstream.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.ContextFeatures">
+            <summary>
+            Gets or sets features of the context used for Personalizer as a
+            dictionary of dictionaries. This depends on the application, and
+            typically includes features about the current user, their
+            device, profile information, data about time and date, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.Actions">
+            <summary>
+            Gets or sets the set of actions the Personalizer service can pick
+            from.
+            The set should not contain more than 50 actions.
+            The order of the actions does not affect the rank result but the
+            order
+            should match the sequence your application would have used to
+            display them.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.ExcludedActions">
+            <summary>
+            Gets or sets the set of action ids to exclude from ranking.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.EventId">
+            <summary>
+            Gets or sets optionally pass an eventId that uniquely identifies
+            this Rank event.
+            If null, the service generates a unique eventId. The eventId will
+            be used for
+            associating this request with its reward, as well as seeding the
+            pseudo-random
+            generator when making a Personalizer call.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.DeferActivation">
+            <summary>
+            Gets or sets send false if the user will see the rank results,
+            therefore
+            Personalizer will expect a Reward call, otherwise it will assign
+            the default
+            Reward to the event. Send true if it is possible the user will not
+            see the
+            rank results, because the page is rendering later, or the Rank
+            results may be
+            overridden by code further downstream.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankRequest.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse">
+            <summary>
+            A resulting ordered list of actions that result from a rank request.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.#ctor">
+            <summary>
+            Initializes a new instance of the RankResponse class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.#ctor(System.Collections.Generic.IList{Microsoft.Azure.CognitiveServices.Personalizer.Models.RankedAction},System.String,System.String)">
+            <summary>
+            Initializes a new instance of the RankResponse class.
+            </summary>
+            <param name="ranking">The calculated ranking for the current
+            request.</param>
+            <param name="eventId">The eventId for the round trip from request
+            to response.</param>
+            <param name="rewardActionId">The action chosen by the Personalizer
+            service. This is the action for which to report the reward. This
+            might not be the
+            first found in 'ranking' if an action in the request in first
+            position was part of the excluded ids.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.Ranking">
+            <summary>
+            Gets the calculated ranking for the current request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.EventId">
+            <summary>
+            Gets the eventId for the round trip from request to response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.RewardActionId">
+            <summary>
+            Gets the action chosen by the Personalizer service. This is the
+            action for which to report the reward. This might not be the
+            first found in 'ranking' if an action in the request in first
+            position was part of the excluded ids.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RankResponse.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest">
+            <summary>
+            Reward given to a rank response.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest.#ctor">
+            <summary>
+            Initializes a new instance of the RewardRequest class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the RewardRequest class.
+            </summary>
+            <param name="value">Reward to be assigned to an action. Value
+            should be between -1 and 1 inclusive.</param>
+        </member>
+        <member name="P:Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest.Value">
+            <summary>
+            Gets or sets reward to be assigned to an action. Value should be
+            between -1 and 1 inclusive.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.CognitiveServices.Personalizer.Models.RewardRequest.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+    </members>
+</doc>

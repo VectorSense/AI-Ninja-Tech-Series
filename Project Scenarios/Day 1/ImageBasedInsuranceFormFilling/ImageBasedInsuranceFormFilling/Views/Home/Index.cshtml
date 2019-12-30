@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Image Based Insurance Form Filling</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        #check_id {
+            margin-left: 25%;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        input[type=text], input[type=password] {
+            height: 40px !important;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .err_msg {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+                    <h2 style="color: #0477d3;margin-bottom: 40px;font-size: 32px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Image Based Insurance Form Filling</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="index"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <div class="col-md-2 col-sm-12 col-lg-2 col-xs-12"></div>
+        <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <form style="padding:60px;">
+                <label>Name</label>
+                <input type="text" class="form-control" name="user_name" id="user_name" />
+                <label>Insurance No.</label>
+                <input type="text" class="form-control" name="insurance_no" id="insurance_no" />
+                <label>Image File</label>
+                <input type="file" class="form-control" name="image_path" id="image_path" />
+            </form>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+            <form style="padding:60px;">
+                <label>Date of Birth</label>
+                <input type="text" class="form-control" name="dob" id="dob" />
+                <label>Insurance Premium</label>
+                <input type="text" class="form-control" name="insurance_premium" id="insurance_premium" />
+                <div class="pull-right">
+                    <input class="btn btn-primary" type="button" data-loading-text="Loading.." id="process_btn" value="Process">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 text-center">
+            <p class="err_msg" id="err_msg"></p>
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top: 380px;">
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <!--  <a href="#" class="scrollTopButton">
+               <span class="button-square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+               </a> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <div class="modal fade" id="alert_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <center>
+                        <h4 id="modal_error_msg" style="color:black;"></h4>
+                        <br><a href="/Home/Speaker_register"><button class="btn-md btn-primary" id="refresh_btn">Okay</button></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+    <script type="text/javascript">
+        var base64string;
+        $(function () {
+            $(":file").change(function () {
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+        function imageIsLoaded(e) {
+            var img_src_64 = e.target.result;
+            var img_64_array = img_src_64.split(',');
+            var img_extension = img_64_array[0];
+            base64string = img_64_array[1];
+            if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                $('#err_msg').html("");
+            }
+            else {
+                $('#err_msg').html("Invalid Format");
+                $('#image_path').val("");
+            }
+
+        };
+
+
+        $('#process_btn').click(function () {
+            if (base64string == undefined) {
+                $('#err_msg').html("Kindly Please upload Image file");
+            }
+            else {
+                $('#user_name').val("");
+                $('#insurance_no').val("");
+                $('#dob').val("");
+                $('#insurance_premium').val("");
+
+                var get_data = $(this).data('loading-text');
+                
+                $('#err_msg').html("");
+                $("#process_btn").html(get_data);
+                $('#process_btn').button('loading');
+                
+                var JsonVoice = JSON.stringify({ data: base64string});
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json",
+                        datatype: "json",
+                        data: JsonVoice,
+                        url: "/Home/InsuranceFormFill",
+                        success: function (data) {
+                            console.log(data);
+                            $('#process_btn').html('Process');
+                            //$('#process_btn').attr('disabled', false);
+                            $('#process_btn').button('reset');
+                            $('#user_name').val(data.Name);
+                            if (data.Number != null) {
+                                var trimnumber = data.Number.replace(" ", "");
+                                $('#insurance_no').val(trimnumber);
+                            }
+                            $('#dob').val(data.DOB);
+                            $('#insurance_premium').val(data.Premium);
+                            
+
+                        }
+                    });
+            }
+
+        });
+    </script>
+</body>
+</html>

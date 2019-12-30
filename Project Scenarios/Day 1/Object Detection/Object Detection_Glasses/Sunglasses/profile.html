@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://web.skype.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!--<base href="https://secure.skypeassets.com/wcss/8-52-0-138/">--><base href=".">
+    
+    
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    
+    <title>(1) Skype</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    
+
+    <!-- Privacy headers
+    ================================================== -->
+    <meta name="referrer" content="strict-origin">
+
+    
+    <!-- Enable fake "app" mode for bookmarks of the website on iOS home screens
+    ================================================== -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Force IE into Edge mode if available
+    ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Force disable Google Translate, it causes crashes with direct DOM manipulation
+    ================================================== -->
+    <meta name="google" content="notranslate">
+    
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="./profile_files/skype.css">
+
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="https://secure.skypeassets.com/wcss/8-52-0-138/images/favicons/favicon.ico">
+    <link rel="icon" href="https://secure.skypeassets.com/wcss/8-52-0-138/images/favicons/favicon-unread.ico" type="image/vnd.microsoft.icon" id="favicon">
+    <link rel="preload" href="https://secure.skypeassets.com/wcss/8-52-0-138/images/favicons/favicon-unread.ico" as="image" id="favicon-unread">
+    <meta name="theme-color" content="#ffffff">
+    
+
+    <!-- Misc Scripts
+    ================================================== -->
+
+<style type="text/css">.reactxp-ignore-pointer-events  * { pointer-events: auto; }</style><style type="text/css">*, *:before, *:after { box-sizing: border-box; }</style><style type="text/css">
+.rx-activity {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.rx-activity .layer-1-translate,
+.rx-activity .layer-3-translate,
+.rx-activity .layer-5-translate,
+.rx-activity .layer-7-translate {
+  -webkit-transform: translate(50px, 50px);
+          transform: translate(50px, 50px);
+}
+.rx-activity .layer-2-translate,
+.rx-activity .layer-4-translate,
+.rx-activity .layer-6-translate,
+.rx-activity .layer-8-translate {
+  -webkit-transform: translate(0px, -40px);
+          transform: translate(0px, -40px);
+}
+.rx-activity .layer-2-content,
+.rx-activity .layer-4-content,
+.rx-activity .layer-6-content,
+.rx-activity .layer-8-content {
+  width: 100px;
+  height: 100px;
+}
+.rx-activity .layer-2-content .shape-0,
+.rx-activity .layer-4-content .shape-0,
+.rx-activity .layer-6-content .shape-0,
+.rx-activity .layer-8-content .shape-0 {
+  position: absolute;
+  left: -7.5px;
+  top: -7.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.rx-activity div {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.rx-activity .animation {
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.rx-activity .layer-1-rotate {
+  -webkit-animation-name: rx-activity-layer-1-rotate;
+          animation-name: rx-activity-layer-1-rotate;
+}
+.rx-activity .layer-2-scale {
+  -webkit-animation-name: rx-activity-layer-2-scale;
+          animation-name: rx-activity-layer-2-scale;
+}
+.rx-activity .layer-3-rotate {
+  -webkit-animation-name: rx-activity-layer-3-rotate;
+          animation-name: rx-activity-layer-3-rotate;
+}
+.rx-activity .layer-4-scale {
+  -webkit-animation-name: rx-activity-layer-4-scale;
+          animation-name: rx-activity-layer-4-scale;
+}
+.rx-activity .layer-5-rotate {
+  -webkit-animation-name: rx-activity-layer-5-rotate;
+          animation-name: rx-activity-layer-5-rotate;
+}
+.rx-activity .layer-6-scale {
+  -webkit-animation-name: rx-activity-layer-6-scale;
+          animation-name: rx-activity-layer-6-scale;
+}
+.rx-activity .layer-7-rotate {
+  -webkit-animation-name: rx-activity-layer-7-rotate;
+          animation-name: rx-activity-layer-7-rotate;
+}
+.rx-activity .layer-8-scale {
+  -webkit-animation-name: rx-activity-layer-8-scale;
+          animation-name: rx-activity-layer-8-scale;
+}
+.rx-activity .shape-0 {
+  background-color: white;
+}
+.rx-activity.hidden {
+  visibility: hidden;
+}
+.rx-activity-extra-small {
+  width: 16px;
+  height: 16px;
+}
+.rx-activity-extra-small .layer-1-translate,
+.rx-activity-extra-small .layer-3-translate,
+.rx-activity-extra-small .layer-5-translate,
+.rx-activity-extra-small .layer-7-translate {
+  -webkit-transform: translate(8px, 8px);
+          transform: translate(8px, 8px);
+}
+.rx-activity-extra-small .layer-2-translate,
+.rx-activity-extra-small .layer-4-translate,
+.rx-activity-extra-small .layer-6-translate,
+.rx-activity-extra-small .layer-8-translate {
+  -webkit-transform: translate(0px, -6.4px);
+          transform: translate(0px, -6.4px);
+}
+.rx-activity-extra-small .layer-2-content,
+.rx-activity-extra-small .layer-4-content,
+.rx-activity-extra-small .layer-6-content,
+.rx-activity-extra-small .layer-8-content {
+  width: 16px;
+  height: 16px;
+}
+.rx-activity-extra-small .layer-2-content .shape-0,
+.rx-activity-extra-small .layer-4-content .shape-0,
+.rx-activity-extra-small .layer-6-content .shape-0,
+.rx-activity-extra-small .layer-8-content .shape-0 {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+.rx-activity-small {
+  width: 20px;
+  height: 20px;
+}
+.rx-activity-small .layer-1-translate,
+.rx-activity-small .layer-3-translate,
+.rx-activity-small .layer-5-translate,
+.rx-activity-small .layer-7-translate {
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+}
+.rx-activity-small .layer-2-translate,
+.rx-activity-small .layer-4-translate,
+.rx-activity-small .layer-6-translate,
+.rx-activity-small .layer-8-translate {
+  -webkit-transform: translate(0px, -8px);
+          transform: translate(0px, -8px);
+}
+.rx-activity-small .layer-2-content,
+.rx-activity-small .layer-4-content,
+.rx-activity-small .layer-6-content,
+.rx-activity-small .layer-8-content {
+  width: 20px;
+  height: 20px;
+}
+.rx-activity-small .layer-2-content .shape-0,
+.rx-activity-small .layer-4-content .shape-0,
+.rx-activity-small .layer-6-content .shape-0,
+.rx-activity-small .layer-8-content .shape-0 {
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.rx-activity-medium {
+  width: 36px;
+  height: 36px;
+}
+.rx-activity-medium .layer-1-translate,
+.rx-activity-medium .layer-3-translate,
+.rx-activity-medium .layer-5-translate,
+.rx-activity-medium .layer-7-translate {
+  -webkit-transform: translate(18px, 18px);
+          transform: translate(18px, 18px);
+}
+.rx-activity-medium .layer-2-translate,
+.rx-activity-medium .layer-4-translate,
+.rx-activity-medium .layer-6-translate,
+.rx-activity-medium .layer-8-translate {
+  -webkit-transform: translate(0px, -14.4px);
+          transform: translate(0px, -14.4px);
+}
+.rx-activity-medium .layer-2-content,
+.rx-activity-medium .layer-4-content,
+.rx-activity-medium .layer-6-content,
+.rx-activity-medium .layer-8-content {
+  width: 36px;
+  height: 36px;
+}
+.rx-activity-medium .layer-2-content .shape-0,
+.rx-activity-medium .layer-4-content .shape-0,
+.rx-activity-medium .layer-6-content .shape-0,
+.rx-activity-medium .layer-8-content .shape-0 {
+  position: absolute;
+  left: -4.5px;
+  top: -4.5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+@-webkit-keyframes rx-activity-layer-1-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.2, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(1, 0.2, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-1-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(1, 0.2, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(1, 0.2, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-2-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  14.29% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  47.62% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  66.67% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-2-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  14.29% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  47.62% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  66.67% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-3-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.88, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.88, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-3-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.88, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.88, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-4-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  9.52% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  42.86% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  61.9% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-4-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  9.52% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  42.86% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  61.9% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-5-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.76, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.76, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-5-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.76, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.76, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-6-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  4.76% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  38.1% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  57.14% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-6-scale {
+  0% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  4.76% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  38.1% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  57.14% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+            animation-timing-function: cubic-bezier(0.17, 0, 0.83, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-7-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.65, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-7-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0.21, 0.25, 0.76);
+            animation-timing-function: cubic-bezier(0.65, 0.21, 0.25, 0.76);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes rx-activity-layer-8-scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  33.33% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 1, 1);
+  }
+  52.38% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 0.78, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 0.78, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0, 1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+@keyframes rx-activity-layer-8-scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+  33.33% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 1, 1);
+  }
+  52.38% {
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 0.78, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 0.78, 1);
+  }
+  72.62% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0, 1);
+            animation-timing-function: cubic-bezier(0.33, 0, 0, 1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+}
+</style><style type="text/css">
+    .rxCustomScroll .scrollViewport > * {
+        box-sizing: border-box;
+        display: block;
+    }
+    .rxCustomScroll .rail {
+        position: absolute;
+        border-radius: 4px;
+        opacity: 0;
+        background-color: transparent;
+        transition-delay: 0, 0;
+        transition-duration: .2s, .2s;
+        transition-property: background-color, opacity;
+        transition-timing-function: linear, linear;
+        display: none;
+        box-sizing: border-box;
+    }
+    .rxCustomScroll .rail:hover {
+        background-color: #EEE;
+        border-color: #EEE;
+        opacity: .9;
+        border-radius: 6px;
+    }
+    .rxCustomScroll .rail:hover .slider {
+        border-radius: 6px;
+    }
+    .rxCustomScroll .rail .slider {
+        position: absolute;
+        border-radius: 4px;
+        background: #555;
+        box-sizing: border-box;
+        border: 1px solid #555;
+    }
+    .rxCustomScroll:not(.neutraloverride) > .scrollViewportV > * {
+        margin-right: em(-17px) !important;
+    }
+    .rxCustomScroll .railV {
+        top: 0;
+        bottom: 0;
+        right: 3px;
+        width: 8px;
+    }
+    .rxCustomScroll .railV.railRTL {
+        right: auto;
+        left: 3px;
+    }
+    .rxCustomScroll .railV .slider {
+        top: 10px;
+        width: 8px;
+        min-height: 15px;
+    }
+    .rxCustomScroll .railV.railBoth {
+        bottom: 15px;
+    }
+    .rxCustomScroll .railH {
+        left: 0;
+        right: 0;
+        bottom: 3px;
+        height: 8px;
+    }
+    .rxCustomScroll .railH .slider {
+        left: 10px;
+        top: -1px;
+        height: 8px;
+        min-width: 15px;
+    }
+    .rxCustomScroll .railH.railBoth {
+        right: 15px;
+    }
+    .rxCustomScroll.active .rail {
+        display: block;
+    }
+    .rxCustomScroll:hover .rail {
+        opacity: .6;
+    }
+    .rxCustomScroll:hover .rail .slider {
+        background: #AAA;
+        border-color: #AAA;
+    }
+    .rxCustomScroll.rxCustomScrollH {
+        width: auto;
+    }
+    .rxCustomScroll.rxCustomScrollV {
+        width: 100%;
+    }
+    .rxCustomScroll.scrolling .rail {
+        background-color: #EEE;
+        border-color: #EEE;
+        opacity: .9;
+        border-radius: 6px;
+    }
+    .rxCustomScroll.scrolling .rail .slider {
+        border-radius: 6px;
+        background: #AAA;
+        border-color: #AAA;
+    }
+    .rxCustomScroll.scrolling .scrollViewport > * {
+        pointer-events: none !important;
+    }
+    .rxCustomScroll.scrolling .railV {
+        width: 12px;
+    }
+    .rxCustomScroll.scrolling .railV .slider {
+        width: 12px;
+    }
+    .rxCustomScroll.scrolling .railH {
+        height: 12px;
+    }
+    .rxCustomScroll.scrolling .railH .slider {
+        height: 12px;
+    }
+    .rxCustomScroll .railV:hover {
+        width: 12px;
+    }
+    .rxCustomScroll .railV:hover .slider {
+        width: 12px;
+    }
+    .rxCustomScroll .railH:hover {
+        height: 12px;
+    }
+    .rxCustomScroll .railH:hover .slider {
+        height: 12px;
+    }
+</style><style type="text/css">[data-text-as-pseudo-element]::before { content: attr(data-text-as-pseudo-element); } 
+[data-text-as-pseudo-element] { unicode-bidi: plaintext; }</style><style type="text/css">*:focus { outline: none; }</style></head>
+
+<body class="page page--basic">
+
+    
+    
+    
+    <input type="hidden" name="signInName" id="signInName" value="suneetha@jumpstartninja.com">
+    
+    
+    
+    
+    
+    
+
+    
+    <!-- Initial loading screen -->
+    
+    
+
+    <!-- Primary Page Layout
+    ================================================== -->
+    <div class="app-container"><div class="noFocusOutline" dir="ltr" style="width: 100%; height: 100%; display: flex; cursor: default;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 1px; width: 1px; background-color: rgba(0, 0, 0, 0); top: 356px; left: 553px;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgb(213, 217, 222); background-color: rgb(240, 244, 248); width: 322px;"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: scroll; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 100500px; top: 100500px; width: 1px; height: 1px;"></div></div><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: scroll; z-index: -1; visibility: hidden;"><div style="position: absolute; width: 150%; height: 150%;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; justify-content: space-between; padding-top: 8px; padding-bottom: 8px;"><button role="button" tabindex="0" aria-label="My info, Active" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0); border-color: transparent; text-align: left; border-width: 0px; margin-left: 8px; margin-right: 10px; width: 36px; height: 36px; cursor: pointer; padding: 0px; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 36px; height: 36px; justify-content: center;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; left: 0px; right: 0px; top: 0px; bottom: 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; background-color: rgb(229, 228, 232); width: 36px; height: 36px; border-radius: 18px; justify-content: center;"><div aria-hidden="true" data-text-as-pseudo-element="SJ" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(0, 120, 212); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; background-color: rgba(0, 0, 0, 0); cursor: inherit;"></div></div></div><div role="presentation" tabindex="-1" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; bottom: -1px; right: -1px; border-radius: 6.5px; border-color: rgb(240, 244, 248); border-style: solid; border-width: 2px; width: 13px; height: 13px; justify-content: center; background-color: rgb(77, 217, 101); cursor: pointer;"></div><div role="presentation" tabindex="-1" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; bottom: -1px; right: -1px; border-radius: 6.5px; border-color: rgb(240, 244, 248); border-style: solid; border-width: 2px; width: 13px; height: 13px; justify-content: center; background-color: rgba(0, 0, 0, 0);"></div></div></button><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: flex-start; align-self: stretch; justify-content: center; width: 210px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; width: 210px;"><button role="button" aria-label="Suneetha J" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="Suneetha J" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(37, 36, 35); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></button></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; padding-left: 8px; padding-right: 10px; justify-content: flex-end;"><button role="button" title="More" aria-label="More options" aria-haspopup="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; margin-left: 5px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; margin: 5px; cursor: inherit;"></div></button></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" aria-hidden="true" style="position: relative; display: none; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="tablist" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; align-self: stretch; justify-content: space-around; height: 50px; padding-bottom: 8px; padding-top: 2px; border-width: 0px 0px 1px; border-color: rgb(213, 217, 222); border-style: solid;"><button role="tab" title="Chats" tabindex="0" aria-label="Chats, 1 unread notification." aria-selected="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; width: 80px; padding-top: 2px; height: 50px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; width: 80px; height: 50px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(0, 120, 212); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="Chats" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(0, 120, 212); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; text-align: center; margin-top: 2px; align-self: stretch; cursor: inherit;"></div><div role="none" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: flex-end; height: 24px; width: 46px; top: 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; height: 20px; min-width: 20px; border-radius: 10px; background-color: rgb(244, 67, 54); padding-left: 4px; padding-right: 4px; width: 20px; border-color: rgb(240, 244, 248); border-width: 2px; border-style: solid;"><div data-text-as-pseudo-element="1" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; color: rgb(255, 255, 255); font-size: 10px; line-height: 10px; text-align: center; background-color: rgba(0, 0, 0, 0); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div></button><button role="tab" title="Calls" tabindex="-1" aria-label="Calls" aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; width: 80px; padding-top: 2px; height: 50px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; width: 80px; height: 50px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="Calls" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; opacity: 0.8; text-align: center; margin-top: 2px; align-self: stretch; cursor: inherit;"></div></div></button><button role="tab" title="Contacts" tabindex="-1" aria-label="Contacts" aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; width: 80px; padding-top: 2px; height: 50px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; width: 80px; height: 50px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="Contacts" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; opacity: 0.8; text-align: center; margin-top: 2px; align-self: stretch; cursor: inherit;"></div></div></div></button><button role="tab" title="Notifications" tabindex="-1" aria-label="Notifications, 1 new notification." aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; width: 80px; padding-top: 2px; height: 50px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; width: 80px; height: 50px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="Notifications" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; text-align: center; margin-top: 2px; align-self: stretch; cursor: inherit; opacity: 0.8;"></div><div role="none" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: flex-end; height: 24px; width: 46px; top: 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; height: 20px; min-width: 20px; border-radius: 10px; background-color: rgb(244, 67, 54); padding-left: 4px; padding-right: 4px; width: 20px; border-color: rgb(240, 244, 248); border-width: 2px; border-style: solid;"><div data-text-as-pseudo-element="1" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; color: rgb(255, 255, 255); font-size: 10px; line-height: 10px; text-align: center; background-color: rgba(0, 0, 0, 0); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div></button></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: space-between; padding: 10px; height: 44px;"><button role="button" aria-label="Sort menu, Recent chats" aria-haspopup="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0); border-color: transparent; text-align: left; border-width: 0px; margin-top: 2px; padding: 0px; cursor: pointer; border-style: solid;"><div data-text-as-pseudo-element="RECENT CHATS" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 10px; font-size: 10px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; margin-left: 4px; margin-top: 2px; cursor: inherit;"></div></button><button role="button" title="Chat" aria-label="New Chat" aria-haspopup="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; justify-content: center; border-radius: 0px; padding-left: 15px; padding-right: 15px; min-height: 30px; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px; opacity: 1; transform: scale(1) translateX(0px) translateY(0px);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 12px; font-size: 12px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; margin-right: 5px; cursor: inherit;"></div><div data-text-as-pseudo-element="Chat" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(43, 44, 51); cursor: inherit;"></div></div></div></button></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="group" tabindex="-1" aria-label="Conversations list" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" class="rxCustomScroll rxCustomScrollV" style="display: flex; flex: 1 1 0px; position: relative; overflow: hidden; box-sizing: border-box; align-self: stretch;"><div role="none" class="scrollViewport scrollViewportV" style="display: block; overflow: hidden scroll; flex-direction: column; transform: translateZ(0px); padding-right: 13px; margin-right: -30px; min-height: 0px; position: relative; flex-grow: 1; flex-shrink: 1;"><div role="none" style="flex-direction: column; flex-grow: 1; flex-shrink: 1; padding-left: 0px; padding-right: 0px;"><div role="none" style="will-change: padding-top, height, contents, scroll-position; height: 118px; overflow: hidden;"><div role="button" tabindex="0" id="rx-vlv-7" aria-label="Suneetha Chowdary, Recently active, chat, a photo, 2:58 PM, 1 new message, selected" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer; height: 59px; transition: transform 0.4s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; background-color: rgba(0, 0, 0, 0);"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: center; padding: 0px 15px 3px 8px; cursor: pointer; background-color: rgb(199, 237, 252); height: 59px;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 36px; height: 36px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 36px; height: 36px; border-radius: 18px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live%3Asuneetha.jsn?auth_key=-851313292&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div><div role="presentation" tabindex="-1" title="Recently active, Last seen 10m ago" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; bottom: -1px; right: -1px; border-radius: 6.5px; border-color: rgb(199, 237, 252); border-style: solid; border-width: 2px; width: 13px; height: 13px; justify-content: center; background-color: rgb(77, 217, 101); cursor: pointer;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 9px; font-size: 9px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: flex-start; align-self: stretch; justify-content: center; margin-left: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; align-self: stretch; padding-right: 6px;"><div data-text-as-pseudo-element="Suneetha Chowdary" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; margin-bottom: 0px; color: rgb(37, 36, 35); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 19px; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch; height: 22px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: nowrap; overflow-wrap: break-word; font-size: 15px; line-height: 22px; letter-spacing: -0.2px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; color: rgb(138, 141, 145); align-self: stretch; background-color: rgba(0, 0, 0, 0); font-weight: 400; cursor: inherit;"><div role="none" style="position: relative; display: inline-block; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: center; margin-bottom: -2px; width: 20px; height: 16px; line-height: normal;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 16px; font-size: 16px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px 4px 0px 0px; cursor: inherit;"></div></div>photo</div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-end; align-self: stretch; margin-left: 4px; margin-top: 4px;"><div data-text-as-pseudo-element="2:58 PM" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; margin-top: 6px; margin-bottom: 6px; cursor: inherit;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; height: 16px; min-width: 16px; border-radius: 8px; background-color: rgb(0, 120, 212); padding-left: 4px; padding-right: 4px; width: 16px; margin-left: 4px;"><div data-text-as-pseudo-element="1" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; color: rgb(255, 255, 255); font-size: 10px; line-height: 10px; text-align: center; background-color: rgba(0, 0, 0, 0); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-8" aria-label="Madhavi Jha, Recently active, chat, emoticon Hi., 2:44 PM, No new messages, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer; height: 59px; transition: transform 0.4s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; background-color: rgba(0, 0, 0, 0);"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: center; padding: 0px 15px 3px 8px; cursor: pointer; height: 59px;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 36px; height: 36px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 36px; height: 36px; border-radius: 18px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/madhavi.jha2013?auth_key=109303145&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div><div role="presentation" tabindex="-1" title="Recently active, Last seen 3m ago" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; bottom: -1px; right: -1px; border-radius: 6.5px; border-color: rgb(240, 244, 248); border-style: solid; border-width: 2px; width: 13px; height: 13px; justify-content: center; background-color: rgb(77, 217, 101); cursor: pointer;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 9px; font-size: 9px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: flex-start; align-self: stretch; justify-content: center; margin-left: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; align-self: stretch; padding-right: 6px;"><div data-text-as-pseudo-element="Madhavi Jha" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; margin-bottom: 0px; color: rgb(37, 36, 35); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; line-height: 19px; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch; height: 22px;"><div dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; line-height: 22px; letter-spacing: -0.2px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; color: rgb(138, 141, 145); align-self: stretch; background-color: rgba(0, 0, 0, 0); font-weight: 400; cursor: inherit;"><div role="none" style="position: relative; display: inline-block; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 20px; width: 20px; margin-bottom: -4px; margin-left: 2px; margin-right: 2px; line-height: normal;"><div dir="auto" style="position: absolute; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); user-select: text; cursor: text;">(wave)</div><div title="(wave)" style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; height: 20px; width: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://static-asm.secure.skypeassets.com/pes/v1/emoticons/hi/views/default_40_f?etag=v20&quot;); background-size: cover; border-style: none; display: flex;"></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-end; align-self: stretch; margin-left: 4px; margin-top: 4px;"><div data-text-as-pseudo-element="2:44 PM" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; margin-top: 6px; margin-bottom: 6px; cursor: inherit;"></div></div></div></div></div></div></div></div></div><div role="none" class="rail railV"><div role="none" class="slider"></div></div></div></div><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; top: 0px; left: 0px; right: 0px; height: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 5px; border-width: 1px 0px 0px; border-color: rgba(69, 72, 82, 0.2); opacity: 0; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));"></div></div></div></div></div></div><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; top: 0px; left: 0px; right: 0px; bottom: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; background-color: rgb(240, 244, 248);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; background: linear-gradient(270deg, rgb(0, 188, 242), rgb(0, 120, 212)) rgba(0, 0, 0, 0); top: 0px; left: 0px; right: 0px; bottom: 0px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch; height: 60px; justify-content: flex-end; padding-right: 5px;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; top: 0px; left: 0px; right: 40px; bottom: 0px;"><div class="inputGradient"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; cursor: pointer; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; height: 60px; padding-left: 12px; padding-right: 12px; background-color: rgba(0, 0, 0, 0);"><input type="text" value="" autocorrect="off" spellcheck="false" placeholder="Search Skype" size="1" aria-label="Search Skype" style="position: relative; display: flex; flex-direction: row; flex: 1 1 auto; overflow: hidden auto; align-items: stretch; border-width: 0px; font-size: 18px; background-color: rgba(0, 0, 0, 0); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; color: rgb(255, 255, 255); outline: none; resize: none;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; height: 30px;"><button role="button" title="Close search" aria-label="Close search" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 10px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; border-color: rgb(213, 217, 222); border-width: 0px 0px 1px; border-style: solid;"><div role="tablist" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; height: 40px;"><button role="tab" tabindex="0" aria-label="All" aria-selected="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; min-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: stretch; border-width: 0px 0px 2px; border-color: rgb(37, 36, 35); padding-top: 2px; justify-content: center; border-style: solid;"><div data-text-as-pseudo-element="All" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 14px; font-weight: bold; color: rgb(37, 36, 35); cursor: inherit;"></div></div></button><button role="tab" tabindex="-1" aria-label="People" aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; min-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: stretch; border-width: 0px 0px 2px; border-color: rgba(0, 0, 0, 0); padding-top: 2px; justify-content: center; border-style: solid;"><div data-text-as-pseudo-element="People" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 14px; color: rgb(138, 141, 145); cursor: inherit;"></div></div></button><button role="tab" tabindex="-1" aria-label="Messages" aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; min-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: stretch; border-width: 0px 0px 2px; border-color: rgba(0, 0, 0, 0); padding-top: 2px; justify-content: center; border-style: solid;"><div data-text-as-pseudo-element="Messages" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 14px; color: rgb(138, 141, 145); cursor: inherit;"></div></div></button><button role="tab" tabindex="-1" aria-label="Groups" aria-selected="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; min-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: stretch; border-width: 0px 0px 2px; border-color: rgba(0, 0, 0, 0); padding-top: 2px; justify-content: center; border-style: solid;"><div data-text-as-pseudo-element="Groups" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 14px; color: rgb(138, 141, 145); cursor: inherit;"></div></div></button></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; padding-left: 10px; padding-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; min-height: 60px; padding: 10px 25px;"><div data-text-as-pseudo-element="Quickly search for people, messages and groups." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; text-align: center; cursor: inherit;"></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="presentation" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" class="rxCustomScroll rxCustomScrollV neutraloverride active" style="display: flex; flex: 1 1 0px; position: relative; overflow: hidden; box-sizing: border-box; align-self: stretch;"><div role="none" class="scrollViewport scrollViewportV" style="display: block; overflow: hidden scroll; flex-direction: column; transform: translateZ(0px); padding-right: 13px; margin-right: -30px; min-height: 0px; position: relative; flex-grow: 1; flex-shrink: 1;"><div role="none" style="flex-direction: column; flex-grow: 1; flex-shrink: 1; height: 498px;"><div role="none" style="will-change: padding-top, height, contents, scroll-position; height: 498px; overflow: hidden;"><div role="group" tabindex="-1" aria-label="PEOPLE" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 402px; padding-top: 0px;"><div role="presentation" aria-hidden="true" id="rx-vlv-23" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; height: 40px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; padding: 14px 10px 12px; background-color: rgb(229, 228, 232);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center;"><div aria-hidden="true" data-text-as-pseudo-element="PEOPLE" dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div><div role="button" tabindex="0" id="rx-vlv-24" aria-label="Madhavi Jha, Recently active, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/madhavi.jha2013?auth_key=109303145&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div><div role="presentation" tabindex="-1" aria-hidden="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; bottom: -1px; right: -1px; border-radius: 7px; border-color: rgb(240, 244, 248); border-style: solid; border-width: 2px; width: 14px; height: 14px; justify-content: center; background-color: rgb(77, 217, 101); cursor: pointer;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 10px; font-size: 10px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Madhavi Jha</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-25" aria-label="Alagar, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; left: 0px; right: 0px; top: 0px; bottom: 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; background-color: rgb(229, 228, 232); width: 40px; height: 40px; border-radius: 20px; justify-content: center;"><div aria-hidden="true" data-text-as-pseudo-element="Al" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 14px; color: rgb(0, 120, 212); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; background-color: rgba(0, 0, 0, 0); cursor: inherit;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Alagar</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-26" aria-label="Anju Rao, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/anjuvasantharao/public?returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Anju Rao</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-27" aria-label="Anudeepakumar Murugesan, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/anudeep.jsn/public?returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Anudeepakumar Murugesan</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-28" aria-label="bala barapaneni, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; left: 0px; right: 0px; top: 0px; bottom: 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; background-color: rgb(229, 228, 232); width: 40px; height: 40px; border-radius: 20px; justify-content: center;"><div aria-hidden="true" data-text-as-pseudo-element="bb" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 14px; color: rgb(0, 120, 212); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; background-color: rgba(0, 0, 0, 0); cursor: inherit;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">bala barapaneni</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-29" aria-label="Barath Sekar, " style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" draggable="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; background-color: rgba(0, 0, 0, 0); min-height: 55px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live:3c66ea8ce218d95d/public?returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Barath Sekar</div></div></div></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-30" aria-label="MORE" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer; height: 32px;"><div role="none" style="position: relative; display: flex; flex-direction: row-reverse; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; margin-top: 4px; padding: 4px 12px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: center; padding-left: 8px; padding-right: 8px;"><div data-text-as-pseudo-element="MORE" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div></div><div role="presentation" aria-hidden="true" id="rx-vlv-31" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; height: 40px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; padding: 14px 10px 12px; background-color: rgb(229, 228, 232);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center;"><div aria-hidden="true" data-text-as-pseudo-element="CONNECT ON SKYPE" dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div><div role="button" tabindex="-1" id="rx-vlv-32" aria-label="Invite to Skype, Connect with friends and family" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; cursor: pointer;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; border-radius: 0px; cursor: pointer; padding: 4px 10px; height: 56px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; width: 40px; height: 40px; justify-content: center; border-radius: 20px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; justify-content: center; align-items: center; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin-left: 10px; margin-right: 10px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;">Invite to Skype</div></div><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 14px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(138, 141, 145); cursor: inherit;">Connect with friends and family</div></div></div></div></div></div></div></div><div role="none" class="rail railV"><div role="none" class="slider" style="height: 282.38px; top: 92.8715px;"></div></div></div></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; border-width: 0px 0px 1px; border-style: solid; border-color: rgba(69, 72, 82, 0.2);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; align-self: stretch; justify-content: space-between; height: 88px; padding-left: 20px; padding-right: 15px; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; align-self: center; margin-right: 10px; cursor: pointer;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: center; padding-left: 0px; padding-right: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: center;"><button role="button" title="Suneetha Chowdary" aria-label="Suneetha Chowdary, profile, Recently active, Last seen 11 minutes ago, View profile" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: flex-start; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 0px; cursor: pointer; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; bottom: 0px;"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; color: rgb(43, 44, 51); font-size: 24px; font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; cursor: inherit;">Suneetha Chowdary</div></div></button><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: flex-start; height: 25px;"><button role="button" title="Last seen 11m ago" tabindex="-1" aria-label="Last seen 11m ago" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: flex-start; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; height: 25px; padding: 0px; cursor: pointer; border-style: solid;"><div role="presentation" tabindex="-1" title="Recently active, Last seen 11m ago" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; width: 8px; height: 8px; border-radius: 4px; margin-right: 4px; align-self: center; bottom: 0px; background-color: rgb(77, 217, 101); cursor: pointer;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 8px; font-size: 8px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div></div><div data-text-as-pseudo-element="Last seen 11m ago" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 25px; height: 25px; cursor: inherit;"></div></button><div aria-hidden="true" data-text-as-pseudo-element="|" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; margin-left: 7px; margin-right: 3px; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 25px; height: 25px; cursor: inherit;"></div><button role="button" title="Gallery" aria-label="Open gallery" aria-disabled="false" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding-left: 4px; padding-right: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 12px; font-size: 12px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; min-width: 16px; text-align: center; margin-right: 3px; cursor: inherit;"></div><div data-text-as-pseudo-element="Gallery" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 25px; height: 25px; cursor: inherit;"></div></button><div aria-hidden="true" data-text-as-pseudo-element="|" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; margin-left: 7px; margin-right: 3px; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 25px; height: 25px; cursor: inherit;"></div><button role="button" title="Find" aria-label="Find" aria-disabled="false" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding-left: 4px; margin-right: 7px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 12px; font-size: 12px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; min-width: 16px; text-align: center; margin-right: 3px; cursor: inherit;"></div><div data-text-as-pseudo-element="Find" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; line-height: 25px; height: 25px; cursor: inherit;"></div></button></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: center; justify-content: center;"><button role="button" title="Video Call" aria-label="Video Call" aria-disabled="false" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: transparent; text-align: left; border-width: 0px; height: 40px; border-radius: 20px; width: 40px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><button role="button" title="Audio Call" aria-label="Audio Call" aria-disabled="false" aria-haspopup="true" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: transparent; text-align: left; border-width: 0px; height: 40px; border-radius: 20px; margin-left: 10px; width: 40px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><button role="button" title="Create new group" aria-label="Create new group" aria-disabled="false" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: transparent; text-align: left; border-width: 0px; height: 40px; border-radius: 20px; margin-left: 10px; width: 40px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 20px; font-size: 20px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button></div></div></div><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 0px; opacity: 0; transition: none 0s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; padding: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgba(0, 0, 0, 0); align-self: flex-end; margin-bottom: 11px; height: 38px; width: 960px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; border-radius: 5px; border-width: 1px; border-color: rgb(213, 217, 222); border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; padding: 8px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 15px; font-size: 15px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; margin-right: 8px; cursor: inherit;"></div><input type="text" value="" disabled="" placeholder="Find messages in current conversation" size="1" style="position: relative; display: flex; flex-direction: row; flex: 1 1 auto; overflow: hidden auto; align-items: stretch; font-size: 12px; background-color: rgba(0, 0, 0, 0); height: 20px; color: rgb(37, 36, 35); outline: none; resize: none; border-width: 0px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; background-color: rgba(0, 0, 0, 0); border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(213, 217, 222);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0); padding-left: 20px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; background-color: rgba(0, 0, 0, 0);"><div dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 12px; color: rgb(37, 36, 35); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; margin-right: 16px; cursor: inherit;">0 / 0</div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><button role="button" title="Previous result" aria-label="Previous result" aria-disabled="true" disabled="" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: transparent; text-align: left; border-width: 0px; padding: 0px; width: 20px; height: 20px; border-radius: 10px; margin-right: 8px; opacity: 0.4; cursor: default; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 10px; font-size: 10px; color: rgb(37, 36, 35); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><button role="button" title="Next result" aria-label="Next result" aria-disabled="true" disabled="" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: transparent; text-align: left; border-width: 0px; padding: 0px; width: 20px; height: 20px; border-radius: 10px; margin-right: 8px; opacity: 0.4; cursor: default; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 10px; font-size: 10px; color: rgb(37, 36, 35); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button></div></div></div><button role="button" aria-disabled="true" disabled="" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding-left: 20px; padding-right: 20px; opacity: 0.5; cursor: default; border-style: solid;"><div data-text-as-pseudo-element="Cancel" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 12px; color: rgb(37, 36, 35); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></button></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div></div></div></div><div role="none" style="position: absolute; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: space-between; left: 0px; right: 0px; height: 88px; border-color: rgb(213, 217, 222); border-width: 0px 0px 1px; background-color: rgb(241, 241, 244); border-style: solid; transform: translateY(0px); transition: none 0s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; margin-bottom: 20px; min-width: 30px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; width: 1060px; align-self: center; justify-content: center;"><div role="heading" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: flex-start; justify-content: flex-start;"><div data-text-as-pseudo-element="1 message selected" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 20px; font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); cursor: inherit;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: flex-start; margin-top: 5px; margin-bottom: 5px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 14px; font-size: 12px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 1px; cursor: inherit;"></div><div data-text-as-pseudo-element="Skype chat" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; margin-left: 4px; margin-right: 4px; font-size: 14px; color: rgb(138, 141, 145); cursor: inherit;"></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: flex-start;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-start; width: 80px; padding-right: 38px;"><button role="button" title="Cancel" aria-label="Cancel" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 6px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 24px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; margin-bottom: 20px; min-width: 30px;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; padding-bottom: 20px; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div aria-label="Great, you can now start chatting." aria-live="polite" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; border-color: rgb(213, 217, 222); border-width: 0px 0px 1px; border-style: solid;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; justify-content: center; margin-left: 20px; margin-right: 20px;"><div role="none" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 60px; height: 60px; justify-content: center; margin-top: 20px; margin-right: 20px;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 60px; height: 60px; border-radius: 30px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live%3Asuneetha.jsn?auth_key=-851313292&amp;cacheHeaders=true&amp;returnDefaultImage=false&amp;size=m&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div role="none" style="position: relative; display: flex; flex-flow: column wrap; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: flex-start; margin-top: 20px; justify-content: center;"><div data-text-as-pseudo-element="Suneetha Chowdary" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 20px; font-family: &quot;SF Bold&quot;, &quot;Segoe System UI Bold&quot;, &quot;Segoe UI Bold&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); flex-direction: row; align-items: flex-start; text-align: center; cursor: inherit;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-start; align-self: flex-start; margin: 18px 16px 4px 0px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; max-width: 250px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 15px; font-size: 15px; color: rgb(37, 36, 35); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="India" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); padding-left: 4px; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 10px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; max-width: 250px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 15px; font-size: 15px; color: rgb(37, 36, 35); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; cursor: inherit;"></div><div data-text-as-pseudo-element="1 Mutual Contact" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); padding-left: 4px; cursor: inherit;"></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; margin-top: 20px; margin-bottom: 20px; border-radius: 8px; padding: 15px 20px; background-color: rgb(240, 244, 248); width: 360px;"><div data-text-as-pseudo-element="Great, you can now start chatting." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 15px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(37, 36, 35); text-align: center; padding-left: 20px; padding-right: 20px; cursor: inherit;"></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgb(255, 255, 255);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch; background-color: transparent;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; height: 200px; opacity: 1; transform: scale(1) translateX(0px) translateY(0px);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: visible; align-items: stretch; align-self: stretch;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; left: 0px; right: 0px; bottom: 0px; height: 159px;"><div role="none" class="rxCustomScroll rxCustomScrollV active" style="display: flex; flex: 1 1 0px; position: relative; overflow: hidden; box-sizing: border-box; align-self: stretch;"><div role="none" class="scrollViewport scrollViewportV" style="display: block; overflow: hidden scroll; flex-direction: column; transform: translateZ(0px); padding-right: 13px; margin-right: -30px; min-height: 0px; align-self: stretch; flex-grow: 1; flex-shrink: 1;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; opacity: 1; height: 503px; width: 1060px;"><div role="region" tabindex="-1" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(0px); transition: none 0s ease 0s;"><div role="heading" tabindex="-1" aria-label="Today" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch; justify-content: center; margin-left: 50px; margin-right: 50px; padding: 10px 0px 0px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin: 5px 5px 5px 0px; height: 1px; opacity: 0.4; background-color: rgb(138, 141, 145);"></div><div aria-hidden="true" data-text-as-pseudo-element="Today" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: nowrap; overflow-wrap: break-word; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; align-self: center; padding: 5px 10px; cursor: inherit;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin: 5px 0px 5px 5px; height: 1px; opacity: 0.4; background-color: rgb(138, 141, 145);"></div></div></div><div role="region" tabindex="-1" aria-label="Suneetha Chowdary, emoticon Hi., sent at 2:45 PM., checkbox, unchecked." style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(36px); transition: none 0s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; padding-top: 10px; padding-right: 50px; cursor: pointer;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: flex-start; padding-right: 76px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgba(0, 0, 0, 0); min-height: 30px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-start;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center; margin-right: 10px;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live%3Asuneetha.jsn?auth_key=-851313292&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div aria-hidden="true" dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; background-color: rgba(0, 0, 0, 0); align-self: center; padding-bottom: 25px; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;" data-text-as-pseudo-element="Suneetha, 2:45 PM"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; margin-left: 50px; margin-top: -23px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; border-radius: 0px 10px 10px; transform: translateX(0px);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 80px; width: 80px; margin: 4px;"><div dir="auto" style="position: absolute; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); user-select: text; cursor: text;">(wave)</div><div title="(wave)" style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; height: 80px; width: 80px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://static-asm.secure.skypeassets.com/pes/v1/emoticons/hi/views/default_160_f?etag=v1&quot;); background-size: cover; border-style: none; display: flex;"></div></div></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; align-content: center; margin-top: 20px;"><div role="button" aria-label="Message not selected,, checkbox, unchecked." style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; padding-left: 10px; align-self: center; opacity: 1; transform: translateX(-35px); transition: none 0s ease 0s;"><div aria-label="Off" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; align-self: center; width: 24px; height: 24px; border-radius: 12px; border-width: 1px; border-style: solid; margin-right: 10px; justify-content: center; border-color: rgb(213, 217, 222); background-color: rgb(255, 255, 255);"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 12px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 6px; cursor: inherit;"></div></div></div></div></div></div><div role="region" tabindex="0" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(152px); transition: none 0s ease 0s;"><button role="presentation" aria-label="Conversation read up to this point by 1 person." aria-disabled="true" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: flex-end; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; max-width: 960px; align-self: flex-end; margin-left: 50px; margin-right: 50px; height: 24px; padding: 0px; cursor: default; border-style: solid; opacity: 0;" disabled=""><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 16px; height: 16px; justify-content: center; margin-left: 4px;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 16px; height: 16px; border-radius: 8px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live%3Asuneetha.jsn?auth_key=-851313292&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div></button></div><div role="region" tabindex="-1" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(176px);"><div role="heading" tabindex="-1" aria-label="Unread messages" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch; justify-content: center; margin-left: 50px; margin-right: 50px; padding: 10px 0px 0px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin: 5px 5px 5px 0px; height: 2px; opacity: 0.8; background-color: rgb(0, 120, 212);"></div><div aria-hidden="true" data-text-as-pseudo-element="Unread messages" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: nowrap; overflow-wrap: break-word; font-size: 12px; color: rgb(0, 120, 212); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; align-self: center; padding: 5px 10px; cursor: inherit;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin: 5px 0px 5px 5px; height: 2px; opacity: 0.8; background-color: rgb(0, 120, 212);"></div></div></div><div role="region" tabindex="-1" aria-label="Suneetha Chowdary sent a photo at 2:58 PM., checkbox, checked." style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(212px);"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; padding-top: 10px; padding-right: 50px; cursor: pointer;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: flex-start; padding-right: 76px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; background-color: rgba(0, 0, 0, 0); min-height: 30px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-start;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 40px; height: 40px; justify-content: center; margin-right: 10px;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; width: 40px; height: 40px; border-radius: 20px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://avatar.skype.com/v1/avatars/live%3Asuneetha.jsn?auth_key=-851313292&amp;cacheHeaders=true&amp;returnDefaultImage=false&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div aria-hidden="true" dir="auto" style="position: relative; display: inline; flex-grow: 1; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; background-color: rgba(0, 0, 0, 0); align-self: center; padding-bottom: 25px; font-size: 12px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;" data-text-as-pseudo-element="Suneetha, 2:58 PM"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; margin-left: 50px; margin-top: -23px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; border-radius: 0px 10px 10px; transform: translateX(0px);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; cursor: pointer; --sheep-it:1.56923e+12;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; align-self: stretch;"><button role="button" title="Open image" aria-label="Open image" aria-disabled="true" tabindex="-1" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; width: 237px; height: 237px; border-radius: 0px 10px 10px; padding: 0px; cursor: default; border-style: solid; opacity: 1;" disabled=""><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: center; border-radius: 0px 10px 10px; width: 237px; height: 237px;"><div style="position: relative; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; height: 237px; width: 237px; border-radius: 0px 10px 10px; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://api.asm.skype.com/v1/objects/0-sa-d8-23c574ff8a245b4b2ff6c8a49f37f5bc/views/imgpsh_thumbnail_sx&quot;); background-size: cover; border-style: none; display: flex;"></div></div><div role="none" draggable="true" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; top: 0px; left: 0px; right: 0px; bottom: 0px; justify-content: center; border-radius: 0px 10px 10px; background-color: rgba(0, 0, 0, 0.1);"></div></button></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-end; padding-top: 17px; opacity: 0;"><div role="none" title="React to this message" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; width: 44px; justify-content: flex-start; padding: 2px 20px 4px 8px; height: 39px;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 16px; font-size: 16px; color: rgb(138, 141, 145); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; align-content: center; margin-top: 20px;"><div role="button" aria-label="Message selected,, checkbox, checked." style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; padding-left: 10px; align-self: center; opacity: 1; transform: translateX(-35px); transition: none 0s ease 0s;"><div aria-label="On" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; align-self: center; width: 24px; height: 24px; border-radius: 12px; border-width: 1px; border-style: solid; margin-right: 10px; justify-content: center; border-color: rgba(0, 0, 0, 0); background-color: rgb(138, 141, 145);"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 12px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 6px; cursor: inherit;"></div></div></div></div></div></div><div role="region" tabindex="-1" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; width: 898px; transform: translateY(477px);"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; margin-left: 0px; margin-right: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: flex-start; margin-left: 50px; margin-top: 8px; height: 18px;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div></div></div><div role="none" class="rail railV"><div role="none" class="slider" style="height: 50.2604px; top: 108.74px;"></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: visible; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 1; overflow: visible; align-items: stretch; height: 40px; margin-bottom: -40px; opacity: 0.3; background-color: rgb(255, 255, 255); width: 1060px;"></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-width: 30px;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; justify-content: center; opacity: 1;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; height: 60px; min-width: 80px; justify-content: flex-start; padding-left: 15px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; justify-content: center; background-color: rgb(255, 255, 255); margin-top: 8px; width: 960px; align-self: center;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; max-width: 960px; width: 960px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; min-height: 48px; justify-content: center; background-color: rgb(241, 241, 244); border-radius: 24px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; height: 50px;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; left: 0px; right: 0px; bottom: 0px;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; margin: 5px 12px 5px 2px;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: flex-end; height: 40px; justify-content: center;"><button role="button" title="Open Expression picker" aria-label="Open Expression picker" tabindex="-1" aria-hidden="true" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: rgb(241, 241, 244); border-color: rgb(229, 228, 232); text-align: left; border-width: 0px; border-radius: 20px; width: 40px; height: 40px; margin-left: 4px; margin-right: 4px; padding: 0px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 24px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: stretch; padding-left: 12px; justify-content: center;"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: scroll; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 100500px; top: 100500px; width: 1px; height: 1px;"></div></div><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: scroll; z-index: -1; visibility: hidden;"><div style="position: absolute; width: 150%; height: 150%;"></div></div></div></div></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: flex-end; min-height: 48px; margin-left: 4px;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; height: 60px; justify-content: flex-end; padding-right: 13px; min-width: 80px;"></div></div></div></div></div></div></div></div><div role="none" style="position: absolute; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; place-content: center; left: 0px; right: 0px; height: 80px; border-color: rgb(213, 217, 222); border-width: 1px 0px 0px; background-color: rgb(241, 241, 244); bottom: 0px; border-style: solid; transform: translateY(0px); transition: none 0s ease 0s;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; margin-bottom: 20px; min-width: 30px;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: stretch; width: 1060px; align-self: center; justify-content: flex-end;"><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; padding-left: 20px; padding-right: 20px; justify-content: center;"><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; width: 80px;"><button role="button" title="Some selected messages cannot be copied" aria-label="Some selected messages cannot be copied" aria-disabled="true" disabled="" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 6px; opacity: 0.2; cursor: default; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 24px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><div aria-hidden="true" data-text-as-pseudo-element="Copy" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; width: 80px;"><button role="button" title="Forward" aria-label="Forward" aria-disabled="false" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 6px; cursor: pointer; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 24px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><div aria-hidden="true" data-text-as-pseudo-element="Forward" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(37, 36, 35); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; width: 80px;"><button role="button" title="Some selected messages cannot be removed" aria-label="Some selected messages cannot be removed" aria-disabled="true" disabled="" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; justify-content: center; background-color: transparent; border-color: transparent; text-align: left; border-width: 0px; padding: 6px; opacity: 0.2; cursor: default; border-style: solid;"><div aria-hidden="true" data-text-as-pseudo-element="" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: visible; white-space: pre-wrap; overflow-wrap: break-word; height: 24px; font-size: 24px; color: rgb(43, 44, 51); background-color: rgba(0, 0, 0, 0); font-family: SkypeAssets-Light; padding: 0px; flex-direction: row; align-self: center; align-items: center; justify-content: center; cursor: inherit;"></div></button><div aria-hidden="true" data-text-as-pseudo-element="Remove" dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 1; overflow: hidden; white-space: pre; text-overflow: ellipsis; font-size: 10px; color: rgb(138, 141, 145); font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; cursor: inherit;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 1; flex-shrink: 1; overflow: hidden; align-items: center; align-self: flex-end; margin-bottom: 20px; min-width: 30px;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: visible; align-items: stretch; align-self: stretch; width: 0px;"><div role="none" style="position: absolute; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; top: 0px; bottom: 0px; border-width: 0px 0px 0px 2px; border-style: solid; border-color: rgb(241, 241, 244); width: 0px;"></div></div></div></div><div role="none" style="position: relative; display: flex; flex-flow: row wrap; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: center; min-height: 32px; justify-content: space-between; padding-right: 8px; background-color: rgb(43, 44, 51); padding-left: 8px;"><div style="position: absolute; overflow: visible; background-color: transparent; flex-grow: 0; flex-shrink: 0; left: 0px; right: 0px; top: 0px; height: 10px; opacity: 0.6; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;images/photo-shim.png&quot;); background-size: 100% 100%; border-style: none; display: flex;"></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch;"><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Download Desktop App</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Feedback</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Language (en-US)</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Using Skype for Web safely on a public computer</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Sign out</a></div><div role="none" style="position: relative; display: flex; flex-direction: row; flex-grow: 0; flex-shrink: 1; overflow: hidden; align-items: center; align-self: stretch;"><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Terms of use</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><a href="https://secure.skypeassets.com/wcss/8-52-0-138/#" target="_blank" rel="noreferrer" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: pointer;">Privacy and cookie policy</a><div aria-hidden="true" data-text-as-pseudo-element="." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); top: -2px; margin-left: 4px; margin-right: 4px; cursor: inherit;"></div><div tabindex="-1" aria-label="© 2019 Skype and/or Microsoft." style="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch;"><div aria-hidden="true" data-text-as-pseudo-element="© 2019 Skype and/or Microsoft." dir="auto" style="position: relative; display: inline; flex-grow: 0; flex-shrink: 0; overflow: hidden; white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-family: &quot;SF Regular&quot;, &quot;Segoe System UI Regular&quot;, &quot;Segoe UI Regular&quot;, sans-serif; font-weight: 400; color: rgb(213, 217, 222); margin: 4px; cursor: inherit;"></div></div></div></div></div></div></div><div aria-live="assertive" aria-atomic="true" aria-relevant="additions text" style="position: absolute; overflow: hidden; opacity: 0; top: -30px; bottom: 0px; left: 0px; right: 0px; height: 30px; white-space: pre;"></div></div></div>
+
+    <!-- End Document
+    ================================================== -->
+    <script src="./profile_files/vendor.js.download" crossorigin="anonymous"></script>
+    <script src="./profile_files/app.js.download" crossorigin="anonymous"></script>
+
+
+<div role="list" aria-label="Recent accessibility announcements" style="position: absolute; overflow: hidden; height: 1px; width: 1px; bottom: 0px; right: 0px; opacity: 0; z-index: -1;"><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Skype cannot be used for emergency calling.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Welcome, Suneetha</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Updating conversation...</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Updating conversation...</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Updating conversation...</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Updating conversation...</div><div role="log" aria-live="polite" data-announcement-class-id="3695285762513266699" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">New message from Suneetha Chowdary, emoticon hi., received at 2:45 PM.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">1 new notification.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">3 items found.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">My Info closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Suneetha J SETTINGS closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Profile picture successfully updated.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">My Info closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">My Info closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">My Info closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Are you sure you want to remove your profile picture? closed</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Avatar removed successfully.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Profile picture closed</div><div role="log" aria-live="polite" data-announcement-class-id="1569230937400" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">New message from Suneetha Chowdary, a photo, received at 2:58 PM.</div><div role="log" aria-live="polite" style="position: absolute; bottom: 0px; right: 0px; top: 0px; left: 0px;">Forward Message closed</div></div><input type="file" accept="image/*" style="display: none;"></body></html>

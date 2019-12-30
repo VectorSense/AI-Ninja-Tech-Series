@@ -1,0 +1,16 @@
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Personaliser.exe.config
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Personaliser.exe
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Personaliser.pdb
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Azure.CognitiveServices.Personalizer.dll
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Newtonsoft.Json.dll
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Azure.CognitiveServices.Personalizer.xml
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+F:\Ms WorkShop\Personaliser\Personaliser\bin\Debug\Newtonsoft.Json.xml
+F:\Ms WorkShop\Personaliser\Personaliser\obj\Debug\Personaliser.csprojAssemblyReference.cache
+F:\Ms WorkShop\Personaliser\Personaliser\obj\Debug\Personaliser.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\Personaliser\Personaliser\obj\Debug\Personaliser.csproj.CopyComplete
+F:\Ms WorkShop\Personaliser\Personaliser\obj\Debug\Personaliser.exe
+F:\Ms WorkShop\Personaliser\Personaliser\obj\Debug\Personaliser.pdb
