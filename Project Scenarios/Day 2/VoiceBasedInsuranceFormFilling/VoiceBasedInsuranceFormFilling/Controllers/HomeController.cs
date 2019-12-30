@@ -58,7 +58,7 @@ namespace VoiceBasedInsuranceFormFilling.Controllers
             // recordings and locale
             private const string Locale = "en-US";        
             //private string RecordingsBlobUri = ConfigurationManager.AppSettings["RecordingsBlobUri"];
-            private string RecordingsBlobUri = "https://msspeechtext.blob.core.windows.net/msspeechtext/new1.wav?sp=r&st=2019-12-27T13:31:27Z&se=2020-01-30T21:31:27Z&spr=https,http&sv=2019-02-02&sr=b&sig=PN12gJi%2BQnRikMxCeEZWkTiOWFyuXYxttKhAUBxqi3M%3D";
+            private string RecordingsBlobUri = "";
 
             //name and description
             private const string Name = "Simple transcription";

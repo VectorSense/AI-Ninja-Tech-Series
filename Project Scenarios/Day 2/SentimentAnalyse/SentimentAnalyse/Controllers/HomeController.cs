@@ -27,8 +27,8 @@ namespace SentimentAnalyse.Controllers
            
             try
             {
-                 string RecordingsBlobUri1 = "https://msspeechtext.blob.core.windows.net/msspeechtext/Bad%20Feedback.wav?sp=r&st=2019-12-28T14:21:19Z&se=2020-01-30T22:21:19Z&spr=https,http&sv=2019-02-02&sr=b&sig=06czEOR0nPJ3QUr4MCwINxVu9%2Be6BbTnc9J%2FHqH3UYg%3D";
-                 string RecordingsBlobUri2 = "https://msspeechtext.blob.core.windows.net/msspeechtext/Good%20Feedback.wav?sp=r&st=2019-12-28T14:23:07Z&se=2020-01-30T22:23:07Z&spr=https,http&sv=2019-02-02&sr=b&sig=o7vESdz2LwG0P5%2B9qHvUqGkJDQEFKawMdOhLBE9WlHM%3D";
+                 string RecordingsBlobUri1 = "";
+                 string RecordingsBlobUri2 = "";
 
                 Program p = new Program();
                 if(FileName== "Bad Feedback.wav")
