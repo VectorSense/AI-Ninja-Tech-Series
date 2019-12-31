@@ -1,0 +1,95 @@
+E:\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+E:\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+E:\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+E:\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+E:\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csproj.CoreCompileInputs.cache
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+E:\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb
+E:\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+E:\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+E:\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+E:\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+E:\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csproj.CoreCompileInputs.cache
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+E:\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\Desktop\V4\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+C:\Users\Siddharth Dubey\Desktop\Srikarsir\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\CheckBookRequest.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\ForgotPassword.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\OthersComplaint.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\OtpRequest.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\RecentTransection.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\ThankYou.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AdaptiveCards\UpdateMobileNumber.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\DeploymentTemplates\template-with-new-rg.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\DeploymentTemplates\template-with-preexisting-rg.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.deps.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.runtimeconfig.dev.json
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.dll
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\bin\Debug\netcoreapp2.1\FormBased.pdb
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.csprojAssemblyReference.cache
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cache
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorAssemblyInfo.cs
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfoInputs.cache
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.AssemblyInfo.cs
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.RazorTargetAssemblyInfo.cache
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.dll
+C:\Srikar\DemosWithKey\Day 3\C#\FormBasedBot\18.bot-authentication\obj\Debug\netcoreapp2.1\FormBased.pdb

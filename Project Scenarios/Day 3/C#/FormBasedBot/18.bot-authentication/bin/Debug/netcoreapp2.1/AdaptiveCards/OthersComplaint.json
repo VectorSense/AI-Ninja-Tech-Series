@@ -1,0 +1,57 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+
+    {
+      "type": "Image",
+      "url": "https://www.kotak.com/content/dam/Kotak/herosliderbanner/xcustomer-service.png.pagespeed.ic.U9t9bWXtTB.png",
+      "size": "auto"
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "Customer Complaint",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please mention briefly about your issue.",
+      "size": "small",
+      "wrap": true
+
+    },
+
+    {
+      "type": "Input.Text",
+      "placeholder": "Comments",
+      "style": "text",
+      "isMultiline": true,
+      "maxLength": 0,
+      "id": "data_others"
+    }
+
+
+
+
+
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "id": "submit_others"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "data": {
+        "id": "submit_others_cancel"
+      }
+    }
+  ]
+}

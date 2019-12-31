@@ -1,0 +1,56 @@
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.deps.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.dev.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.pdb
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csproj.CoreCompileInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfoInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorTargetAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.pdb
+F:\botv4_samples\BotBuilder-Samples-master\samples\csharp_dotnetcore\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csprojAssemblyReference.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.deps.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.dev.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.pdb
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csprojAssemblyReference.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csproj.CoreCompileInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfoInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorTargetAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\ad\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.pdb
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.deps.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.dev.json
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.pdb
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csprojAssemblyReference.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csproj.CoreCompileInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfoInputs.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfo.cs
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorTargetAssemblyInfo.cache
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.dll
+F:\botv4_samples\BotBuilder-Samples-master\samples\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.deps.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.runtimeconfig.dev.json
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\bin\Debug\netcoreapp2.1\AuthenticationBot.pdb
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorAssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfoInputs.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.AssemblyInfo.cs
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.RazorTargetAssemblyInfo.cache
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.dll
+C:\Users\Siddharth Dubey\source\repos\May2019\ADAuthenticationBot\18.bot-authentication\obj\Debug\netcoreapp2.1\AuthenticationBot.pdb

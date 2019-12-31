@@ -1,0 +1,409 @@
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll.config
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.pdb
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe.config
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.rsp
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe.config
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.rsp
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.AppContext.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Collections.Immutable.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Console.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Compression.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Reflection.Metadata.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.AccessControl.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Claims.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.ValueTuple.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe.config
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.rsp
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe.config
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Web.Infrastructure.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\WebGrease.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.pdb
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csprojAssemblyReference.cache
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CopyComplete
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.dll
+F:\Ms WorkShop\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.pdb
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll.config
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.pdb
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe.config
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.rsp
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe.config
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.rsp
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.AppContext.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Console.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Compression.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Claims.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.ValueTuple.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe.config
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.rsp
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\WebGrease.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.pdb
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csprojAssemblyReference.cache
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CoreCompileInputs.cache
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CopyComplete
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.dll
+C:\Users\ramam\Downloads\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.pdb
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll.config
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\TextAnalyticsPOC.pdb
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.exe.config
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csc.rsp
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.exe.config
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\csi.rsp
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.Managed.Core.targets
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.AppContext.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Collections.Immutable.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Console.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Compression.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Reflection.Metadata.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.AccessControl.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Claims.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Security.Principal.Windows.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.ValueTuple.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XmlDocument.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.exe.config
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\vbc.rsp
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe.config
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Web.Infrastructure.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\WebGrease.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Helpers.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Mvc.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Optimization.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.Razor.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Newtonsoft.Json.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Antlr3.Runtime.pdb
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csprojAssemblyReference.cache
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CoreCompileInputs.cache
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CopyComplete
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.dll
+G:\MS_Challenges\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.AppContext.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Console.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Compression.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Claims.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.ValueTuple.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Antlr3.Runtime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Newtonsoft.Json.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Helpers.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Mvc.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Optimization.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\WebGrease.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Helpers.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Mvc.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Optimization.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Newtonsoft.Json.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Antlr3.Runtime.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csprojAssemblyReference.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CoreCompileInputs.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CopyComplete
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.pdb
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll.config
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\TextAnalyticsPOC.pdb
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.exe
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.exe.config
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csc.rsp
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.exe
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.exe.config
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\csi.rsp
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.AppContext.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Collections.Immutable.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Console.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Compression.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.IO.Pipes.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.AccessControl.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Claims.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.ValueTuple.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.exe
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.exe.config
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\vbc.rsp
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\roslyn\VBCSCompiler.exe.config
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Antlr3.Runtime.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Web.Infrastructure.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Newtonsoft.Json.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Helpers.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Mvc.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Optimization.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Razor.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\WebGrease.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Azure.CognitiveServices.Language.TextAnalytics.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Helpers.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Mvc.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Optimization.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.Razor.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Deployment.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\System.Web.WebPages.Razor.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Newtonsoft.Json.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Antlr3.Runtime.pdb
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csprojAssemblyReference.cache
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.csproj.CopyComplete
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.dll
+C:\Srikar\AI-Ninja-Tech-Series\Demos\CS\Lang\TxtAnalytics\TextAnalyticsPOC\obj\Debug\TextAnalyticsPOC.pdb

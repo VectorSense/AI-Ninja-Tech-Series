@@ -1,0 +1,50 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+
+    {
+      "type": "Image",
+      "url": "https://esbtr.onlinesbi.com/ESBTR1/images/sbiLogo.gif",
+      "size": "auto"
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "Mobile Number Update Request",
+      "size": "medium"
+
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please enter Mobile Number for Update.",
+      "size": "small",
+      "wrap": true
+
+    },
+    {
+      "type": "Input.Text",
+      "placeholder": "XXXXXXXXXXX",
+      "style": "text",
+      "maxLength": 0,
+      "id": "data_updatemobileno"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "id": "submit_updatemobileno"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "data": {
+        "id": "submit_updatemobileno_cancel"
+      }
+    }
+  ]
+}
