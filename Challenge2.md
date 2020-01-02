@@ -593,7 +593,7 @@ public ActionResult gesture_management()
 <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/3.png" style="max-width:100%;">&nbsp;
 <li>Click on the uncomment button</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/uncomment/4.png" style="max-width:100%;">&nbsp;
-<h3>Click on the Run button to see the output in the admin portal</h3>&nbsp;
+<h3>Click on the Run button to see the output in the admin portal [Navigate to Admin -> Gesture Management page]</h3>&nbsp;
 <li>Admin Gesture Management with entries</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Challenge2/output/1.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Click the button to add the new Gesture </li>&nbsp;

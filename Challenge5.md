@@ -46,7 +46,7 @@
 <h3>Importing the LUIS Model</h3>
 <ol>
     <strong>
-        <li>Download the LUIS Json file from <a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/tree/master/DIY%20Demos/LegalDocumentLUIS.json">GitHub</a></li>
+        <li>Download the LUIS Json file from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/LegalDocumentLUIS.json">GitHub</a></li>
         <li>Login to Luis.ai</li>&nbsp;
         <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/1.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Enter your username</li>&nbsp;
@@ -70,8 +70,8 @@
         <li>Copy the Application ID</li>&nbsp;
         <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/LuisImages/9_hackathon.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Copy Key and Endpoint</li>&nbsp;
-        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/10.jpg" alt="image" style="max-width: 100%;">&nbsp;
-        <li>Paste the Endpoint in 'LUIS_EndPoint', Application ID in 'LUIS_AppID' and Key 'LUIS_Key' in Web.Config [NOTE : Paste the endpoint only till 'v2.0/apps/' (example endpoint : "https://westus2.api.cognitive.microsoft.com/luis/v2.0/apps/")]</li>
+        <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/10_Updated.jpg" alt="image" style="max-width: 100%;">&nbsp;
+        <li>Paste the Endpoint in 'LUIS_EndPoint', Application ID in 'LUIS_AppID' and Key 'LUIS_Key' in Web.Config [NOTE : Paste the endpoint only till 'v2.0/apps/' from example query, don't copy the endpoint url (example endpoint : "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/")]</li>
     </strong>
 </ol>
 <h3>Getting started with coding - here we will implement the DocumentVerificationHandler.cs file</h3>

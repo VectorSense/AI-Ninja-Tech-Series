@@ -2,12 +2,12 @@
 <h1>Challenge 1 – Image Validation using Azure Computer Vision</h1>
 <p>In Challenge 1, we are going to explore how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connect with Azure SQL Server Database and register a person's face to be used later during the face identification.</p>
 <h2>Getting Started</h2>
-<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/DIY%20Demos/AI_Series_Starter_Kit">Git Repo</a></p>
+<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/tree/master/HOLs/AI_Series_Starter_Kit">Git Repo</a></p>
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio are working fine.</li>
     <li>Open the AI Series Starter Kit application.</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
-    <li>In the solution explorer [View -> Solution Explorer]</li>&nbsp; 
+    <li>Open the solution explorer [View -> Solution Explorer]</li>&nbsp; 
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/2.PNG" alt="image" style="max-width:100%;">
     <li>Right click on the solution name and select Build</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width:100%;">
@@ -116,13 +116,13 @@ public static byte[] storetoserver(string base64data)
     <li>Enter name and select location, pricing tier and resource group</li>
     <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Overview tab</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_7.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_7.jpg" alt="image" style="max-width: 100%;">
     <li>Copy the endpoint</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_8.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_8.jpg" alt="image" style="max-width: 100%;">
     <li>Click on Keys tab</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_9.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_9.jpg" alt="image" style="max-width: 100%;">
     <li>Copy the Keys</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_10.jpg" alt="image" style="max-width: 100%;">
+    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_10.jpg" alt="image" style="max-width: 100%;">
   </strong></ol>
 <h3>Invoking the Face API</h3>
 <ol>
@@ -130,9 +130,8 @@ public static byte[] storetoserver(string base64data)
       <li>To start with, update the API Key and Endpoint in Web.Config</li>
       <li>Navigate to Web.Config</li>
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
-      <li>NOTE : Paste the endpoint only till '.com', example : 'https://southeastasia.api.cognitive.microsoft.com'</li>
       &nbsp;
-        <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/webconfig.PNG" alt="image" style="max-width: 100%;"></strong>
+        <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/WebConfig.jpg" alt="image" style="max-width: 100%;"></strong>
         &nbsp;
 <p>The below code snippet calls the Face API and checks for 4 attributes - Face availability, Multiple Face check, Sunglasses check and allowed Emotions.</p>
 <strong>
@@ -322,7 +321,7 @@ public class ImageValidationHandler
 </strong>
   <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/11.PNG" alt="image" style="max-width:100%;">
 </ol>
-  <h3>Till this you can run the solution and get the output</h3>
+  <h3>Till this you can run the solution and get the output [Navigate to User -> Register Page]</h3>
     <p><b>STEP 1 :</b> Make sure you take the picture with a face to pass the face availability. Also take a picture without showing the face in the camera to get the error message 'Face not found'</p>
     <p><b>STEP 2 :</b> Make sure you take the picture with a single person to pass the multiple face check. Also take a picture with more than one person to get the error message 'Multiple Faces are not allowed'</p>
     <p><b>STEP 3 :</b> Make sure you take the picture without wearing sunglasses to pass the sunglasses check. Also take a picture sunglasses to get the error message 'Please remove the sunglasses'. [Note : Reading glasses are allowed]</p>
@@ -344,7 +343,7 @@ public class ImageValidationHandler
 <li>Open SQL Server Management Studio</li>
 <li>To connect with the Azure SQL Server, you have to provide Server name, Login and Password details.</li>
 <img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/1.jpg" style="max-width:100%;">
-<p>Download the script file from the GitHub and run the <a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/tree/master/DIY%20Demos/HOL_Script.sql">Script File</a> </p> 
+<p>Download the script file from the GitHub and run the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">Script File</a> </p> 
 <h2>Screens to demonstrate how to run the script file</h2>
 <li>Open the script file from the path where you have saved the downloaded GIT script file</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/2.jpg" style="max-width:100%;">&nbsp;
@@ -377,7 +376,7 @@ public class ImageValidationHandler
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql3.jpg" alt="image" style="max-width: 100%;">
 <li>Specify your database password</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql5.jpg" alt="image" style="max-width: 100%;">
-<li>Copy all the queries from <a href="https://github.com/VectorSense/Azure-AI-Ninja-Tech-Series/tree/master/DIY%20Demos/HOL_Script.sql">sql script file</a></li>
+<li>Copy all the queries from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">sql script file</a></li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql4.jpg" alt="image" style="max-width: 100%;">   
 <li>Paste all the queries in the editor pane and click on Run button</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql6_hackathon.jpg" alt="image" style="max-width: 100%;">
@@ -978,7 +977,7 @@ public ActionResult image_validation()
 <li>Click on the uncomment button</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment4.png" style="max-width:100%;">&nbsp;
 </ol>
-<h3>Just click the Run button and see the output in the admin side</h3>&nbsp;
+<h3>Just click the Run button and see the output in the admin side [Navigate to Admin -> Image Validation page]</h3>&nbsp;
 <li>Admin Image Validation with entries</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_1.JPG" alt="image" style="max-width: 100%;">&nbsp;
 <li>Selecting the Edit Button</li>&nbsp;

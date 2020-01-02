@@ -241,8 +241,6 @@ public JsonResult QualityChecking(String data, bool flag, string check)
 		</blockquote>
 	</strong>
 </ol>
-<li>Follow The screenshot shown below is to Run the HomeController.cs file</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Class/HomeController.PNG" alt="image" style="max-width:100%;">&nbsp;
 <li>Click on the Run button to run the solution and get the output</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/Run.PNG" alt="image" style="max-width:100%;">&nbsp;
 <strong>
