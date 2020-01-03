@@ -46,7 +46,7 @@
 <h3>Importing the LUIS Model</h3>
 <ol>
     <strong>
-        <li>Download the LUIS Json file from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/LegalDocumentLUIS.json">GitHub</a></li>
+        <li>Download the LUIS Json file from <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenges/LegalDocumentLUIS.json">GitHub</a></li>
         <li>Login to Luis.ai</li>&nbsp;
         <img src="http://139.59.61.161/PartnerTechSeries2019/LuisImages/1.jpg" alt="image" style="max-width: 100%;">&nbsp;
         <li>Enter your username</li>&nbsp;
