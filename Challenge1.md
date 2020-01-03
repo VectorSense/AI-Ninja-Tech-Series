@@ -2,7 +2,7 @@
 <h1>Challenge 1 – Image Validation using Azure Computer Vision</h1>
 <p>In Challenge 1, we are going to explore how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connect with Azure SQL Server Database and register a person's face to be used later during the face identification.</p>
 <h2>Getting Started</h2>
-<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/tree/master/HOLs/AI_Series_Starter_Kit">Git Repo</a></p>
+<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/Challenges/AI_Series_Starter_Kit">Git Repo</a></p>
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio are working fine.</li>
     <li>Open the AI Series Starter Kit application.</li>&nbsp;
@@ -343,7 +343,7 @@ public class ImageValidationHandler
 <li>Open SQL Server Management Studio</li>
 <li>To connect with the Azure SQL Server, you have to provide Server name, Login and Password details.</li>
 <img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/1.jpg" style="max-width:100%;">
-<p>Download the script file from the GitHub and run the <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">Script File</a> </p> 
+<p>Download the script file from the GitHub and run the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenges/HOL_Script.sql">Script File</a> </p> 
 <h2>Screens to demonstrate how to run the script file</h2>
 <li>Open the script file from the path where you have saved the downloaded GIT script file</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/2.jpg" style="max-width:100%;">&nbsp;
@@ -376,7 +376,7 @@ public class ImageValidationHandler
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql3.jpg" alt="image" style="max-width: 100%;">
 <li>Specify your database password</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql5.jpg" alt="image" style="max-width: 100%;">
-<li>Copy all the queries from <a href="https://github.com/jumpstartninjatech/PartnerTechSeries-AI/blob/master/HOLs/HOL_Script.sql">sql script file</a></li>
+<li>Copy all the queries from <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenges/HOL_Script.sql">sql script file</a></li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql4.jpg" alt="image" style="max-width: 100%;">   
 <li>Paste all the queries in the editor pane and click on Run button</li>
 <img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql6_hackathon.jpg" alt="image" style="max-width: 100%;">
