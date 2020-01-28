@@ -1,0 +1,41 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+
+    {
+      "type": "Image",
+      "url": "https://www.latestgazette.com/wp-content/uploads/sites/29/2017/05/SBI-Net-Banking.jpg",
+      "size": "auto"
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "Transaction Summary",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Cafe Coffee Day/500 Rs/12 November 2018",
+      "size": "small",
+      "color": "dark"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Sarvana Stores/5000 Rs/11 November 2018",
+      "size": "small",
+      "color": "dark"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Adyar Anand Bhavan/200 Rs/10 November 2018",
+      "size": "small",
+      "color": "dark"
+    }
+  ],
+  "actions": [
+
+  ]
+}
