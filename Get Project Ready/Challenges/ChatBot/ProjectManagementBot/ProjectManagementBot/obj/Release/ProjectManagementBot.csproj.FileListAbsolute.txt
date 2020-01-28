@@ -1,0 +1,240 @@
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.dll.config
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\AdaptiveCards.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Autofac.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Chronic.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.SqlServer.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.Documents.Client.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Edm.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.OData.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Newtonsoft.Json.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Configuration.Abstractions.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Net.Http.Formatting.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Spatial.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.WebHost.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Autofac.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.SqlServer.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.Documents.Client.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Edm.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.OData.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\Newtonsoft.Json.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Configuration.Abstractions.pdb
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Net.Http.Formatting.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Spatial.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.WebHost.xml
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\de\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\es\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\fr\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\it\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ja\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ko\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\ru\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csprojAssemblyReference.cache
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csproj.CoreCompileInputs.cache
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csproj.CopyComplete
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.dll
+C:\Users\Siddharth Dubey\Desktop\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.dll.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ProjectManagementBot.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\AdaptiveCards.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Autofac.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Chronic.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.SqlServer.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.Documents.Client.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Edm.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.OData.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Services.Client.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Newtonsoft.Json.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Configuration.Abstractions.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Net.Http.Formatting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Spatial.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.WebHost.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Autofac.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\EntityFramework.SqlServer.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.Documents.Client.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.Azure.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Builder.History.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Edm.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.OData.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Data.Services.Client.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\Newtonsoft.Json.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Configuration.Abstractions.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Net.Http.Formatting.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Spatial.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\System.Web.Http.WebHost.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\de\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\es\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\fr\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\it\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ja\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ko\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\ru\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csprojAssemblyReference.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csproj.CoreCompileInputs.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.csproj.CopyComplete
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\HOLs\ChatBot\ProjectManagementBot\ProjectManagementBot\obj\Release\ProjectManagementBot.pdb
