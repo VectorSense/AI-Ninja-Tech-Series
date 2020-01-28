@@ -1,0 +1,173 @@
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.dll.config
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.pdb
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.exe
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.exe.config
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.rsp
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.exe
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.exe.config
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.rsp
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.AppContext.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Collections.Immutable.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Console.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Compression.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.FileSystem.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Pipes.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Reflection.Metadata.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.AccessControl.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Claims.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.ValueTuple.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XPath.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.exe
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.exe.config
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.rsp
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\VBCSCompiler.exe
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\VBCSCompiler.exe.config
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Antlr3.Runtime.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Web.Infrastructure.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Newtonsoft.Json.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Helpers.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Mvc.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Optimization.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Razor.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Deployment.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Razor.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\WebGrease.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Helpers.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Mvc.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Optimization.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Razor.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Deployment.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Razor.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Newtonsoft.Json.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Antlr3.Runtime.pdb
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.csprojAssemblyReference.cache
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.csproj.CoreCompileInputs.cache
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.csproj.CopyComplete
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.pdb
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\RestSharp.dll
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+G:\Microsoft Workshops\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\RestSharp.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.csproj.CoreCompileInputs.cache
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.pdb
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.dll.config
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\AI_Series_Starter_Kit.pdb
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.exe
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.exe.config
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csc.rsp
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.exe
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.exe.config
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\csi.rsp
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.Managed.Core.targets
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.AppContext.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Collections.Immutable.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Console.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Compression.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.FileSystem.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.IO.Pipes.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Reflection.Metadata.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.AccessControl.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Claims.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Security.Principal.Windows.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.ValueTuple.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XmlDocument.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XPath.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.exe
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.exe.config
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\vbc.rsp
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\VBCSCompiler.exe
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\roslyn\VBCSCompiler.exe.config
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Antlr3.Runtime.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Web.Infrastructure.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Newtonsoft.Json.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Diagnostics.DiagnosticSource.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Helpers.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Mvc.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Optimization.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Razor.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Deployment.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Razor.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\WebGrease.dll
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Helpers.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Mvc.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Optimization.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.Razor.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Deployment.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Web.WebPages.Razor.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Newtonsoft.Json.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Antlr3.Runtime.pdb
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\System.Diagnostics.DiagnosticSource.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\AI_Series_Starter_Kit\AI_Series_Starter_Kit\obj\Debug\AI_Series_Starter_Kit.csproj.CopyComplete

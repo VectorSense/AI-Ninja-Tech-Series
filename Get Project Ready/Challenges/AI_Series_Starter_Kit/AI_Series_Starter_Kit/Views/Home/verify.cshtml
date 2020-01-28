@@ -1,0 +1,619 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        #check_id {
+            margin-left: 30%;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1;
+            / Firefox /
+        }
+
+        .rounded-circle {
+            width: 30%;
+            margin-left: 35%;
+            border-radius: 50% !important;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+        #warn_msg {
+            font-size: 12px;
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/microsoft.png" alt="" style="width: auto;margin-top: 11%;margin-left: -25%;"></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+                        <h2 style="text-align: left;margin-left:12%;color: #0477d3;margin-bottom: 10px;font-size: 52px;text-transform:uppercase;font-weight:600; font-family:" open="" sans",="" sans-serif;"="">Partner Tech Series</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br><br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="user_index">User</a>
+            <a href="#">Verify</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-1 col-sm-1">
+            <br />
+            <label class="switch pull-left">
+                <input type="checkbox" id="on_off_btn">
+                <span class="slider round"></span>
+
+            </label>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <p style="padding-top:24px;font-size:16px;">Live streaming/URL Image</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1 col-sm-1"></div>
+
+        <div class="col-md-5 col-sm-12">
+            <section id="cam_ctrl_div" style="padding-top:40px;">
+                <center>
+                    <video id="video" class="response take-pic" autoplay=""></video>
+                </center>
+
+                <center>
+                    <h4 id="gesture_name" style="color: red;"></h4>
+                </center>
+
+                @*<center class="checkbox">
+                    <label style="color: red;"><input type="checkbox" id="check_id" value="" checked="checked">Detect Fake or Real</label>
+                </center>*@
+
+                <center>
+                    <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Check-IN</button>
+                    <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn_Checkout" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Check-OUT</button>
+                </center>
+            </section>
+            <section id="local_ctrl_div" style="padding-top:40px;">
+                <div class="row col-md-12 col-sm-12">
+                    <center>
+                        <canvas id="local_img" style="width:90%;height:375px;"></canvas>
+                    </center>
+                </div>
+                <center>
+                    <input type="file" name="open_image_file" id="open_image_file" class="open_image_file" style="display: none;">
+                    <button class="btn btn-primary mb-4 shadow-2" style="background: white; color: black;border-color: black;" id="open_image_trigger" onclick="imageopen()">&nbsp;&nbsp;Browse</button>
+                    <p id="warn_msg">Kindly upload (PNG,JPEG) formatted images</p>
+
+                </center>
+
+                <center>
+                    <h4 style="color: red;" id="gesture_name_local"></h4>
+                </center>
+
+                @*<center class="checkbox">
+                    <label style="color: red;"><input type="checkbox" id="local_check_id" value="" checked="checked" style="position:inherit;margin-top:5px;">Detect Fake or Real</label>
+                </center>*@
+
+                <center>
+                    <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="local_snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Check-IN</button>
+                    <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="local_snap_btn_Checkout" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Check-OUT</button>
+                </center>
+            </section>
+        </div>
+
+        <div class="col-md-2 col-sm-2"></div>
+
+
+        <div class="col-md-3 col-sm-12">
+            <div id="sample_gesture">
+                <center><h5 style="color: red;"><b>Thumbnail URL</b> </h5></center>
+                <img id="gesture_image" src="" style="align-items: center;" class="rounded-circle" width="200" height="200" style="border: 1px solid black;">
+            </div>
+            <br /><br />
+            <center>
+                <h4 id="person_result"></h4>
+            </center>
+
+        </div>
+
+    </div>
+    <input type="hidden" id="random_name" value="">
+    <div class="modal fade" id="alert_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <center>
+                        <h4 id="errmsg"></h4>
+                        <br><button id="pagerefresh" class="btn btn-primary">Okay</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:80px;">
+
+
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <!-- 	<a href="#" class="scrollTopButton">
+               <span class="button-square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+            </a> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+
+    <script type="text/javascript">
+        $('#local_ctrl_div').hide();
+        $('#warn_msg').hide();
+        $(document).ready(function () {
+
+
+        });
+        random_gesture_fn();
+
+        navigator.getUserMedia = (navigator.getUserMedia ||
+            navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia ||
+            navigator.msGetUserMedia);
+
+        var video;
+        if (navigator.getUserMedia) {
+            navigator.getUserMedia(
+
+                {
+                    video: true,
+                    audio: false
+                },
+                function (localMediaStream) {
+                    video = document.querySelector('video');
+
+                    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                            video.srcObject = stream;
+                            video.play();
+                        });
+
+                    }
+                },
+                function (err) {
+                    console.log("The following error occured: " + err);
+                }
+            );
+        }
+        else {
+            console.log("getUserMedia not supported");
+        }
+
+        //var canvas, ctx;
+
+
+        $("#pagerefresh").click(function () {
+            $('#alert_popup').modal('hide');
+        });
+
+
+        //var videoId = 'video';
+        var scaleFactor = 1;
+
+        function capture(video, scaleFactor) {
+            if (scaleFactor == null) {
+                scaleFactor = 1;
+            }
+            var w = video.videoWidth * scaleFactor;
+            var h = video.videoHeight * scaleFactor;
+            var canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            var ctx = canvas.getContext('2d');
+
+            ctx.drawImage(video, 0, 0, w, h);
+            return canvas;
+        }
+
+
+        $("#snap_btn").click(function (e) {
+            if ($('#check_id').is(":checked")) {
+                var check = "Yes";
+            }
+            else {
+                var check = "No";
+            }
+
+            e.preventDefault();
+            $('#snap_btn').button('loading');
+            var random_gesture = $("#random_name").val();
+
+            var canvas = capture(video, scaleFactor);
+            var image = canvas.toDataURL('image/png');
+            var ImageSave = image.replace("data:image/png;base64,", "");
+            var image = JSON.stringify({ data: ImageSave, check: check, random_gesture: random_gesture, CheckIn: true });
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: image,
+                url: "/Home/VerifyAPI/",
+                success: function (data) {
+                    random_gesture_fn();
+                    console.log(data);
+                    if (data.Result == "Success") {
+                        $("#person_result").html(data.VerifiedName);
+                    }
+                    else {
+                        //console.log(data.Result);
+                        $("#errmsg").html(data.VerifiedName);
+                        $('#alert_popup').modal('show');
+                    }
+                    $('#snap_btn').button('reset');
+                }
+            });
+        });
+
+
+        $("#snap_btn_Checkout").click(function (e) {
+            if ($('#check_id').is(":checked")) {
+                var check = "Yes";
+            }
+            else {
+                var check = "No";
+            }
+
+            e.preventDefault();
+            $('#snap_btn_Checkout').button('loading');
+            var random_gesture = $("#random_name").val();
+
+            var canvas = capture(video, scaleFactor);
+            var image = canvas.toDataURL('image/png');
+            var ImageSave = image.replace("data:image/png;base64,", "");
+            var image = JSON.stringify({ data: ImageSave, check: check, random_gesture: random_gesture, CheckIn: false });
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: image,
+                url: "/Home/VerifyAPI/",
+                success: function (data) {
+                    random_gesture_fn();
+                    console.log(data);
+                    if (data.Result == "Success") {
+                        $("#person_result").html(data.VerifiedName);
+                    }
+                    else {
+                        //console.log(data.Result);
+                        $("#errmsg").html(data.VerifiedName);
+                        $('#alert_popup').modal('show');
+                    }
+                    $('#snap_btn_Checkout').button('reset');
+                }
+            });
+        });
+
+
+
+
+
+
+
+
+
+        $('#on_off_btn').click(function () {
+            if ($('#on_off_btn').prop("checked") == true) {
+
+                $('#cam_ctrl_div').hide();
+                $('#local_ctrl_div').show();
+                $('#local_snap_btn').prop('disabled', true);
+                $('#local_snap_btn_Checkout').prop('disabled', true);
+
+            }
+            else {
+                $('#cam_ctrl_div').show();
+                $('#local_ctrl_div').hide();
+                $('#local_snap_btn').prop('disabled', false);
+                $('#local_snap_btn_Checkout').prop('disabled', false);
+            }
+        });
+
+
+
+
+
+        var local_canvas, local_ctx;
+
+        local_canvas = document.getElementById("local_img");
+        local_ctx = local_canvas.getContext('2d');
+        var local_imageObj = new Image();
+
+        local_imageObj.onload = function () {
+            local_ctx.drawImage(local_imageObj, 0, 0, 300, 150);
+        };
+        local_imageObj.src = '/assets/images/empty.jpg';
+
+        $(function () {
+            $(":file").change(function () {
+                $('#local_snap_btn').prop('disabled', false);
+                $('#local_snap_btn_Checkout').prop('disabled', false);
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+
+        var img_src_64;
+        function imageIsLoaded(e) {
+
+            img_src_64 = e.target.result;
+            var img_64_array = img_src_64.split(',');
+            var img_extension = img_64_array[0];
+
+            if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                local_imageObj.src = e.target.result;
+                $('#warn_msg').hide();
+            }
+            else {
+                $('#warn_msg').show();
+            }
+        };
+
+
+        $("#local_snap_btn").click(function (e) {
+            if ($('#local_check_id').is(":checked")) {
+                var local_check = "Yes";
+            }
+            else {
+                var local_check = "No";
+            }
+
+            e.preventDefault();
+            $('#local_snap_btn').button('loading');
+            var random_gesture = $("#random_name").val();
+
+            var img_64_array = img_src_64.split(',');
+            var image = JSON.stringify({ data: img_64_array[1], check: local_check, random_gesture: random_gesture, CheckIn: true });
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: image,
+                url: "/Home/VerifyAPI/",
+                success: function (data) {
+                    random_gesture_fn();
+                    console.log(data);
+                    if (data.Result == "Success") {
+                        $("#person_result").html(data.VerifiedName);
+                    }
+                    else {
+                        //console.log(data.Result);
+                        $("#errmsg").html(data.VerifiedName);
+                        $('#alert_popup').modal('show');
+                    }
+                    $('#local_snap_btn').button('reset');
+                }
+            });
+        });
+
+
+
+
+        $("#local_snap_btn_Checkout").click(function (e) {
+            if ($('#local_check_id').is(":checked")) {
+                var local_check = "Yes";
+            }
+            else {
+                var local_check = "No";
+            }
+
+            e.preventDefault();
+            $('#local_snap_btn_Checkout').button('loading');
+            var random_gesture = $("#random_name").val();
+
+            var img_64_array = img_src_64.split(',');
+            var image = JSON.stringify({ data: img_64_array[1], check: local_check, random_gesture: random_gesture, CheckIn: false });
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: image,
+                url: "/Home/VerifyAPI/",
+                success: function (data) {
+                    random_gesture_fn();
+                    console.log(data);
+                    if (data.Result == "Success") {
+                        $("#person_result").html(data.VerifiedName);
+                    }
+                    else {
+                        //console.log(data.Result);
+                        $("#errmsg").html(data.VerifiedName);
+                        $('#alert_popup').modal('show');
+                    }
+                    $('#local_snap_btn_Checkout').button('reset');
+                }
+            });
+        });
+
+
+        function imageopen() {
+            $('#open_image_file').trigger('click');
+        }
+
+        function random_gesture_fn() {
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                url: "/Home/RandomGestureAPI/",
+                success: function (data) {
+                    console.log(data);
+                    console.log(data.GestureName);
+                    $("#gesture_name").html("Please Show Number " + data.GestureName + " as Gesture");
+                    $("#gesture_name_local").html("Please Show Number " + data.GestureName + " as Gesture");
+                    $("#gesture_image").attr('src', data.GestureUrl);
+                    $("#random_name").val(data.GestureName);
+
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>

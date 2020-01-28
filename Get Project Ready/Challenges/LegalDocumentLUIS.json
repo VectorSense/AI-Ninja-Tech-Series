@@ -1,0 +1,233 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "Legal Document Verification",
+  "desc": "This application for verifying legal documents",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Discover Client Details"
+    },
+    {
+      "name": "Discover Contract Details"
+    },
+    {
+      "name": "Discover Contract End Date"
+    },
+    {
+      "name": "Discover Contract Value"
+    },
+    {
+      "name": "Discover Jurisdiction"
+    },
+    {
+      "name": "Discover Penalty"
+    },
+    {
+      "name": "Discover Services"
+    },
+    {
+      "name": "Discover Vendor Details"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Client Name",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Contract Date",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Contract Value",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "End Date",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Jurisdiction Place",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Services",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "Vendor Name",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "email",
+      "roles": []
+    },
+    {
+      "name": "percentage",
+      "roles": []
+    },
+    {
+      "name": "phonenumber",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "payment will be accepted in the form wire transfer. vendor charges provider a fixed sum of {Contract Value} for these specified services",
+      "intent": "Discover Contract Value"
+    },
+    {
+      "pattern": "vendor: phone: {phonenumber} email: {email}",
+      "intent": "Discover Vendor Details"
+    },
+    {
+      "pattern": "vendor needs to pay a penalty of {percentage} of contract value for the delay of every month",
+      "intent": "Discover Penalty"
+    },
+    {
+      "pattern": "client: phone: {phonenumber} email: {email}",
+      "intent": "Discover Client Details"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "client: phone: [209-200-0776] email: [someone@heavyloadtrucks.com]",
+      "intent": "Discover Client Details",
+      "entities": []
+    },
+    {
+      "text": "deployment of field engineerings at delivery centers, complete servicing of trucks, replacement of warranty parts, pdi check on engine, doors and tyres",
+      "intent": "Discover Services",
+      "entities": [
+        {
+          "entity": "Services",
+          "startPos": 0,
+          "endPos": 150
+        }
+      ]
+    },
+    {
+      "text": "deployment of field engineerings at warehouse repainting of trucks pdi check on part a, b and c",
+      "intent": "Discover Services",
+      "entities": [
+        {
+          "entity": "Services",
+          "startPos": 0,
+          "endPos": 94
+        }
+      ]
+    },
+    {
+      "text": "payment will be accepted in the form wire transfer. vendor charges provider a fixed sum of usd 36,000 for these specified services",
+      "intent": "Discover Contract Value",
+      "entities": [
+        {
+          "entity": "Contract Value",
+          "startPos": 91,
+          "endPos": 100
+        }
+      ]
+    },
+    {
+      "text": "repainting of trucks",
+      "intent": "Discover Services",
+      "entities": [
+        {
+          "entity": "Services",
+          "startPos": 0,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "this contract shall be judged in accordance with the laws of california state, usa.",
+      "intent": "Discover Jurisdiction",
+      "entities": [
+        {
+          "entity": "Jurisdiction Place",
+          "startPos": 61,
+          "endPos": 81
+        }
+      ]
+    },
+    {
+      "text": "this predelivery check services contract being entered into on 20th day of january, 2019 between contoso logistics (vendor) and heavy load trucks (client) furthermore known as \"the parties\".",
+      "intent": "Discover Contract Details",
+      "entities": [
+        {
+          "entity": "Contract Date",
+          "startPos": 63,
+          "endPos": 87
+        },
+        {
+          "entity": "Vendor Name",
+          "startPos": 97,
+          "endPos": 103
+        },
+        {
+          "entity": "Vendor Name",
+          "startPos": 105,
+          "endPos": 113
+        },
+        {
+          "entity": "Client Name",
+          "startPos": 128,
+          "endPos": 144
+        }
+      ]
+    },
+    {
+      "text": "vendor agrees to complete all these services with in 3 months of the start date of work.",
+      "intent": "Discover Contract End Date",
+      "entities": [
+        {
+          "entity": "End Date",
+          "startPos": 53,
+          "endPos": 60
+        }
+      ]
+    },
+    {
+      "text": "vendor agrees to complete all these services within 3 months of the start date of work. in case of any delays,",
+      "intent": "Discover Contract End Date",
+      "entities": [
+        {
+          "entity": "End Date",
+          "startPos": 52,
+          "endPos": 59
+        }
+      ]
+    },
+    {
+      "text": "vendor needs to pay a penalty of 1 % of contract value for the delay of every month",
+      "intent": "Discover Penalty",
+      "entities": []
+    },
+    {
+      "text": "vendor: phone: [209-200-0068] email: [someone@contoso-logisics.com]",
+      "intent": "Discover Vendor Details",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
