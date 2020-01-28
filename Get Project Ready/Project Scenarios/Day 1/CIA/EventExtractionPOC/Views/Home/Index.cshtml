@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Event Extraction | Services</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="~/assets/assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/style.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/style.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/style-responsive.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/theme/default.css" rel="stylesheet" id="theme" />
+    <!-- ================== END BASE CSS STYLE ================== -->
+    <!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
+    <link href="~/assets/assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+    <link href="~/assets/assets/plugins/morris/morris.css" rel="stylesheet" />
+    <!-- ================== END PAGE LEVEL CSS STYLE ================== -->
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="~/assets/assets/plugins/pace/pace.min.js"></script>
+    <!-- ================== END BASE JS ================== -->
+                <style type="text/css">
+                .checkboxItems {
+                    margin-top: 50px;
+                }
+
+                body {
+                    margin: 0;
+                    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+                    /*font-size: .812rem;*/
+                    font-weight: 400;
+                    line-height: 1.5;
+                    /*color: #888da8;*/
+                    background-color: #ffffff;
+                }
+
+                .img-wrap p {
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-bottom: -12px !important;
+                    color: rgb(8, 160, 235,0.95);
+                }
+
+                .img-wrap span {
+                    letter-spacing: 12px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    /* margin-top: -11px; */
+                    color: rgb(8, 160, 235,0.95);
+                }
+
+                .centered-text-with-hr {
+                    position: relative;
+                    text-align: center;
+                    z-index: 1;
+                }
+
+                    .centered-text-with-hr span {
+                        background-color: #fff;
+                        padding: 0 12px;
+                    }
+
+                .customheader {
+                    border-bottom: 0.3px solid #f9f3f3;
+                    padding: 5px 10px 10px;
+                }
+
+                .centered-text-with-hr:after {
+                    -ms-transform: translate(0,-50%);
+                    -o-transform: translate(0,-50%);
+                    -webkit-transform: translate(0,-50%);
+                    transform: translate(0,-50%);
+                    border-left: 1px solid #dedede;
+                    border-right: 1px solid #dedede;
+                    border-top: 1px solid #dedede;
+                    content: '';
+                    display: block;
+                    height: 24px;
+                    position: absolute;
+                    top: 100%;
+                    width: 100%;
+                    z-index: -1;
+                }
+
+                .text-heading6 {
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 1.3;
+                    margin: 0 0 9px;
+                }
+
+                .marginLine {
+                    margin: 50px 0px;
+                }
+
+                .main-content {
+                    background: #fff;
+                }
+
+                @@media only screen and (min-width: 768px) {
+
+                    .tabs.tabs-border {
+                        /*border-bottom: 5px solid #00abec;*/
+                    }
+                }
+
+                @@media only screen and (min-width: 768px) {
+
+                    .tabs {
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+
+                        .tabs li {
+                            float: left;
+                            margin: 0 2px 0 0;
+                        }
+
+                            .tabs li a {
+                                display: inline-block;
+                                background-color: #dedede;
+                                color: #505055;
+                                text-align: center;
+                                padding: 24px 36px;
+                            }
+
+                            .tabs li a {
+                                font-size: 18px;
+                            }
+
+                                .tabs li a.active, .tabs li a.active:hover {
+                                    background-color: #0078d4;
+                                    color: #fff;
+                                }
+
+                                .tabs li a.active {
+                                    background-color: #0078d4;
+                                }
+
+                        .tabs.tabs-size1 li a {
+                            padding: 12px 24px;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+                    .tabs-content > div.active {
+                        display: block;
+                    }
+                }
+
+                .image-preview-input input[type=file] {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 20px;
+                    cursor: pointer;
+                    opacity: 0;
+                    filter: alpha(opacity=0);
+                }
+
+                .image-preview-input-title {
+                    margin-left: 2px;
+                }
+
+                .screenImage {
+                    width: 100%;
+                    min-height: 125px;
+                    margin-bottom: 10px;
+                }
+
+                .borderred {
+                    border: 4px solid red;
+                }
+
+                .bordernone {
+                    /*border: none;*/
+                    border: 4px solid #17a5ec;
+                }
+                /*#selectedImage{
+            margin-top: 40px;
+        }*/
+                #selectedImage a {
+                    margin-top: 35px;
+                }
+
+                #output {
+                    /*display: inline-block;*/
+                    overflow-y: auto;
+                    top: 4px;
+                    position: relative;
+                    padding: 20px 0px;
+                    margin-bottom: 50px;
+                    height: 420px;
+                }
+
+                .prere p {
+                    font-size: 18px;
+                    margin-top: 25%;
+                }
+
+                .URLvideo {
+                    cursor: pointer;
+                    color: #17a5ec;
+                    font-size: 22px;
+                }
+
+                .demo-img-results {
+                    height: 430px;
+                    overflow: auto;
+                    width: 100%;
+                    background-color: #f4f4f4;
+                    border: 1px #969696 solid;
+                }
+    </style>
+</head>
+<body>
+    <!-- begin #page-loader -->
+    <div id="page-loader" class="fade in"><span class="spinner"></span></div>
+    <!-- end #page-loader -->
+
+    <div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
+        <!-- begin #header -->
+        <div id="header" class="header customheader navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="" class="img-wrap navbar-brand" style="border-right:none;">
+                        <p>EVENT EXTRACTION</p>
+                        <span>SERVICES</span>
+                        <!-- <img src="images/admin/logo.png" style="width: 100px;"> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- begin #content -->
+        <div id="content" class="content dash-content" style="margin-left: 0px;">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h3>Video</h3>
+                            </div>
+                            <div id="temp_img">
+                                <img src="https://cdn-images-1.medium.com/max/1600/1*ofbHXhNMJb8C8At2Ofqr8Q.png" width="100%">
+                            </div>
+                            <div id="iframe_id"></div><br><br>
+                            <div class="marginLine">
+                                <h3 class="centered-text-with-hr text-heading6"><span>Pick from our gallery</span></h3>
+                            </div>
+                            <div class="row">
+                                @*<div class="col-md-3"></div>
+                                <div class="col-md-3 col-sm-4 col-xs-3">
+                                    <span class="URLvideo" bit="1" id="vdo1">Video 1</span>
+                                </div>*@
+                                <div class="col-md-3 col-sm-4 col-xs-3">
+                                    <span class="URLvideo" bit="2" id="vdo2">Video 1</span>
+                                </div>
+                                <div class="col-md-3"></div>
+
+                            </div>
+                            <br>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h3>Frames</h3>
+                            </div>
+                            <div class="row rowclass">
+                                <div id="output"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="container-fluid" style="padding: 30px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="responseImagesec" id="selectedImage">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="SelectedResponse"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+    <script src="~/assets/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+    <!-- ================== END BASE JS ================== -->
+    <!-- ================== BEGIN PAGE LEVEL JS ================== -->
+    <script src="~/assets/assets/plugins/morris/raphael.min.js"></script>
+    <script src="~/assets/assets/plugins/morris/morris.js"></script>
+    <script src="~/assets/assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="~/assets/assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js"></script>
+    <script src="~/assets/assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js"></script>
+
+    <script src="~/assets/assets/js/dashboard-v2.min.js"></script>
+    <script src="~/assets/assets/js/apps.min.js"></script>
+    <!-- ================== END PAGE LEVEL JS ================== -->
+
+    <script>
+        $(document).ready(function () {
+            App.init();
+            DashboardV2.init();
+        });
+
+        //$("#vdo1").click(function () {
+        //    $("#output").empty();
+        //});
+        $("#vdo2").click(function () {
+            $("#output").empty();
+        });
+        // $(".tab").click(function(){
+        $(document).on("click", "#readTextJson", function () {
+            var active_chk = $(this).index();
+            $("#readTextPreview1").hide();
+            $("#readTextPreview").removeClass("active");
+            $(this).addClass(" active");
+            $("#readTextJson1").show();
+        });
+
+        $(document).on("click", "#readTextPreview", function () {
+            $("#readTextJson1").hide();
+            var active_chk = $(this).index();
+            $("#readTextJson").removeClass("active");
+            $(this).addClass(" active");
+            $("#readTextPreview1").show();
+        });
+
+        $(document).on("click", ".URLvideo", function () {
+            $(".image-preview-filename").val('');
+            var bit = $(this).attr('bit');
+        //    if (bit == 1) {
+        //        $("#temp_img").hide();
+        //        $("#iframe_id").html("<video src='/Videos/joined-all.mp4' preload='meta' id='video' type='video/mp4' width='100%' autoplay=0 controls='controls'></video>");
+        //        shoot(bit);
+        //        interval = setInterval(function () {
+        //            shoot(bit);
+        //        }, 2000);
+        //    }
+        //    else 
+            if (bit == 2) {
+                $("#temp_img").hide();
+                $("#iframe_id").html("<video src='/Videos/BrandCars.mp4' preload='meta' id='video' muted='muted' type='video/mp4' width='100%' autoplay=0 controls ='controls'></video >");
+                shoot(bit);
+                interval = setInterval(function () {
+                    shoot(bit);
+                }, 2000);
+            }
+           
+            else {
+                $("#temp_img").hide();
+                $("#iframe_id").html("<video preload='meta' id='video' width='100%' autoplay=1 controls='controls'></video>");
+                // Grab elements, create settings, etc.
+                var video = document.getElementById('video');
+                // Get access to the camera!
+                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                   navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                        video.srcObject = stream;
+                        video.play();
+                    });
+                    shoot();
+                    interval = setInterval(function () {
+                        shoot();
+                    }, 2000);
+                }
+            }
+        });
+
+        var videoId = 'video';
+        var scaleFactor = 1;
+        var snapshots = [];
+
+
+        function capture(video, scaleFactor) {
+            if (scaleFactor == null) {
+                scaleFactor = 1;
+            }
+            var w = video.videoWidth * scaleFactor;
+            var h = video.videoHeight * scaleFactor;
+            var canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(video, 0, 0, w, h);
+            return canvas;
+        }
+
+        var array = [];
+
+        function shoot(bit) {
+            var video = document.getElementById(videoId);
+            if (!video.ended && !video.paused) {
+                var canvas = capture(video, scaleFactor);
+                var image = canvas.toDataURL("image/png");
+                var img_64_array = image.split(',');
+                var JsonImage = JSON.stringify({ data: img_64_array[1] });
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: JsonImage,
+                    url: "/Home/ImageAnalyse",
+                    success: function (response) {
+                        console.log(response)
+                        if (response.Error == "") {
+                            ImageDetection(response.ImgName, "Cars", "bordernone", response.JsonResponse);
+                            //if (response.TagName == "No Problem")
+                            //    ImageDetection(response.ImgName, response.TagName, "bordernone", response.JsonResponse);
+                            //else
+                            //    ImageDetection(response.ImgName, response.TagName, "borderred", response.JsonResponse);
+                        }
+                        else
+                            alert(response.Error);
+                    }
+                });
+                snapshots.unshift(canvas);
+            }
+        }
+
+
+
+        function ImageDetection(data, result, border_class, predict) {
+            //predict = predict.replace("/", "");
+            console.log(predict);
+            //predict = JSON.parse(predict);
+            var link = "/Images/" + data + "";
+            var objct = {};
+            screenshotname = data.substr(data.indexOf("/") + 1);
+            objct.ImageName = screenshotname;
+            objct.Response = result;
+            objct.FullResponse = predict;
+            array.push(objct);
+            var screenshotFn = 'myFindImage(\'' + screenshotname + '\');';
+            $("#output").append('<div class="col-md-4 col-sm-4"><img class="screenImage ' + border_class + '" bit="' + screenshotname + '" src="/Images/' + data + '" onclick="' + screenshotFn + '"></div>');
+        }
+
+
+
+        function myFindImage(name) {
+            $("#selectedImage").html('');
+            for (i = 0; i < array.length; i++) {
+                if (array[i].ImageName == name) {
+                    var border_class = "bordernone";
+                    if (array[i].Response != "No Problem") {
+                        border_class = "borderred";
+                    }
+                    var imgURL = "/Images/" + name + " ";
+                    $("#selectedImage").html('<div class="col-md-12"><img src="' + imgURL + '" class="img-responsive ' + border_class + ' " style="min-height: 500px;"></div></div>');
+                    $("#SelectedResponse").html('<ol role="tablist" class="sd-tabs tabs tabs-size1 tabs-border">                            <li role="presentation">                                <a class="tab active" id="readTextPreview" data-id="first">Preview</a>                            </li>                            <li role="presentation">                                <a class="tab" id="readTextJson" data-id="second" >JSON</a>                            </li>                        </ol>                        <div class="tabs-content demo-img-results light-original-code-box">                             <div role="tabpanel" id="readTextPreview1" class="active">                                <div style="margin: 10px; "> <div class="prere" style="margin: 10px; "><center><p>' + array[i].Response + '</p></center></div></div>                            </div>                            <div role="tabpanel" id="readTextJson1" style="display:none;    padding: 20px;">' + JSON.stringify(array[i]) + '</div>                        </div>');
+
+                }
+            }
+        }</script>
+</body>
+</html>
