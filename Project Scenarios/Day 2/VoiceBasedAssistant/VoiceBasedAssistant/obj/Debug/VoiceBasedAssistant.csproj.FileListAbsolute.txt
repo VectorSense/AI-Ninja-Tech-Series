@@ -1,2 +1,0 @@
-F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\Debug\VoiceBasedAssistant.csprojAssemblyReference.cache
-F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\Debug\VoiceBasedAssistant.csproj.CoreCompileInputs.cache
