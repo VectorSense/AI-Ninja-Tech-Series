@@ -992,4 +992,4 @@ public ActionResult image_validation()
 <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
 </strong>
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
-<h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Challenge2.md"> Challenge 2</a></h3>
+<h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge2.md"> Challenge 2</a></h3>
