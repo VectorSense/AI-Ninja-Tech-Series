@@ -1,0 +1,538 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Cognitive Services Corridor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/UI_assets/style.css" type="text/css">
+    <link rel="stylesheet" href="~/UI_assets/colors/default.css" type="text/css">
+    <link rel="stylesheet" href="~/UI_assets/js/fancybox/source/jquery.fancybox.css" type="text/css">
+    <link rel="icon" type="image/png" href="/UI_assets/images/favicon.png" />
+    <script src="~/UI_assets/js/modernizr.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .instruction {
+            font-size: 23px;
+            font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+            text-align: center;
+            /*background: black;*/
+            color: black;
+            padding: 13px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+        #warn_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        #image_url_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="site-head">
+            <div class="wrap group">
+                <div class="logo">
+                    <h1><img src="~/UI_assets/images/microsoft.png" alt="JSN_logo" style="width: 77%;padding-left: 35px;margin-top: -47px;"></h1>
+                </div>
+                <div class="center_content">
+                    <h2 style="text-align: center;color: #0477d3;margin-bottom: 10px;font-size: 44px;text-transform:uppercase;font-weight:600;font-family:" open="" sans",="" sans-serif;"="">Partner Tech Series</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .wrap < #header -->
+
+    </header>
+    <br>
+    <div class="container">
+        <p class="instruction" id="main_instruction">
+            Analyse Image
+        </p>
+       
+        <div class="row">
+            <div class="col-md-1 col-sm-1" style="text-align: right;">
+                <label class="switch pull-right">
+                    <input type="checkbox" checked id="on_off_btn">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="col-md-6 col-sm-6" style="text-align: left;">
+                <p class="pull-left" style="margin-top: 1%;"> Live streaming/URL Image</p>
+            </div>
+            <div class="col-md-5 col-sm-5">
+                <p style="text-align:center;font-size:18px;">Summary</p>
+            </div>
+        </div>
+     </div>
+        <!-- <div id="page"> -->
+        <section class="container" style="margin-bottom: 5%;" id="camera_sec">
+            <br>
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <div id="iframe_id" style="position: relative;width: 700px;height: 450px;display: block;margin-left:auto;margin-right: auto;"></div>
+                    @*
+                        <div id="iframe_id"></div>
+                    *@
+                </div>
+                <div class="col-md-5 col-sm-5">
+                </div>
+            </div>
+        </section>
+        <!--  #main -->
+        <section class="container" style="margin-bottom: 5%;" id="local_sec">
+            <br>
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <div class="row col-md-12 col-sm-12" style="height: 400px;">
+                        @*<img src="~/UI_assets/images/empty.jpg" alt="empty_image" id="local_img" class="img-responsive" style="width: 100%;">*@
+                        <canvas id="local_img" style="display: block;width:100%;"></canvas>
+                    </div>
+                    <div class="row col-md-12 col-sm-12">
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <div style="width: 100%;height: 470px;background:#f3f3f3;padding:40px;">
+                        <p id="result" style="color:#00b294;"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" style="margin-bottom: 5%;" id="completed_local_sec">
+            <br>
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <div class="row col-md-12 col-sm-12" style="height: 400px;">
+                        <canvas id="completed_local_img" style="display: block;width:120%;"></canvas>
+                    </div>
+                    <div class="row col-md-12 col-sm-12">
+                        <div class="col-md-8 col-sm-8">
+                            <br>
+                            <input type="text" name="image_url" id="image_url" class="image_url form-control" placeholder="Image URL">
+                            <br>
+                            <p id="warn_msg">Kindly upload (PNG,JPEG) formatted images</p>
+                            <p id="image_url_msg">Please enter the valid URL</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <br>
+                            <button class="btn btn-primary mb-4 shadow-2" style="background: #00abec;border-color: #00abec;" id="image_submit">Submit</button>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <br>
+                            <input type="file" name="open_image_file" id="open_image_file" class="open_image_file" style="display: none;">
+                            <button class="btn btn-primary mb-4 shadow-2" style="background: white; color: black;border-color: black;" id="open_image_trigger" onclick="imageopen()">&nbsp;&nbsp;Browse</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <div style="width: 100%;height: 400px;background:#f3f3f3;padding:40px;">
+                        <p id="completed_result" style="color:#00b294;"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" style="position: inherit;">
+            <div class="wrap group">
+                <div class="footer-text">
+                    <a href="#"></a> © 2019 All rights reserved
+                </div>
+            </div>
+        </footer>
+        <!--  </div> --><!-- #page -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="~/UI_assets/js/jquery.ias.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('#local_sec').show();
+            $('#camera_sec').hide();
+            $('#warn_msg').hide();
+            $('#image_url_msg').hide();
+            $('#completed_local_sec').hide();
+            localcanvas = document.getElementById('local_img');
+            completed_canvas = document.getElementById('completed_local_img');
+            var cnxt = null;
+            var video = null;
+            var Rect = null;
+      
+            $("#iframe_id").html("<video id='video' class='response' autoplay='1' style='display: block; margin - left: auto; margin - right: auto; width: 700px; height: 450px; position: absolute'></video>");
+            // Grab elements, create settings, etc.
+            video = document.getElementById('video');
+            // Get access to the camera!f
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                // Not adding `{ audio: true }` since we only want video now
+                navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+                    video.srcObject = stream;
+                    video.play();
+                });
+                showVideo();
+                startStream();
+            }
+            $('#on_off_btn').click(function () {
+                if ($('#on_off_btn').prop("checked") == true) {
+                    $('#local_sec').show();
+                    $('#completed_local_sec').hide();
+                    Rect = null
+                }
+                else {
+                    $('#local_sec').hide();
+                    $('#completed_local_sec').show();
+                    Rect = null
+                }
+            });
+            function imageopen() {
+                $('#open_image_file').trigger('click');
+            }
+            $(function () {
+                $(":file").change(function () {
+                    if (this.files && this.files[0]) {
+                        var reader = new FileReader();
+                        reader.onload = imageIsLoaded;
+                        reader.readAsDataURL(this.files[0]);
+                    }
+                });
+            });
+            function startStream() {
+                AnalyseImage();
+                interval = setInterval(function () {
+                    if ($('#on_off_btn').prop("checked") == true) {
+                        AnalyseImage();
+                    }
+                }, 3000);
+            }
+            function showVideo() {
+                cnxt = localcanvas.getContext('2d');
+                var w = video.videoWidth * 0.6;
+                var h = video.videoHeight * 0.6;
+                localcanvas.width = w;
+                localcanvas.height = h;
+                cnxt.drawImage(video, 0, 0, w, h);
+                interval = setInterval(function () {
+                    if ($('#on_off_btn').prop("checked") == true) {
+                        //cnxt.clearRect(0, 0, localcanvas.width, localcanvas.height);
+                        cnxt = localcanvas.getContext('2d');
+                        var w = video.videoWidth * 0.6;
+                        var h = video.videoHeight * 0.6;
+                        localcanvas.width = w;
+                        localcanvas.height = h;
+                        cnxt.drawImage(video, 0, 0, w, h);
+                        if (Rect != null && (Object.keys(Rect)).length > 1) {
+                            for (var i = 0; i < Rect.Brand.length; i++) {
+                                var Name = Rect.Brand[i].Name;
+                                var Top = Rect.Brand[i].Rect.Top;
+                                var Left = Rect.Brand[i].Rect.Left;
+                                var Height = Rect.Brand[i].Rect.Height;
+                                var Width = Rect.Brand[i].Rect.Width;
+                                cnxt.beginPath();
+                                cnxt.lineWidth = "2";
+                                cnxt.strokeStyle = "blue";
+                                cnxt.rect(Left, Top, Width, Height);
+                                cnxt.font = "bold 15px Arial";
+                                cnxt.fillStyle = "red";
+                                cnxt.fillText(Name, Left, Top + Height + 15);
+                                cnxt.stroke();
+                            }
+                            for (var i = 0; i < Rect.Object.length; i++) {
+                                var Name = Rect.Object[i].Name;
+                                var Top = Rect.Object[i].Rect.Top;
+                                var Left = Rect.Object[i].Rect.Left;
+                                var Height = Rect.Object[i].Rect.Height;
+                                var Width = Rect.Object[i].Rect.Width;
+                                cnxt.beginPath();
+                                cnxt.lineWidth = "2";
+                                cnxt.strokeStyle = "green";
+                                cnxt.rect(Left, Top, Width, Height);
+                                cnxt.font = "bold 15px Arial";
+                                cnxt.fillStyle = "red";
+                                cnxt.fillText(Name, Left, Top + 15);
+                                cnxt.stroke();
+                            }
+                        }
+                    }
+                }, 35);
+            }
+            function AnalyseImage() {
+                if (cnxt != null) {
+                    var image = document.getElementById("local_img").toDataURL("image/png");
+                    var img_64_array = image.split(',');
+                    var img_extension = img_64_array[0];
+                    var ImageBase64 = image.replace(img_extension + ",", "");
+                    var JsonImage = JSON.stringify({ data: ImageBase64, flag: true });
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json",
+                        datatype: "json",
+                        data: JsonImage,
+                        url: "/Home/ImageAnalyse",
+                        success: function (response) {
+                            //console.log(response)
+                            Rect = response;
+                            if ((Object.keys(response)).length > 1) {
+                                var summary = "<b style='color:#c7254e;'>Tag Identified : </b><br><br>";
+                                for (var i = 0; i < response.Tag.length; i++)
+                                    if (i < response.Tag.length - 1)
+                                        summary += response.Tag[i].Name + ", ";
+                                    else
+                                        summary += response.Tag[i].Name;
+
+                                summary += " <br><br><b style='color:#c7254e;'>\n\nBrand : </b><br><br>";
+                                for (var i = 0; i < response.Brand.length; i++)
+                                    if (i < response.Brand.length - 1)
+                                        summary += response.Brand[i].Name + ",  ";
+                                    else
+                                        summary += response.Brand[i].Name;
+
+                                $('#result').html(summary);
+                            }
+                            else if (((Object.keys(response)).length == 1) || response.Tag.length == 0 || response.Brand.length == 0) {
+                                $('#result').html("");
+                            }
+                        }
+                    });
+                }
+            }
+            function imageIsLoaded(e) {
+                var ImageBase64 = null
+                cnxt = completed_canvas.getContext('2d');
+                cnxt.clearRect(0, 0, completed_canvas.width, completed_canvas.height);
+                var img = new Image();
+                var img_src_64 = e.target.result;
+                var p = 0
+                img.onload = function () {
+                    var height = this.naturalHeight;
+                    var width = this.naturalWidth;
+                    //var cwidth = localcanvas.width;
+                    var cheight = completed_canvas.height;
+                    p = cheight / height;
+                    //p = 1;
+                    var w = width * p;
+                    var h = height * p;
+                    cnxt.drawImage(img, 0, 0, w, h);
+                    //cnxt.drawImage(img, 0, 0, width, height);
+                };
+                img.src = img_src_64;
+                var img_64_array = img_src_64.split(',');
+                var img_extension = img_64_array[0];
+                if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                    $('#URLImage_Content').show();
+                    $('#warn_msg').hide();
+                    $('#image_url_msg').hide();
+                    ImageBase64 = img_src_64.replace(img_extension + ",", "");
+                }
+                else {
+                    $('#image_url_msg').hide();
+                    $('#warn_msg').show();
+                }
+                if ($('#warn_msg').is(":hidden")) {
+                    $('#completed_result').html("");
+                    //$('#FemaleCount').html("");
+                    //$('#TotalCount').html("");
+                    var JsonImage = JSON.stringify({ data: ImageBase64, flag: true });
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json",
+                        datatype: "json",
+                        data: JsonImage,
+                        url: "/Home/ImageAnalyse",
+                        success: function (response) {
+                            //console.log(response);
+                            if ((Object.keys(response)).length > 1) {
+                                var summary = "<b style='color:#c7254e;'>Tag Identified : </b><br><br>";
+                                for (var i = 0; i < response.Tag.length; i++)
+                                    if (i < response.Tag.length - 1)
+                                        summary += response.Tag[i].Name + ", ";
+                                    else
+                                        summary += response.Tag[i].Name;
+                                summary += " <br><br><b style='color:#c7254e;'>\n\nBrand : </b><br><br>";
+                                for (var i = 0; i < response.Brand.length; i++) {
+                                    if (i < response.Brand.length - 1)
+                                        summary += response.Brand[i].Name + ",  ";
+                                    else
+                                        summary += response.Brand[i].Name;
+                                    var Name = response.Brand[i].Name;
+                                    var Top = response.Brand[i].Rect.Top * p;
+                                    var Left = response.Brand[i].Rect.Left * p;
+                                    var Height = response.Brand[i].Rect.Height * p;
+                                    var Width = response.Brand[i].Rect.Width * p;
+                                    cnxt.beginPath();
+                                    cnxt.lineWidth = "2";
+                                    cnxt.strokeStyle = "blue";
+                                    cnxt.rect(Left, Top, Width, Height);
+                                    cnxt.font = "bold 15px Arial";
+                                    cnxt.fillStyle = "red";
+                                    cnxt.fillText(Name, Left, Top + Height + 15);
+                                    cnxt.stroke();
+                                }
+                                for (var i = 0; i < response.Object.length; i++) {
+                                    var Name = response.Object[i].Name;
+                                    var Top = response.Object[i].Rect.Top * p;
+                                    var Left = response.Object[i].Rect.Left * p;
+                                    var Height = response.Object[i].Rect.Height * p;
+                                    var Width = response.Object[i].Rect.Width * p;
+                                    cnxt.beginPath();
+                                    cnxt.lineWidth = "2";
+                                    cnxt.strokeStyle = "green";
+                                    cnxt.rect(Left, Top, Width, Height);
+                                    cnxt.font = "bold 15px Arial";
+                                    cnxt.fillStyle = "red";
+                                    cnxt.fillText(Name, Left, Top + 15);
+                                    cnxt.stroke();
+                                }
+                                $('#completed_result').html(summary);
+                            }
+                        }
+                    });
+                }
+            };
+            $('#image_submit').click(function () {
+                var image_url = $('#image_url').val();
+                if (image_url == "") {
+                    $('#image_url_msg').show();
+                    $('#warn_msg').hide();
+                }
+                else {
+                    $('#image_url_msg').hide();
+                    $('#local_img').attr('src', image_url);
+                }
+                var cnxt = completed_canvas.getContext('2d');
+                cnxt.clearRect(0, 0, completed_canvas.width, completed_canvas.height);
+                var img = new Image();
+                var p = 0
+                img.onload = function () {
+                    var height = this.naturalHeight;
+                    var width = this.naturalWidth;
+                    //var cwidth = completed_canvas.width;
+                    var cheight = completed_canvas.height;
+                    p = cheight / height;
+                    var w = width * p;
+                    var h = height * p;
+                    cnxt.drawImage(img, 0, 0, w, h);
+                };
+                img.src = image_url;
+                var JsonImage = JSON.stringify({ data: image_url, flag: false });
+                $('#completed_result').html("");
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: JsonImage,
+                    url: "/Home/ImageAnalyse",
+                    success: function (response) {
+                        //console.log(response);
+                        if ((Object.keys(response)).length > 1) {
+                            var summary = "<b style='color:#c7254e;'>Tag Identified : </b><br><br>";
+                            for (var i = 0; i < response.Tag.length; i++)
+                                if (i < response.Tag.length - 1)
+                                    summary += response.Tag[i].Name + ", ";
+                                else
+                                    summary += response.Tag[i].Name;
+                            summary += " <br><br><b style='color:#c7254e;'>\n\nBrand : </b><br><br>";
+                            for (var i = 0; i < response.Brand.length; i++) {
+                                if (i < response.Brand.length - 1)
+                                    summary += response.Brand[i].Name + ",  ";
+                                else
+                                    summary += response.Brand[i].Name;
+                                var Name = response.Brand[i].Name;
+                                var Top = response.Brand[i].Rect.Top * p;
+                                var Left = response.Brand[i].Rect.Left * p;
+                                var Height = response.Brand[i].Rect.Height * p;
+                                var Width = response.Brand[i].Rect.Width * p;
+                                cnxt.beginPath();
+                                cnxt.lineWidth = "2";
+                                cnxt.strokeStyle = "blue";
+                                cnxt.rect(Left, Top, Width, Height);
+                                cnxt.font = "bold 15px Arial";
+                                cnxt.fillStyle = "red";
+                                cnxt.fillText(Name, Left, Top + Height + 15);
+                                cnxt.stroke();
+                            }
+                            for (var i = 0; i < response.Object.length; i++) {
+                                var Name = response.Object[i].Name;
+                                var Top = response.Object[i].Rect.Top * p;
+                                var Left = response.Object[i].Rect.Left * p;
+                                var Height = response.Object[i].Rect.Height * p;
+                                var Width = response.Object[i].Rect.Width * p;
+                                cnxt.beginPath();
+                                cnxt.lineWidth = "2";
+                                cnxt.strokeStyle = "green";
+                                cnxt.rect(Left, Top, Width, Height);
+                                cnxt.font = "bold 15px Arial";
+                                cnxt.fillStyle = "red";
+                                cnxt.fillText(Name, Left, Top + 15);
+                                cnxt.stroke();
+                            }
+                            $('#completed_result').html(summary);
+                        }
+                    }
+                });
+            });
+        </script>
+</body>
+</html>

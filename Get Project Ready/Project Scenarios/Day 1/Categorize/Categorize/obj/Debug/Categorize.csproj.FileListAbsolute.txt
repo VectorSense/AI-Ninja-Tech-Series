@@ -1,0 +1,343 @@
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.dll.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.AppContext.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Console.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Compression.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Claims.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.ValueTuple.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\WebGrease.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csprojAssemblyReference.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CoreCompileInputs.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CopyComplete
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\HeroSolutions-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.dll.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Categorize.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\csi.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.AppContext.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Console.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Compression.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Claims.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.ValueTuple.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.rsp
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\WebGrease.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.pdb
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csprojAssemblyReference.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CoreCompileInputs.cache
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CopyComplete
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.dll
+C:\Users\JUMPSTART NINJA 2\Documents\GitHub\PartnerTechSeries-AI\Demos\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.pdb
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Categorize.dll.config
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Categorize.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Categorize.pdb
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csc.exe.config
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csc.rsp
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csi.exe.config
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\csi.rsp
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.AppContext.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Collections.Immutable.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Console.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Compression.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.IO.Pipes.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Reflection.Metadata.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.AccessControl.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Claims.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.ValueTuple.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.exe.config
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\vbc.rsp
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe.config
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Web.Infrastructure.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\WebGrease.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Helpers.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Mvc.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Optimization.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.Razor.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Deployment.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Web.WebPages.Razor.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Newtonsoft.Json.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Antlr3.Runtime.pdb
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csprojAssemblyReference.cache
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CoreCompileInputs.cache
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.csproj.CopyComplete
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.dll
+F:\Partner_Tech_Series\CS\Vision\Categorize\Categorize\obj\Debug\Categorize.pdb
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Categorize.dll.config
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Categorize.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Categorize.pdb
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csc.exe
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csc.exe.config
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csc.rsp
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csi.exe
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csi.exe.config
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\csi.rsp
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.AppContext.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Collections.Immutable.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Console.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.IO.Compression.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.IO.Pipes.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Reflection.Metadata.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.AccessControl.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Claims.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.ValueTuple.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Xml.XPath.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\vbc.exe
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\vbc.exe.config
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\vbc.rsp
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\roslyn\VBCSCompiler.exe.config
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Antlr3.Runtime.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Web.Infrastructure.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Newtonsoft.Json.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Helpers.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Mvc.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Optimization.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Razor.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.Deployment.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.Razor.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\WebGrease.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Helpers.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Mvc.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Optimization.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.Razor.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.Deployment.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Web.WebPages.Razor.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Newtonsoft.Json.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Antlr3.Runtime.pdb
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Srikar\DemosWithKey\Categorize\Categorize\obj\Debug\Categorize.csprojAssemblyReference.cache
+C:\Srikar\DemosWithKey\Categorize\Categorize\obj\Debug\Categorize.csproj.CopyComplete
+C:\Srikar\DemosWithKey\Categorize\Categorize\obj\Debug\Categorize.dll
+C:\Srikar\DemosWithKey\Categorize\Categorize\obj\Debug\Categorize.pdb
