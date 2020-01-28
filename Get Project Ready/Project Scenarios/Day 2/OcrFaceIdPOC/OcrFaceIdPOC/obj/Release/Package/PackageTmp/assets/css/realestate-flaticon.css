@@ -1,0 +1,113 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:15
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/realestate-fonts/Flaticon.eot");
+  src: url("../fonts/realestate-fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/realestate-fonts/Flaticon.woff") format("woff"),
+       url("../fonts/realestate-fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/realestate-fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/realestate-fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 0px;
+}
+
+.flaticon-apartment-prices:before { content: "\f100"; }
+.flaticon-apartments-prices:before { content: "\f101"; }
+.flaticon-apartments-renovation:before { content: "\f102"; }
+.flaticon-bathtub-and-shower-head:before { content: "\f103"; }
+.flaticon-big-wheel:before { content: "\f104"; }
+.flaticon-browse-home:before { content: "\f105"; }
+.flaticon-browsing-houses:before { content: "\f106"; }
+.flaticon-building-a-house:before { content: "\f107"; }
+.flaticon-building-land:before { content: "\f108"; }
+.flaticon-burning-home:before { content: "\f109"; }
+.flaticon-burning-house:before { content: "\f10a"; }
+.flaticon-car-garage:before { content: "\f10b"; }
+.flaticon-cctv-security-camera:before { content: "\f10c"; }
+.flaticon-coffee-shop-near:before { content: "\f10d"; }
+.flaticon-cup-of-hot-coffee:before { content: "\f10e"; }
+.flaticon-domestic-dispute:before { content: "\f10f"; }
+.flaticon-dream-house:before { content: "\f110"; }
+.flaticon-eco-house:before { content: "\f111"; }
+.flaticon-electronic-key:before { content: "\f112"; }
+.flaticon-electronic-passkey:before { content: "\f113"; }
+.flaticon-fitness-facilities:before { content: "\f114"; }
+.flaticon-for-rent:before { content: "\f115"; }
+.flaticon-for-sale-post:before { content: "\f116"; }
+.flaticon-full-swimming-pool-with-stairs:before { content: "\f117"; }
+.flaticon-garden-fence:before { content: "\f118"; }
+.flaticon-gym-near:before { content: "\f119"; }
+.flaticon-handyman-tools:before { content: "\f11a"; }
+.flaticon-home-dispute:before { content: "\f11b"; }
+.flaticon-home-improvement:before { content: "\f11c"; }
+.flaticon-home-map-location:before { content: "\f11d"; }
+.flaticon-home-refresh:before { content: "\f11e"; }
+.flaticon-home-security:before { content: "\f11f"; }
+.flaticon-house-door-key:before { content: "\f120"; }
+.flaticon-house-key:before { content: "\f121"; }
+.flaticon-house-location:before { content: "\f122"; }
+.flaticon-house-of-your-dreams:before { content: "\f123"; }
+.flaticon-house-prices-rising:before { content: "\f124"; }
+.flaticon-house-prize-discount:before { content: "\f125"; }
+.flaticon-house-sale-agreement:before { content: "\f126"; }
+.flaticon-house-sale-prices:before { content: "\f127"; }
+.flaticon-house-searcher:before { content: "\f128"; }
+.flaticon-house-sold-sign:before { content: "\f129"; }
+.flaticon-houses-renovation:before { content: "\f12a"; }
+.flaticon-incrising-house-prices:before { content: "\f12b"; }
+.flaticon-individual-sofa:before { content: "\f12c"; }
+.flaticon-kings-size-bed:before { content: "\f12d"; }
+.flaticon-long-sofa:before { content: "\f12e"; }
+.flaticon-looking-for-an-apartment:before { content: "\f12f"; }
+.flaticon-looking-houses:before { content: "\f130"; }
+.flaticon-online-real-state:before { content: "\f131"; }
+.flaticon-painting-paint-roller:before { content: "\f132"; }
+.flaticon-parking-facilities:before { content: "\f133"; }
+.flaticon-plan-of-a-house:before { content: "\f134"; }
+.flaticon-prices-of-houses:before { content: "\f135"; }
+.flaticon-properties-info:before { content: "\f136"; }
+.flaticon-properties-information:before { content: "\f137"; }
+.flaticon-properties-sale-sign:before { content: "\f138"; }
+.flaticon-public-park:before { content: "\f139"; }
+.flaticon-real-estate-agent:before { content: "\f13a"; }
+.flaticon-real-estate-agreement:before { content: "\f13b"; }
+.flaticon-real-estate-home-awards:before { content: "\f13c"; }
+.flaticon-real-state-award:before { content: "\f13d"; }
+.flaticon-real-state-parking-sign:before { content: "\f13e"; }
+.flaticon-real-state-seller:before { content: "\f13f"; }
+.flaticon-refresh-home:before { content: "\f140"; }
+.flaticon-renovating-apartments:before { content: "\f141"; }
+.flaticon-rent-sign:before { content: "\f142"; }
+.flaticon-rising-house-prices:before { content: "\f143"; }
+.flaticon-searching-for-an-apartment:before { content: "\f144"; }
+.flaticon-searching-for-houses-online:before { content: "\f145"; }
+.flaticon-secure-house:before { content: "\f146"; }
+.flaticon-shower-water-running:before { content: "\f147"; }
+.flaticon-signing-a-contract:before { content: "\f148"; }
+.flaticon-signing-a-document:before { content: "\f149"; }
+.flaticon-single-sofa:before { content: "\f14a"; }
+.flaticon-sold-house:before { content: "\f14b"; }
+.flaticon-store-with-showcase:before { content: "\f14c"; }
+.flaticon-swimming-pool-with-stairs:before { content: "\f14d"; }
+.flaticon-taxi-rank:before { content: "\f14e"; }
+.flaticon-two-seat-sofa:before { content: "\f14f"; }
+.flaticon-vehicle-garage:before { content: "\f150"; }
+.flaticon-wifi-signal:before { content: "\f151"; }

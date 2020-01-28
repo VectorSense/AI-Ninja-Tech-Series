@@ -1,0 +1,41 @@
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe.config
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.pdb
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.xml
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csprojAssemblyReference.cache
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CopyComplete
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.exe
+F:\Ms WorkShop\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.pdb
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe.config
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.pdb
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.xml
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csprojAssemblyReference.cache
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CoreCompileInputs.cache
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CopyComplete
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.exe
+F:\Partner_Tech_Series\CS\Speech\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.pdb
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe.config
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.exe
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\VoiceBasedAssistant.pdb
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csproj.CopyComplete
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.exe
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.pdb
+C:\Srikar\DemosWithKey\Day 2\VoiceBasedAssistant\VoiceBasedAssistant\obj\x64\Debug\VoiceBasedAssistant.csprojAssemblyReference.cache

@@ -1,0 +1,35 @@
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe.config
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.pdb
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csprojAssemblyReference.cache
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csproj.CoreCompileInputs.cache
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csproj.CopyComplete
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.exe
+F:\Ms WorkShop\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.pdb
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe.config
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.pdb
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csprojAssemblyReference.cache
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csproj.CoreCompileInputs.cache
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csproj.CopyComplete
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.exe
+F:\Partner_Tech_Series\CS\Speech\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.pdb
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe.config
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.exe
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\TextToSpeech.pdb
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csprojAssemblyReference.cache
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.csproj.CopyComplete
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.exe
+C:\Srikar\DemosWithKey\Day 2\TextToSpeech\TextToSpeech\obj\x64\Debug\TextToSpeech.pdb

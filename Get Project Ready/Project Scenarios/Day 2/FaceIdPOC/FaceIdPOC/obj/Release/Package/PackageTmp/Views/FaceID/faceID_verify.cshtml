@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Face Demo</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/FaceId_assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/FaceId_assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/FaceId_assets/css/style.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+        }
+       
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="faceID_index" class="logo"><img src="/FaceId_assets/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br><br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="/FaceID/faceID_index">Home</a>
+            <a href="#">Verify</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <br>
+        <div class="col-md-1 col-sm-1"></div>
+
+        <div class="col-md-5 col-sm-12">
+            <center>
+                <video id="video" class="response take-pic" autoplay=""></video>
+            </center>
+
+            <br>
+            <center>
+                <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Take Snapshot</button>
+            </center>
+        </div>
+
+        <div class="col-md-1 col-sm-1"></div>
+
+
+        <div class="col-md-3 col-sm-12">
+            <div style="margin-top: 50%;">
+                <center>
+                    <h3 id="face_result" style="color:#036;font-family: Segoe UI,SegoeUI,Segoe WP,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;"></h3>
+                </center>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="modal fade" id="alert_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <center>
+                        <h4 id="error_msg"></h4>
+                        <br><button class="btn-md btn-primary" id="refresh_btn">Okay</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:117px;">
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/FaceId_assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/common.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/FaceId_assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/FaceId_assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/FaceId_assets/style-switcher/js/jQuery.style.switcher.js"></script>
+
+    <script type="text/javascript">
+
+        $("#refresh_btn").click(function () {
+            window.location.href = '/FaceID/faceID_verify';
+        });
+
+        navigator.getUserMedia = (navigator.getUserMedia ||
+            navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia ||
+            navigator.msGetUserMedia
+        );
+
+        var video;
+        var webcamStream;
+
+        if (navigator.getUserMedia) {
+            navigator.getUserMedia(
+                // constraints
+                {
+                    video: true,
+                    audio: false
+                },
+                // successCallback
+                function (localMediaStream) {
+                    video = document.querySelector('video');
+                    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                        // Not adding `{ audio: true }` since we only want video now
+                        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                            video.srcObject = stream;
+                            video.play();
+                        });
+
+
+
+
+                    }
+                    //video.src = window.URL.createObjectURL(localMediaStream);
+                    //webcamStream = localMediaStream;
+                },
+                // errorCallback
+                function (err) {
+                    console.log("The following error occured: " + err);
+                }
+            );
+        } else {
+            console.log("getUserMedia not supported");
+        }
+
+        var canvas, ctx;
+
+
+        var videoId = 'video';
+        var scaleFactor = 1;
+        var snapshots = [];
+
+
+        // function checkTextField(field) {
+        //   document.getElementById("error").innerText =
+        //     (field.value === "")  "Field is empty." ;
+        // }
+
+
+
+        function capture(video, scaleFactor) {
+            if (scaleFactor == null) {
+                scaleFactor = 1;
+            }
+            var w = video.videoWidth * scaleFactor;
+            var h = video.videoHeight * scaleFactor;
+            var canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            var ctx = canvas.getContext('2d');
+
+            ctx.drawImage(video, 0, 0, w, h);
+            return canvas;
+        }
+
+
+
+        $("#snap_btn").click(function (e) {
+
+            e.preventDefault();
+            $('#snap_btn').button('loading');
+            var canvas = capture(video, scaleFactor);
+            var image = canvas.toDataURL("image/png");
+            //console.log(image);
+            var img_64_array = image.split(',');
+            var img_extension = img_64_array[0];
+            var ImageBase64 = image.replace(img_extension + ",", "");
+            var JsonImage = JSON.stringify({ data: ImageBase64});
+            //console.log(JsonImage);
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: JsonImage,
+                url: "/FaceID/FaceIdentification",
+                success: function (response) {
+                    if (response.Result == "") {
+                        $("#error_msg").html(response.Error);
+                        $("#alert_popup").modal('show'); 
+                    }
+                    else {
+                        $("#face_result").html(response.Result);
+                    }
+
+                    $('#snap_btn').button('reset');
+                }
+                });
+        });
+
+
+
+    </script>
+</body>
+</html>

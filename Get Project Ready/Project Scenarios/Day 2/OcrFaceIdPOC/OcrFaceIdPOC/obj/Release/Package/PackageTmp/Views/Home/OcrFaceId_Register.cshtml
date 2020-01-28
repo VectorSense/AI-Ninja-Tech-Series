@@ -1,0 +1,642 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Face Recognition With OCR</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="~/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="~/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: white;
+            border-radius: 20px;
+            width: 135px;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+            .signin-btn:hover {
+                background: #036;
+                color: white;
+                border-radius: 20px;
+                width: 135px;
+                padding: 10px;
+                cursor: pointer;
+                margin-bottom: 3%;
+            }
+
+        .proceed_btn {
+            background: #036;
+            color: white;
+            border-radius: 20px;
+            width: 100%;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+            .proceed_btn:hover {
+                background: #036;
+                color: white;
+                border-radius: 20px;
+                width: 100%;
+                padding: 10px;
+                cursor: pointer;
+                margin-bottom: 3%;
+            }
+
+        input[type=text], input[type=password] {
+            height: 32px !important;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: #000000;
+            opacity: 1; /* Firefox */
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .user_label {
+            font-size: 12px;
+        }
+        #err_all
+        {
+            font-size:12px;
+            color:red;
+            text-align:center;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+
+        #warn_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        #image_url_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="OcrFaceId_Index" class="logo"><img src="/assets/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a onclick="window.location.href='/Home/OcrFaceId_Index';">Home</a>
+            <a>Register</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <section style="padding: 0px;">
+        <div class="row">
+            <br>
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-5 col-sm-12">
+                <div id="on_off_btn_div">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2" style="text-align: right;">
+                        <label class="switch pull-right">
+                            <input type="checkbox" checked id="on_off_btn">
+                            <span class="slider round"></span>
+
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="text-align: left;">
+                        <p class="pull-left" style="margin-top: 1%;"> Live streaming/URL Image</p>
+                    </div>
+                </div>
+                </div>
+                <div id="ocr_camera_div">
+                    <center>
+                        <video id="video" class="response take-pic" autoplay=""></video>
+                    </center>
+                    <br>
+                    <center>
+                        <button style="margin-top: -2px;color:white;" type="button" class="btn signin-btn" id="snap_btn">Take Snapshot</button>
+                        <button style="margin-top: -2px;color: white;" type="button" class="btn signin-btn" id="ocr_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Process OCR</button>
+                    </center>
+                </div>
+                <div id="ocr_local_div">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <center>
+                                <img src="~/assets/images/empty.jpg" alt="local_image" id="local_img" style="width:66%;" />
+                            </center>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <center>
+                                <input type="file" name="open_image_file" id="open_image_file" class="open_image_file" style="display: none;">
+
+                                <button class="btn proceed_btn" id="open_image_trigger" onclick="imageopen()" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">&nbsp;&nbsp;Browse</button>
+                            </center>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+                    <div class="col-md-1 col-sm-1"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <section id="camera_content_div" style="padding: 0px;">
+                            <br>
+                            <form action="#" class="form-action form-default ct-formLogin">
+                                <br>
+                                <center>
+                                    <canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;"></canvas>
+                                    <canvas class="rounded-circle" id="ocrcanvas" width="150" height="150" style="border: 1px solid #ccc;display:none;"></canvas>
+
+                                </center>
+                                <br>
+                                <div class="form-group">
+                                    <div class="row box-action-one">
+                                        <div class="col-sm-12 cs-padding">
+                                            <button style="margin-top: -2px;" type="button" class="btn proceed_btn" id="proceed_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Proceed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                        <section id="ocr_content_div">
+                            <form action="#" class="form-action form-default ct-formLogin">
+                                <div class="form-group">
+                                    <div class="row box-action-one">
+                                        <div class="col-sm-12 cs-padding">
+                                            @*<textarea id="browseurlresult" style="width:400px;height:200px"></textarea>*@
+
+                                            <label style="font-size: 12px;margin-top: 3%;">Name<sup>*</sup></label>
+                                            <input type="text" name="user_name" id="user_name" class="form-control final_submit">
+                                        </div>
+                                        <div class="col-sm-12 cs-padding">
+                                            <label style="font-size: 12px;">Company name<sup>*</sup></label>
+                                            <input type="text" name="company_name" id="company_name" class="form-control final_submit">
+                                        </div>
+                                        <div class="col-sm-12 cs-padding">
+                                            <label style="font-size: 12px;">Phone no.<sup>*</sup></label>
+                                            <input type="text" name="phone_no" id="phone_no" class="form-control final_submit">
+                                        </div>
+                                        <div class="col-sm-12 cs-padding">
+                                            <label style="font-size: 12px;">Address<sup>*</sup></label>
+                                            <textarea id="user_address" name="user_address" class="form-control final_submit" style="height:100%;"></textarea>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row box-action-one">
+                                        <div class="col-sm-12 cs-padding">
+                                            <p id="err_all">Please fill all the fields</p>
+                                            <button style="margin-top: -2px;color:white;" type="button" class="btn proceed_btn" id="final_submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+    </section>
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:120px;">
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <div class="modal fade" id="alert_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <center>
+                        <h4 id="error_msg"></h4>
+                        <br><button class="btn-md btn-primary" id="refresh_btn">Okay</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+    
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#warn_msg').hide();
+            $('#image_url_msg').hide();
+             $('#ocr_btn').hide();
+             $('#on_off_btn_div').hide();
+             $('#ocr_content_div').hide();
+             $('#ocr_local_div').hide();
+           var ocrcanvas = document.getElementById("ocrCanvas");
+           var video;
+           var webcamStream;
+             var canvas, ctx;
+             var image_data;
+            
+           canvas = document.getElementById("myCanvas");
+
+             $('#proceed_submit').click(function () {
+                 $('#on_off_btn_div').show();
+          $('#snap_btn').hide();
+          $('#ocr_btn').show();
+          $('#camera_content_div').hide();
+          $('#ocr_content_div').show();
+          });
+
+          navigator.getUserMedia = (  navigator.getUserMedia ||
+                                      navigator.webkitGetUserMedia ||
+                                      navigator.mozGetUserMedia ||
+                                      navigator.msGetUserMedia
+                                     );
+         if (navigator.getUserMedia) {
+            navigator.getUserMedia (
+               // constraints
+               {
+                  video: true,
+                  audio: false
+               },
+               // successCallback
+               function(localMediaStream) {
+                   video = document.querySelector('video');
+                   if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                 // Not adding `{ audio: true }` since we only want video now
+                 navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+                 video.srcObject = stream;
+                 video.play();
+                 });
+                 }
+                 },
+               // errorCallback
+               function(err) {
+                  console.log("The following error occured: " + err);
+               }
+            );
+         } else {
+            console.log("getUserMedia not supported");
+         }
+
+
+
+         var videoId = 'video';
+         var scaleFactor = 1;
+         var snapshots = [];
+         ctx = canvas.getContext('2d');
+         var imageObj = new Image();
+               imageObj.onload = function() {
+                 ctx.drawImage(imageObj, 0,0, 150, 150);
+               };
+               imageObj.src = 'data:image/png;base64,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';
+         });
+
+        ocr_ctx = ocrcanvas.getContext('2d');
+        var ocr_imageObj = new Image();
+        ocr_imageObj.onload = function () {
+            ocr_ctx.drawImage(ocr_imageObj, 0, 0, 150, 150);
+        };
+        
+        
+        $('#proceed_submit').attr('disabled', true);
+        $('#snap_btn').click(function () {
+            $('#snap_btn').attr('disabled', true);
+            $('#proceed_submit').attr('disabled', false);
+                      canvas = document.getElementById("myCanvas");
+                      var context = canvas.getContext('2d');
+                      context.drawImage(video, 0, 0, 150, 150);
+                      image_data = canvas.toDataURL('image/png');
+                      canvas.setAttribute('src', image_data);
+
+          });
+
+        $('#ocr_btn').click(function () {
+            $('#ocr_btn').button('loading');
+            $('#user_name').val("");
+            $('#company_name').val("");
+            $('#phone_no').val("");
+            $('#user_address').html("");
+            var ocrcanvas = document.getElementById("ocrcanvas");
+            var context = ocrcanvas.getContext('2d');
+            context.drawImage(video, 0, 0, 150, 150);
+            var ocrdata = ocrcanvas.toDataURL('image/png');
+            ocrcanvas.setAttribute('src', ocrdata);
+            //alert(ocrdata);
+            var img_64_array = ocrdata.split(',');
+            var ImageBase64 = img_64_array[1];
+            //alert(ImageBase64);
+            if (ImageBase64 != null) {
+
+                var img1 = JSON.stringify({ data: ImageBase64});
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: img1,
+                    url: "/Home/OCR/",
+                    success: function (data) {
+                        if (Object.keys(data).length > 1) {
+                            console.log(data);
+                            console.log(data.Name);
+                            console.log(data.CompName);
+                            console.log(data.Phone);
+                            console.log(data.Address);
+                            //$('#browseurlresult').html(data.ExtractedText);
+                            $('#user_name').val(data.Name);
+                            $('#company_name').val(data.CompName);
+                            $('#phone_no').val(data.Phone);
+                            $('#user_address').html(data.Address);
+                            $('#ocr_btn').button('reset');
+                        }
+                        else {
+                            $("#error_msg").html(data.Error);
+                            $("#alert_popup").modal('show'); 
+                            $('#ocr_btn').button('reset');
+                        }
+                    }
+                });
+            }
+
+        });
+
+        $('#err_all').hide();
+
+        $('#final_submit').click(function () {
+            $('#err_all').hide();
+            var user_name = $('#user_name').val();
+            var company_name = $('#company_name').val();
+            var phone_no = $('#phone_no').val();
+            var user_address = $('#user_address').val();
+
+            var img_64_array = image_data.split(',');
+            var ImageBase64 = img_64_array[1];
+            if (user_name != "" && company_name != "" && phone_no != "" && user_address != "") {
+                if (ImageBase64 != null) {
+                    var img1 = JSON.stringify({ data: ImageBase64, Name: user_name });
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json",
+                        datatype: "json",
+                        data: img1,
+                        url: "/Home/FaceRegistration/",
+                        success: function (data) {
+                            if (data.Error == "") {
+                               
+                                $("#error_msg").html(data.Result);
+                                $("#alert_popup").modal('show'); 
+                            }
+                            else
+                                $("#error_msg").html(data.Error);
+                            $("#alert_popup").modal('show'); 
+                        }
+
+
+
+                    });
+
+                }
+            }
+            else {
+                $('#err_all').show();
+            }
+        });
+         
+        $("#refresh_btn").click(function () {
+            window.location.href = '/Home/OcrFaceId_Register';
+        });
+
+
+        function imageopen() {
+            $('#open_image_file').trigger('click');
+        }
+
+        $('#on_off_btn').click(function () {
+            if ($('#on_off_btn').prop("checked") == true) {
+                $('#ocr_local_div').hide();
+                $('#ocr_camera_div').show();
+                $('#user_name').val("");
+                $('#company_name').val("");
+                $('#phone_no').val("");
+                $('#user_address').html("");
+            }
+            else {
+                $('#ocr_local_div').show();
+                $('#ocr_camera_div').hide();
+                $('#user_name').val("");
+                $('#company_name').val("");
+                $('#phone_no').val("");
+                $('#user_address').html("");
+            }
+        });
+
+
+        $(function () {
+            $(":file").change(function () {
+                $('#user_name').val("");
+                $('#company_name').val("");
+                $('#phone_no').val("");
+                $('#user_address').html("");
+                $('#open_image_trigger').button('loading');
+
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+        function imageIsLoaded(e) {
+            var image64= e.target.result;
+            var img_64_array = image64.split(',');
+            var img_extension = img_64_array[0];
+            if (img_extension == "data:image/png;base64" || img_extension == "data:image/PNG;base64" || img_extension == "data:image/jpeg;base64" || img_extension == "data:image/JPEG;base64" || img_extension == "data:image/jpg;base64" || img_extension == "data:image/JPG;base64") {
+                $('#local_img').attr('src', e.target.result);
+                $('#URLImage_Content').show();
+                $('#warn_msg').hide();
+                $('#image_url_msg').hide();
+                ImageBase64 = img_64_array[1];
+            }
+            else {
+                $('#image_url_msg').hide();
+                $('#warn_msg').show();
+            }
+            if ($('#warn_msg').is(":hidden")) {
+            }
+            else {
+                if (ImageBase64 != null) {
+                    var img1 = JSON.stringify({ data: ImageBase64 });
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json",
+                        datatype: "json",
+                        data: img1,
+                        url: "/Home/OCR/",
+                        success: function (data) {
+                            if (Object.keys(data).length > 1) {
+                                $('#user_name').val(data.Name);
+                                $('#company_name').val(data.CompName);
+                                $('#phone_no').val(data.Phone);
+                                $('#user_address').html(data.Address);
+                                $('#open_image_trigger').button('reset');
+                            }
+                            else {
+                                $("#error_msg").html(data.Error);
+                                $("#alert_popup").modal('show'); 
+                                $('#open_image_trigger').button('reset');
+                            }
+                            
+                        }
+                    });
+                }
+            }
+            
+        };
+
+
+    
+    </script>
+</body>
+</html>

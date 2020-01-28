@@ -1,0 +1,128 @@
+
+.style-switchOptions {
+  width: 212px;
+  height: auto;
+  background: #2e363d;
+  padding: 5px;
+  position: fixed;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 25%;
+  left: 0px;
+  transform: translate3d(-212px, 0px, 0px);
+  z-index: 5000;
+  border: 1px solid #141414;
+  border-left: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.style-switchOptions.open {
+  left: 0;
+  transform: translate3d(0px, 0px, 0px);
+}
+.style-switchOptions .setting-btn {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  right: -40px;
+  height: 50px;
+  width: 40px;
+  padding: 10px;
+  background: #252525;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #252525;
+  border-left: none;
+}
+.style-switchOptions .setting-btn {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.style-switchOptions .setting-btn:hover {
+  background: #000000;
+}
+.style-switchOptions .setting-btn span {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+.style-switchOptions .setting-switch-btn i{
+  font-size: 20px;
+  color: #fff;
+}
+.style-switchOptions ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  display: inline-block;
+}
+.style-switchOptions li {
+  margin: 3px 3px;
+  float: left;
+
+}
+.style-switchOptions li a {
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  display: block;
+  background: #ccc;
+}
+.style-switchOptions li a i {
+  color: #fff;
+  padding: 3px;
+}
+.style-switchOptions h3 {
+  color: #fff;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 400;
+  margin: 10px 0px 0px;
+  padding: 10px;
+}
+.style-switchOptions .js-switch-style {
+  background: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 16px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+.style-switchOptions .js-switch-style-box {
+  margin: 10px 0px 20px
+}
+
+.style-switchOptions .color1 {
+  background: #51a3e9;
+}
+.style-switchOptions .color2 {
+  background: #f05252;
+}
+.style-switchOptions .color3 {
+  background: #d44dca;
+}
+.style-switchOptions .color4 {
+  background: #ff9154;
+}
+.style-switchOptions .color5 {
+  background: #49b889;
+}
+
+@media (max-width: 767px){
+  #styleOptions {
+    display: none;
+  }
+}
