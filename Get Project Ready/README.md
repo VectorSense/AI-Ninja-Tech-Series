@@ -62,7 +62,6 @@
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge3.md" target="_blank">Challenge 3 </a>– Face Registration, Verification & Audit Log</p>
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge4.md" target="_blank">Challenge 4 </a>– Quality Control of PDI Verification using Custom Vision Models</p>
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge5.md" target="_blank">Challenge 5 </a>– Automatic Extraction of Key Phrases using Azure OCR and LUIS</p>
-     <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge6.md" target="_blank">Challenge 6 </a>– Integration of NLP based Chat bot for Task Management</p>
      <h2 style="padding-bottom: 1px;font-size: 26px;font-weight: 700;">Certifications</h2>
       <p style="margin: 10px 0 15px 0;">Post the session if you are interested in taking up Microsoft Certifications, they following are most appropriate for this session</p>
       <ul>
