@@ -3,7 +3,8 @@
 <b>****** Important Note *******</b><br>
 <b>For all program queries, reach out to Srikanth (v-srdha@microsoft.com)</b><br>
 <h1>About AI Ninja Series</h1>
-<p>A new Microsoft Pilot Project from OCP Enablement Team (Corp) to methodically on-board & create skill pipe on Winning Data Estate, Data Modernization @ Scale. This enables GSI Account teams to skill up across various roles like Data Engineers, Data Scientists, Data Architects @ Scale.</p>
+<p>A new Microsoft Pilot Project from OCP Enablement Team (Corp) to methodically on-board & create skill pipe on AI & Its Applications in Digital Enterprise @ Scale. This enables GSI Account teams to skill up across various roles like Data Engineers, Data Scientists, Data Architects @ Scale.
+</p>
 <p>This Series is covered in 2 Modules</p>
 <h2>1.Get Conversational Ready</h2>
 <p>The objective of this series is to create awareness about the platform capabilities (via show & tell demos), Map use cases to capabilities. Attending this course creates conversational intelligence on the subject.</p>
@@ -14,11 +15,11 @@
 <p>Exit Criteria: Solve Challenges</p>
 <p>Content Level: 300-400</p>
 <h2>AI Ninja Series Process Flow</h2>
-<img src="http://139.59.61.161/AI-Ninja-Tech-Series/Image3.png" alt="Data Ninja Series Process Flow">
+<img src="http://139.59.61.161/AI-Ninja-Tech-Series/Image4.png" alt="Data Ninja Series Process Flow">
 
 <h2>AI Ninja Series Step-Step-Guide</h2>
 
-<img src="http://139.59.61.161/AI-Ninja-Tech-Series/Image1.png" alt="Data Ninja Series Step-Step-Guide">
+<img src="http://139.59.61.161/AI-Ninja-Tech-Series/Image5.png" alt="Data Ninja Series Step-Step-Guide">
 <h2>Useful links for the above diagram</h2>
 
 <p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image3.png" alt="3"><span>Privacy Statement</span></p>
@@ -26,9 +27,9 @@
 <p>https://aka.ms/AI_NinjaSeries_Privacy</p>
 <p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image5.png" alt="5"> Assessment (Apr 01)</p>
 <p>http://aka.ms/AINinjaSeries_Assessment</p>
-<p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image5.png" alt="5"> GitHub Challenges (April 1 – Apr 15)</p>
+<p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image5.png" alt="5"> GitHub Challenges (April 1 – Apr 10)</p>
 <p>https://github.com/VectorSense/AI-Ninja-Tech-Series</p>
-<p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image6.png" alt="6"> Submission of Challenges (Apr 15)</p>
+<p><img src="http://139.59.61.161/Data-Ninja-Tech-Series/Image6.png" alt="6"> Submission of Challenges (Apr 10)</p>
 <p>https://aka.ms/AINinja_Series_Feedback</p>
 <h2>Frequently Asked Questions (FAQ)</h2>
 <h4>1. Who should attend the series?</h4>
