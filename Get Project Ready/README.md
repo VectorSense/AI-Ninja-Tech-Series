@@ -78,6 +78,7 @@
       </ul>
      <h2 style="padding-bottom: 1px;font-size: 26px;font-weight: 700;">Cognitive Services Compliance</h2>
      <p style="margin: 10px 0 15px 0;">Click <a href="https://azure.microsoft.com/en-us/support/legal/cognitive-services-compliance-and-privacy/" target="_blank">here</a> to learn how Microsoft Cognitive Services handle your data.</p>
+     
 </div>
 </body>
 </html>
