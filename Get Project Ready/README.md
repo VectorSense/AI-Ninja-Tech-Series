@@ -56,7 +56,7 @@
       <li>Automation of “Quality Control” of PDI process</li>
       <li>Chat bot-based reporting of work and approval of work</li>
     </ul>
-  
+     <p style="margin: 10px 0 15px 0;"><a href="" target="_blan"></a></p>
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge1.md" target="_blank">Challenge 1 </a>– Image Validation using Azure Computer Vision</p>
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge2.md" target="_blank">Challenge 2 </a>– Gesture Management using Azure Custom Vision</p>
      <p style="margin: 10px 0 15px 0;"><a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge3.md" target="_blank">Challenge 3 </a>– Face Registration, Verification & Audit Log</p>
